@@ -1,968 +1,332 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>American-Politics</title>
-    <url>/2018/11/22/American-Politics/</url>
-    <content><![CDATA[<h3 id="2018-11-22-小雪"><a href="#2018-11-22-小雪" class="headerlink" title="2018.11.22 小雪"></a>2018.11.22 小雪</h3><ol>
-<li>君子不党</li>
-<li>支持理想青年为我党输入新鲜血液</li>
-<li>六四过来人，不要成为政治的牺牲品</li>
-</ol>
-<a id="more"></a>
-<p>A4纸、5号、常规行间距。<br>从川普当选看西方民主制的漏洞。</p>
-<p>期末论文：5个以上符合学术规范的注释。<br>引用中文书籍和外国书籍是不一样的。<br>Reference：政治学研究、美国研究、世界经济与政治<br>孙仲只能引用一次<br>什么出版社、第几页什么的</p>
-<ol start="4">
-<li>五月花号</li>
-<li>佛教、伊斯兰教、基督教</li>
-<li>基督教：天主教、东正教、新教</li>
-<li>新教-WASP人种 abbreviation for white angle saxon protestant——抗议宗</li>
-<li>新教——&gt; 圣公会、清教（最严苛）、</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>Learn Log</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cognitive Practice</title>
-    <url>/2018/09/11/Cognitive%20Practice/</url>
-    <content><![CDATA[<h2 id="学院现状"><a href="#学院现状" class="headerlink" title="学院现状"></a>学院现状</h2><p>学院教学院长侯迪波教授致辞2017认知实习启动，控制学院以87%的深造率领跑浙江大学。学院下设无人系统协会、<code>智慧城市与交叉创新俱乐部</code>等五个社团和诸多实验室。</p>
-<ol>
-<li>目标</li>
-<li>踏实</li>
-<li>精力</li>
-</ol>
-<p>是侯迪波教授提出的三条要求。控制学院目前下设三个研究所<br><a id="more"></a></p>
-<ol>
-<li>智能感知与检测研究所</li>
-<li>工业控制研究所</li>
-<li>智能系统与控制研究所。</li>
-</ol>
-<h2 id="老师的问题"><a href="#老师的问题" class="headerlink" title="老师的问题"></a>老师的问题</h2><p>Q1：发挥你的想象，谈谈10年后物联网的应用场景？<br>Q2: 以上介绍的竞赛你最感兴趣的是哪一个？<br>Q3：脑机接口让猴子进食？</p>
-<h2 id="自我感想"><a href="#自我感想" class="headerlink" title="自我感想"></a>自我感想</h2><p>A2:在当日展示的无人帆船（WRSC）、轮式足球机器人、仿人式足球机器人(robocup)和机甲射击机器人（Robomaster ）等比赛，由于我本身也是一个体育爱好者，便对足球机器人产生了浓厚的兴趣。<br>在对机器人未尝涉足的情况下，我进行了相关资料的阅读。了解到让机器人踢足球进行比赛，这一设想由加拿大不列颠英哥伦比亚大学的学者艾兰.麦克乌斯教授于1992年在一篇题为“关于可视机器人”的文章中首次提出【1】。机器人足球比赛系统涉及了机器人视觉技术、机电一体化技术，无线通信技术，多智能体协调控制技术，传感器融合技术、计算机硬件技术、人工生命与遗传学技术，人-机接口技术等多门学科的内容，足球机器人是这些关键技术的集成。<br>关注到视频中所放的小型轮式足球机器人，其速度与球速都十分惊人，控球率也有一定的保证，极其类似人类的足球作战。但是机器人不是人，他没有前锋、中场、边路的意识。所以机器人首先就需要视觉绝对坐标/球场来确定自己的位置和朝向，然后利用线性矩阵让这种人眼和脑一瞬间能处理的情况变为机器人能处理的计算。在视频中的小车，并没有观察到转向轮，所以合理推测轮式足球机器人是通过两轮的差速来实现转向的。机器人没有柔软性和任意精度的自由度控制，所以对于灵活多变的足球运动来说，要求就十分高。对于单个轮子来说，需要三个自由度来控制它，简单来说就是x方向y方向的力学方程和一个转动角动量；对于整个小车来说，有一个质心的平动和质心的转动等等【2】。运动控制方面，有基于BP神经网络的PID控制、基于SVM路径规划、时间最优Bang-Bang算法等。<br>从小车的个体抽象出来，放眼整个足球场。足球是11个人的运动，也是最考验“交互”的运动。在过去60年中，人工智能研究的主要问题是“单主体静态可预测环境中的问题求解”，其标准问题是国际象棋人一机对抗赛;未来40年中，人工智能的主要问题是“多主体动态不可预测环境中的问题求解”，其标准问题是足球的机一机对抗赛和人一机对抗赛。在机器能够拥有初步只能处理的情况下，与其他机器乃至人交流是大势所趋，而到2050年基本实现机器人与人类世界杯球队踢球【3】也让未来可期。回归到机器人足球的球场上，在现有的Rob oCup的赛场上，主要分为两种Remoto-brainless系统（全局视角）和Robot-based系统（局部视角）。足球运动是不允许发生冲撞的，所以利用队形变换撕开防线就是最经典的突破，对于机器人来说，在获取了整体定位以后就要规划最优路径了。在基本运动规划方面主要有以下三种方法【4】：1、Decomposition 方法 2、RoadMap方法 3、Potential Field方法。而随机运动规划也包括三种方法：1、随机势场法 2、概率路标法 3、快速扫描随机树方法。<br>大致了解了这些方法的内容以后，重新回想视频比赛中的情况，在主要是局部视角的情况下，机器人能够做出晃人、假动作、变速球等动作。个人猜想应该是在动作处理库（一个函数库/深度学习库）里将战术存放进去，然后再放进深度学习里面让深度学习能够自我调用等。如果人类足球前锋能够骗过守门员和摄像机，那么机器人应该也可以——在视频中前几个高速抽射，美国的守门员都能瞬间扑住，但是外围一个缓慢的球守门员却没有任何反应。我自己有两种考虑，就以前锋持球面对守门员的时候为例。一种是将假动作这个写进程序，当判断到达前锋守门员1vs1的时候随机触发，设这个概率为ζ ，ζ在自我学习中根据成功率不断修正；第二种是加上读取对手动作的视觉反馈环节，对方守门员可能会根据机器人开球部位的动作分析做出动作，而我们可以降低开球部分的速度，从而在对方守门员进行相应反应时，我们读取他的动作，然后进行假动作。可能造成对方守门卡顿或者扑向完全相反的方向。在自我设想以后，我查阅了相关的资料【5】，考虑到足球中传控是最主要的一环，而射门也可以算是加强版的传球——基于CMAES逐层学习的传球。在CMAES的架构下，可以分为1、灵活传球的分层学习 2、稳定传球的分层学习 3、精准传球的分层学习。学习了传球的基础上再分解动作，比如在Keepaway局部学习下有带球、传球、射门、向静止的球靠近或者截段对手的球、无球跑动等。</p>
-<p>A3:在控制学院三大研究所之一的智能系统与控制研究所的介绍内，老师讲解了将猴子绑在椅子上，使其通过“意念”隔空操作机械臂进食的脑机接口、看到蚊子在大雨中来去自如而引发的建模实验、还有小型无人机炸弹“蜂群”等。其中最感兴趣的莫过于脑机接口的应用，这满足了人类的无限幻想。<br>大脑是人类最复杂的神经中枢，里面数以亿计的计算都是通过脑电波，一种电磁波进行的，私以为，只要在电磁层面，就可以将这种电信号提取出来，然后做相关处理。查阅相关资料，脑机接口形式一般以信息采集方式为主划分：通常被分为侵入式、半侵入式、非侵入式（脑外）。在上述划分中，侵入式和半侵入式都需要实施手术，不可避免地对动物体或人体造成伤害，非侵入式脑机接口其实就是一套可穿戴设备，虽然避免了昂贵而危险的手术，但是由于颅骨对信号的衰减作用和对神经元发出电磁波的分散和模糊效应，记录到信号的分辨率并不高。<br>清华大学医学院生物医学工程系洪波教授洪波也表示【6】，原来的实验室工作基本上都是植入式脑机接口，但是这些年的工作都是无创的脑机接口，“这说明经过这么多年，做植入式脑机接口还是很困难的。因为你植入这么多电极，这些神经是不死的，会有反应的，会包裹电极，把信道降低。”<br>1988年首次报告了用脑电α波信号控制移动机器人，目前这种无创的脑电波采集方法正是实现脑机接口的最主要方式之一。除此之外，还有脑磁（MEG），功能磁共振（fMRI）、功能性近红外光谱（fNIRS）以及有创的皮层脑电（ECoG）、神经元群体记录等信号采集技术。大脑有边缘系统和新皮质，边缘系统在大脑中相对简单，负责人类相对简单的冲动——吃食物、搏斗和性，这些都与生存有关；新皮质是大脑中相对高级的部分，负责艺术、商业、技术、哲学和游戏。新皮质让真正负责思考的并非是其“主体”，而是顶部2毫米厚的物质层，下方的其余部分实际上相当于连线。所以脑机接口就是将2毫米厚的物质层进行相应的对接。<br>    在实际应用方面，脑机接口和展示视频最直接相关的就是帮助神经受损的伤患进行肢体延伸。以猴子为例子，美国杜克大学研究人员在两只猴子的脑部负责躯体运动和感觉的两个区域植入数以百计、只有发丝大小的微细纤维，形成微电极阵列。通过这一阵列，外部设备就能接收神经元发出的脑电波。从而驱动相应的机械设备达到绕过受损神经元的目的。参与研究的杜克大学研究人员米盖尔·尼科莱利斯说，此前也有一些非嵌入式的方法可以帮助残疾人士恢复一定活动能力，比如在头部贴上电极来传输并转化脑电波，从而操控机械轮椅或机械手臂，但这种做法效率很低。而新研究显示，在脑内植入电极能够对机械轮椅实现更高效的操控（侵入式）。但是这样同样也会面临产品更新换代但是植入脑的无法更新换代等问题。同样还会面临相应的伦理问题，因为涉及到了人类最深层次的大脑。但是在文体悬而未决的情况下并不影响脑机接口的未来可塑性【7】。Facebook提出了实现“读心术”，像科幻电影中仅利用脑电波进行交流，他们准备将脑机接口的语言输入提升到每分钟100字，同时打造商用设备。特斯拉与SpaceX的创始人埃隆·马斯克则建立了“神经织网（Neuralink）”公司，旨在拓展研发脑机接口。<br>    大体了解了情况以后，尚不具备相应专业知识的我为了深入了解查阅了相关资料。在实际应用方面，除了绕过部分神经受损方面，还有字符输入和完全闭锁状态患者信息输出。在硬件方面【8】对新型小型的设备的兼容性、无线化提出了新要求，德国柏林工业大学的无线模块化硬件架构M3BA，单个仅长42mm；信号制约也会极大影响效果，美国UCLA开发了将电极放在耳后无毛发覆盖区域的稳态视觉系统诱发电位脑机接口系统提升了相应的稳定性。传输速率上从原来的0.5bit/s——清华4.5bit/s——中科大6.3bit/s——丹麦的自适应式特征提取脑机算法。<br>    脑机接口神秘而空间巨大，充满着吸引我的力量。还需努力学习，方能进一步探索科学世界。</p>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>[1] A.K.Mackworth. On seeing robots. In:Computer Vision:System, Theory and Applica ions[M],World Science Press, Singapore , 1993.<br>[2] 孙淑云. 轮式足球机器人运动控制算法研究与实现[D].成都理工大学,2009.<br>[3] 郑春阳,李永新,李尚荣,孙刚,陈盛,朱璐,皮骄阳.轮式足球机器人平滑运动轨迹控制算法的研究——Robocup系列研究之四[J].自动化与仪表,2004(01):10-13<br>[4] 周科. RoboCup小型组（F-180）足球机器人的运动控制和路径规划[D].浙江大学,2004<br>[5] 李学骏. 足球机器人局部传球与战术配合[D].南京邮电大学,2016<br>[6] 孙进,张征,周宏甫,等.基于脑机接口技术的康复机器人综述[J].机电工程技术,2010,39(4):13-16.<br>[7] 张丹,李佳蔚.探索思维的力量:脑机接口研究现状与展望[J].科技导报,2017,35(9):62-67<br>[8] 张丹,陈菁菁,王毅军.2017年脑机接口研发热点回眸[J].科技导报201836(01):104-109</p>
-]]></content>
-      <tags>
-        <tag>Learn Log</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSEIntI</title>
-    <url>/2020/09/11/CSEIntI/</url>
-    <content><![CDATA[<h2 id="CSEBA-FINAL——this-time-together"><a href="#CSEBA-FINAL——this-time-together" class="headerlink" title="CSEBA FINAL——this time together"></a>CSEBA FINAL——this time together</h2><p>CSEBA June 1st News , Basketball Court, Yuquan Campus</p>
-<p>​    The CSEBA playoffs finals continue, the union of class 17-winner of Zijingang and the union of class 15-winner of Yuquan entered the final game. </p>
-<p>​    At the beginning of the first quarter, Jiayi Hu joined forces with Yuchen Zhang to make an attacking wave for union of class 17, and Jiacheng He from union of calss 15 responded with a sudden shot. Then the union of class 17 made a 13-2 climax. The union of class 15 were still supported by Jiacheng, and the points difference gradually widened. After the first quarter, the union of class 17 lead the union of class 15 26-12. </p>
-<p>​    In the second quarter, the union of class 17 continued their offensive style and continued to get points inside and outside . But Shuyang suddenly broke out in a single quarter and scored 13 points with 3 threes and 1 penalty to help the team to retrieve the rhythm. The union of class 15 continued to pressure the penalty area and hit a 10-3 spurt to reduce the score gap to single digits. After the second quarter, the union of class 17 lead the union of class 15 48-40.</p>
-<a id="more"></a> 
-<p>​    During the second half game, the union of class 15 blasted an 8-0 start to equalize the score, but after that the team’s offensive attack misfired, only scored 3 points in nearly 6 minutes, the union of class 17 took the opportunity to return a wave of 15-3 to extend the lead to 15 points. Fortunately, at the end of the quarter, the union of calss 15 once again apporach the point gap to 10 points through free throws. </p>
-<p>​    In the last quarter of the game, the union of class 15 were still unable to stop Yucheng’s strong scoring. The union of class 15 who couldn’t attack and defend did not have too many ways to get points, and the game lost suspense to garbage time. Finally the score came to 96-85.</p>
-<p>​    ”They are on the brink of elimination.”JingWang said to the reporter, “And now Jiayi and Yucheng have to try to recover from a dismal  three quarters in former Zijingang Conference semifinal and hang on to the energy of a fourth-quarter surge that proved there was still signs of life coming from a seemingly flattened bunch.”</p>
-<p>​    Jiayi and Yucheng have to convince each other, and their supporting cast, that there is still a chance that this bubble odyssey isn’t over.</p>
-<p>​    “The conversation is, number one, take care of the play in front of you,” Jiayi said. “It’s obviously win or go home, so you have to be able to make sure you come out and have that mindset. And it’s one game at a time, especially here down in the bubble.“</p>
-<p>​    “It’s a different scenario than any other playoffs, so to be able to take our time and make sure we take advantage of our size and our speed. We have to do it if we want to win. We just have to come back to what gives us the best chance of winning. And that conversation starts tonight and tomorrow and hopefully, we can take care of business the next year.”</p>
-<h2 id="Dreamtalker-Detector"><a href="#Dreamtalker-Detector" class="headerlink" title="Dreamtalker Detector"></a>Dreamtalker Detector</h2><p>​    It’s been a long time before Yuman relealized that it’s Jiayi’s somniloquy he faces in the midnight.</p>
-<p>​    “It’s pretty loud and scaring”,Yuman said.”I have to wake up and then have difficulty falling in slumber again.” </p>
-<p>​    “Somniloquy is a parasomnia that refers to talking aloud while sleep. This parasomnia usually happens during transitory arousals from NREM sleep. The recording of these parasomnias could be useful to help in the diagnosis of certain psychological pathologies given that they can reflect a state of anxiety or some behaviors which could be identified as psychological diagnosis criteria. “</p>
-<p>​    In order to find out how the somniloquy come into being Yuman went through a lot of books. He found out the sleep talking is defined by both stages and severity:</p>
-<!--more--> 
-<p><strong>Stages 1 and 2:</strong> these stages, the sleep talker isn’t in as deep of sleep as stages 3 and 4, and their speech is easier to understand. A sleep talker in stages 1 or 2 can have entire conversations that make sense.</p>
-<p><strong>Stages 3 and 4:</strong> The sleep talker is in a deeper sleep, and their speech is usually harder to understand. It may sound like moaning or gibberish.</p>
-<p>Sleep talk severity is determined by how frequently it occurs:</p>
-<p><strong>Mild:</strong>Sleep talk happens less than once a month.</p>
-<p><strong>Moderate:</strong>Sleep talk occurs once a week, but not every night. The talking doesn’t interfere much with the sleep of other people in the room.</p>
-<p><strong>Severe:</strong> Sleep talking happens every night and may interfere with the sleep of other people in the room.</p>
-<p>​                            Pic: the-four-stage-of-sleep</p>
-<p>​    Sleep talking can happen to anyone at any time, but it appears to be more common in children and men. There may also be a genetic link to sleep talking. So if you have parents or other family members who talked a lot in their sleep, you may be at risk too. Likewise, if you talk in your sleep and you have children, you may notice that your children talk in their sleep too.The sleep talker isn’t aware that they’re talking and won’t remember it the next day</p>
-<p>​    “Well, I don’t quite agree”,Jiayi said.”I can remember what I said in the dream, especially when I shouted out loudly, I would tell myself ‘I am dreaming and the just shout may wake my roommate up’, but even that recognization I would still keep on dreaming, still a distance to wakeness.”</p>
-<p>​    As the material contracts with Jiayi’s mind, Jiayi and Yuman decide to build a detector to record the voice to verify the test. They use Ubuntu Operating System and Python and a small microphone to get all things done-a mobile platform which only records sleep-talking (excluding other noises or sounds) and analyze them to identify the main words in the voice, allowing making a transcription of the conversation, is presented.</p>
-<p>​                            Pic: Yuman and his code</p>
-<p>​                            Pic: Code and Chart</p>
-<p>​    Here are some words detected(with time stamp):</p>
-<p>12.4 03:34 : You wanna go? Go what?!</p>
-<p>12.7 02:43：That doesn’t matter, Let he rush.</p>
-<p>12.8 03:00:  I don’t understand, I can’t see it.</p>
-<p>12.8 04:01: department store</p>
-<p>12.15 05:13: stick my mbp back!!</p>
-<p>12.21 04:25: You have no chance without money.</p>
-]]></content>
-      <tags>
-        <tag>Exploring Life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Enterprises</title>
-    <url>/2018/08/21/Enterprises/</url>
-    <content><![CDATA[<h2 id="2018年8-11-8-17log"><a href="#2018年8-11-8-17log" class="headerlink" title="2018年8.11-8.17log"></a>2018年8.11-8.17log</h2><p>又是一个为了刚刚满满七天的社会实践开始了，比起上次在银装素裹的井冈山踏雪而行，两袖清风地前往东南一禺体味科技更让人心驰神往。</p>
-<h3 id="2018-8-11"><a href="#2018-8-11" class="headerlink" title="2018.8.11"></a>2018.8.11</h3><p>在东站集合以后是12个小时的漫长旅程，一路丘陵平原，信号断了又续，藕断丝连。黑暗窗屏折射不出该有的闪烁。<br><a id="more"></a></p>
-<h3 id="2018-8-12"><a href="#2018-8-12" class="headerlink" title="2018.8.12"></a>2018.8.12</h3><p>南山园区安顿下来，在快节奏中停了下来细细品味生活，才知道如家与如家精选并非等同，这就解释了215/人/夜的价格，而不经思考——人在旅途总是很容易用思考代替放空——如家之名及其响亮，试问如果人们在尚未好好了解的情况下，断然搜索“如家一次”，那么基于网页抓取提供的信息，消费者必然不会分辨“如家”与“如家精选”，那么就会被装潢更好的如家精选所吸引而购票，那么作为反馈会给予一定的好评提高抓取程度，增加如家精选的排名，形成一个循环，这样一来如家精选就会完全胜过如家。但是在如家精选仅仅适用与中高档消费者的便捷行为，对于更多的中低层收入的劳动者，如家无疑是被人口红利所服务的一个选择。</p>
-<h3 id="2018-8-13"><a href="#2018-8-13" class="headerlink" title="2018.8.13"></a>2018.8.13</h3><p>浙江大学马克思主义原理与概论上，老师在黑板上写了两大手机品牌，然后开始了不记名的投票。两边的票数不断地上涨，结束之际，两大结果即将产生，没错，这就是华为和苹果。华为已经以肉眼可见的优势压过了苹果。怀着憧憬与好奇的学习求经心态我们来到了华为总部——深圳坂田基地。那么华为是一家什么样的企业呢？在来之前我的初印象是一家手机运营商，后来听说了在欧洲华为是远远压过苹果的销售商，再后来听说了华为拿下了5G的核心技术，好像也没怎么听说华为的其他周边，但是好像华为不做周边反而在做技术？在深圳坂田基地我们得到了解答：华为是一家生产销售通信设备的民营通信科技公司，是全球领先的信息与通信技术（ICT）解决方案供应商，专注于ICT领域，在电信运营商、企业、终端和云计算等领域构筑了端到端的解决方案优势，为运营商客户、企业客户和消费者提供有竞争力的ICT解决方案、产品和服务，并致力于使能未来信息社会、构建更美好的全联接世界。截止目前，华为有18万多名员工，华为的产品和解决方案已经应用于全球170多个国家，服务全球运营商50强中的45家及全球1/3的人口。<br>世界500强公司都是顶级的，但是在人们对华为仍停留在卖手机的认识阶段的时候，华为并不是一个世界500强。从风云变幻的近几年看来，2016年，华为是世界500强的129位次。2017年是世界500强的83位次，2018年是世界500强的72位次。如此稳步地增长不得不让人学习。华为充分发展了人才吸收利用重循环的消化模式，除了深圳的总部，还有14个研发中心，其中有8个在国内如北京、上海、杭州、成都，依靠的是国内高校人才。而在海外的研究所则充分发挥和利用当地的人才优势，如俄罗斯人擅长数学，故在那里设立算法中心；印度人的软件编程能力更高，故设立软件中心；而如法国巴黎、意大利米兰，则设立设计中心，如华为的终端、手机等外观就是在那里设计的。<br>华为公司提供的是“黑土地”，把“地”造好并卖给客户，而土地上造什么，是客户的自由。这里的“地”是指互联、存储、处理的基础方案，依靠华为公司雄厚的通讯技术能力，为客户提供高效可靠的设备和方案，而具体的应用定制和数据，交给客户和合作商来做。华为不提供端到端的所有方案，而是只聚焦于自己所擅长的领域，专业的人做专业的事情，不擅长的交给别人来做。华为所遵循的是“上不碰应用，下不碰数据”的原则。这种让人甚至能够联想到QQ农场里面的黑土地，通俗易懂又大道至简地讲述了完美的发展方向。目前在世界五百强中，已经有211家采用华为的数据定制方案，如国内的五大银行、微软、GE等。</p>
-<h3 id="2018-8-14"><a href="#2018-8-14" class="headerlink" title="2018.8.14"></a>2018.8.14</h3><p>DJI这个名字念起来很顺口，但是不眼熟，那么大疆呢？大疆，眼界高远、没有疆域。DJI以自己的域，开辟了一篇新的天地。在DJI并没有什么公司战略和发展意图逆向训导，只有产品展示和一定的技术指导。那么这些技术思想就显得弥足珍贵了。例如二次开发平台和自动返航点。然后到了有限空间存储大的数据和处理的时候，我们就涉及到了——因为它的计算量比较大，首先那个测距这一块，它内部都有一些硬件加速，这个就是其实只要你好好优化，基本上就是直接把它那个硬件平台上进行加速方面。但是有些比如说智能算法，你的改动非常大，是吧？所以不可能一上来就做一些硬件的一些硬化加速.<br>所以这一部分会有一些点来加速。但是像这种固定的，比如说测深度的这么一套算法，硬件就行，他一直在整个电路板上。硬件的话，首先肯定先还是拿加速卡，然后如果有一套记录的想法，先用Matlab写，用python写，这个其实本质上就是cpu的一些指令。比如说用一些gp又写一些库大代码加速了，但这个时候实际上你的代码还是在PC上的。<br>那么关于储存方面的话，就要看你的内存策略了，就是你写代码的策略，内存需要一种数据结构来表达，这个表达好不好都是一些优化的一些细节东西，而且你这个图你要怎么建，就比如说你走了这么条路径是吧？你可以见到那根柱子时候，你也可以见到窗外的那个建筑物，因为都在你视觉上的。<br>柔性屏幕大家都很陌生，但是柔宇给了我们大饱眼福的机会，因为没有涉及技术层面的知识，所以我们只是简单和HR谈了谈产品使用方面可以改进的问题和相关问题，让我们出乎意料之外的是HR居然要了我们的联系方式，这也算是我们在深圳留下的第一份人力资源。</p>
-<h3 id="2018-8-15"><a href="#2018-8-15" class="headerlink" title="2018.8.15"></a>2018.8.15</h3><p>Tencent，一个一切以钱为目的的企业，在我去之前我并没有抱有相应的好感，大体是出于公司的决策。意料之中，腾讯并没有给出相应的技术只是和介绍类型，只是带我们逛了逛全球总部有多么多么的豪华，在其他人哇塞的惊叹声中，我感受到悲伤，这是对福利和诱惑的妥协，这让我感到一丝的不适。为人民服务的同时还想着不停地剥削，这和我产生这种想法的时间有关，因为任何事物都有的利弊是要根据时间来调控的，如果说我觉得现在接受这种是可以做到的话，那么这种偏见在我内心已经根植很久了，我还是要给自己一定的时间去调整。<br>在Tencent的下午，我们来到了迅雷，在这里，又有技术和福利，一切都那么的乌托邦。还是要提醒自己不要沉浸在楚门的世界里，因为我注意到了接待的热情和办公区人员冷漠的表情，我们是不恣意以理想化去揣测别人的想法的，所以还是要有所保留。</p>
-<h3 id="2018-8-16"><a href="#2018-8-16" class="headerlink" title="2018.8.16"></a>2018.8.16</h3><p>最后一天来到了一家比较重视我们的企业，迪蒙智能化无人停车。蚂蚁虽小，五脏俱全。既有接待和技术，也有产业的起源和未来。我们收到了热情的接待。迪蒙解决方案目前分三大板块，我们前期主要是以智慧停车应用的基础设施建设，然后是一个针对用户使用的平台的建设，再到后期的一个产业延伸。最后让前端的硬件到导入平台，后续我们实现数据共享，最后可以对接到整个产业的针对政府的汽车服务。<br>我们在这个领域的技术是相当领先的。在前端，一套设备可以同时监管八个车位，通过动态采集信息，确保识别出车辆信息，并识别出车辆进出停车位的行为，最大程度的实现无人化。以深圳为例，传统的方法需要近2万人管理，一个月的费用就达到一千多万。如果通过我们这个系统，需要的巡检的人员能降到很少，主要就是针对一些特殊情况需要巡检人员帮忙操作一下，基本上都是通过后台来进行管理。我们很想把此项技术在全国进行推广，满足人们区域切换的要求。<br>广州今年3月份出了一个规划条例，它明确表示使用我们高度视频方法来进行交通管理。所以现在市场非常大，也基本上是空白市场。前期主要跟政府合作，然后由政府牵头，把整个城市停车场数据打通，放到一张网上进行管理。政府开设一个接口，下面的企业都和他们去对接，相当于我们是给整个政府搭建了整个城市的停车管理体系，应该说，它不单单是停车管理，还可以和交警大队、公安项目，4S店，加油站等一系列与车有关的资源对接，形成一整套体系。</p>
-<h2 id="迅雷采访稿（语音转录）"><a href="#迅雷采访稿（语音转录）" class="headerlink" title="迅雷采访稿（语音转录）"></a>迅雷采访稿（语音转录）</h2><p>职能支持中心：林昆槟 L<br>产品总监：管灿 G<br>我方：H<br>H：迅雷公司运维方面的硬件软件方面如何？<br>L：公司拥有茶水间：给员工提供早餐、晚餐，还是面试的地方。内部订餐系统：每天下午都可以把想吃的东西，尤其附近的饭店订好点好送上来。健身房：拥有投篮机、乒乓球、桌上足球、健身器械。技术男很喜欢玩这些。他们平常没什么时间去运动，所以只能通过这种方式运动。桌上足球历史悠久，在15年以来都是员工热爱的运动，公司搬过几次场地都会带上。而且迅雷的CEO也很喜欢打这种运动，他基本上每周五下午，都会跟员工一起去打桌上足球然后交流，运动其实也是一种好的交流方式。加之因为附近有南山文体中心，所以基本上周三或者周五公司都会组个团，一起去，行政部统一去购买门票。母爱空间：迅雷为孕妇提供六个月的产假，然后可以带小孩上班，有一个母爱空间是为孕妇妈妈们准备的，可以在里面带小孩并且交流育儿心经。公司还会为单身的同事举行Party：会租附近那些场合，一起去玩，在今天（8.16）的下午还请了七夕节专门的心理老师，来给技术人员上脱单的课程，就是在洗手间也能看到贴满心理咨询师的相应问题和治理脱单的方式。P.S. 其实技术人员的脱单几率还是很高的，因为他们技术好，然后年薪也高又不会出去走，所以出轨的几率很低。他们其实都是懒得出去走，因为觉得这样会浪费时间。技术人员认为他的时间不应该浪费在一些对象逛街这种事情上面。比如我们上次研发部这边公司组织去吃饭，他们全部拒绝了，给了统一的理由是吃饭浪费时间。<br>H：方才有些员工的位置有些空啊，是公司的休假制度嘛？<br>L：哦是这行的，公司施行每天7小时弹性工作制。由于晚上9点以后打车免费，所以很多同事都选择下午才来上班，这样到晚上就可以免费打车回家了。上班可以穿短裤、拖鞋、拎零食。<br>H：迅雷贵司最近在做一些什么呢？<br>G：最近的话，迅雷近期在做的一些事情是做区块链，7月底刚刚结束了迅雷全球区块链大赛，获胜的好像就是浙大的团队？<br>H：嗯，对。<br>G：然后北京的分公司是一个人工智能实验室，在讯飞链方面已经拿到国家的一个区块链证书，全国只有三家公司拿到这个区块链的证书。<br>H：我们看到迅雷的办公室门口贴着一些电影的名字比如变形金刚是怎么回事？</p>
-<p>G：迅雷影评也是公司的一个发展方面，包括了推送电影、写影评并进军电影方面——纸牌屋 变形金刚 黑客帝国 魔兽 霍比特人 哈利波特 阿凡达 火星救援 摩登家庭 星球大战，对应的房间名都是迅雷有参与的电影所以成为了办公区的房间门的名字。<br>L：2018年的上海的国际电影电视节上迅雷成为了就是一个正式的官方的合作伙伴。大家可以在这上海国际电影节的海报可以看到迅雷在上面。电影节上还有一些参加明星帮我们做了一些宣传短片。包括你可以看到几件透明的办公室，那就是CEO CTO办公室，他们的办公室全部都是透明的，如果要商量什么事情的话，可以直接敲门进去。你也可以看到他们在干嘛。<br>L：对了，关于公司的软件方面，公司还在在15周年的时候将1000+员工的头像做成了一个标志、然后还发了我们迅雷文化衫和星座雷鸟玩偶。我们也为你们每个人准备了一个哦。然后之前路过的自助贩卖机里面泡面凤爪偏多、公司很多女生喜欢吃泡面凤爪，所以凤爪基本上都被女生拿光了，经常可见的情形就是公司员工下午起床之后拿一包山药和凤爪，再拿瓶酸奶就回工作岗位了。然后去年公司主打了迅雷X。同时引进了X能量站：公司给员工提供的全匿名心理健康服务，保证员工的隐私，每个月不会有数据系统。如果心理压力大，你想打电话，会安排心理公司24小时等候，它会根据你的性别，然后安排异性来跟你交流。<br>H：听说迅雷有做直播，那怎么和那些熊猫、虎牙竞争呢？<br>G：是这样的，迅雷的直播团队一般都是做海外的直播，当然国内也会争抢一些网红，我们直播的团队基本上都是从yy的团队过来的。我们每周一次的技术交流会也用到了直播，每个技术部事业群的总监要组织每周五下午的技术交流分享会，在咖啡吧，会通过迅雷直播的方式在公司内部全部直播。同样的应用还有在Open Day的时候。Open day呢是一个季度一次，员工直接通过邮件，写一封信，把想问的问题问进去，包括工资，技术，公司发展，个人的问题等。你有什么问题你都可以说，然后CEO会直接在直播上面解答你，如果他解答的不好，你可以用让他再说一遍。解答地好，可以让打赏他。（哈哈哈，也可以扔拖鞋）。直播部门预计将会在2020 搬进预计2020年竣工的迅雷大厦，七层楼，然后其实员工会陆续搬进。（你懂的嘛，部分员工吸甲醛哈哈哈）<br>H：迅雷的产品体系除了下载以外还有什么么？<br>G：迅雷产品体系介绍：迅雷是一个15年的资深互联网企业。一开始是迅雷下载工具，后来移动端，CDN、VR、AI，现在在做迅雷链。迅雷app“不仅仅是下载”多媒体、娱乐、资讯、大数据。以“黑科技”为名的去互联网科技企业，有很多的技术创新。精准的大数据分析预测、独有的技术，用户的依赖度很高、增速很快。用户多元、多为青年。在用户方面：支付用户的转化前，800万以上的支付服务是在境内迅雷的会员，用户主要分布在一二线城市，我们65%的活跃度是在一二线城市，50%以上的用户分布在华东和华南，85%的用户是19岁到45岁，用户群体里面，大家可以看到学生和一些企业工作者是占比最高的，由于用户群比较庞大，所以公司会选择兴趣的分布是特别长远，特别离散的作为长期粘性的客户。然后产品和业务：迅雷公司主要分成了三大事业群，一个是品牌产品，这一块主要承载公司的各种P2C端产品，随后还有商业产品部，他们主要专注于会员的服务，增值服务以及商业化的变现。然后除此之外，我们还有今年成立的海外业务中心。海外业务中心是一个独立的事业部，他们专注于公司业务以外的发展。产品方面是非常非常丰富的。比如说迅雷9是现在线上流量最大的一款，主要这款产品和讯雷七它相比，主要的一个进化点是在于我们把下载列表右侧的这个空间拓展成网页。这样用户就可以在进行下载的同时进行网页浏览以及探索。同时我们在右侧这个空间也会去给用户去推荐一些内容和一些产品，包括我们平时播的内容。Mac上有一个独立的版本叫做Mac迅雷，这个产品是一款就是用户评价非常高的一个产品，因为它相对于我们PC端上的产品，它会更加的简洁。虽然Mac用户的群体的体量比PC上的群体的体量会小一些，但是这个群体他们有更高的性质以及更高忠诚度。接下来要发布的就是迅雷X，这代产品它主要进化在于它对界面的设计进行了重构，那么整个的界面上会把下载的这个部分会更加的突出，会重新回归用户的核心体验和下载，这件事情会让界面的设计上会变得更加的简洁灵活，把更多的控制权交给用户。同时这一代产品还有一个边下边播的黑科技，也就是用户在下载一个内容，如果这个内容是视频的，那么他可以等待这个视频下载完成之前观看。迅雷还会做一些手机端的产品。比如IOS端的一个产品叫LiveU： 这款产品是一个主导来操作拍摄的。它提供的是九秒以上的超强的FO拍摄，这款产品到上线至今，大概五个月已经在APP所有的首页上获得四次以上的苹果专项推荐。<br>H：我们刚刚下载了一个LiveU，滤镜的确不错，但是同时还有一些直播插入，那这样的话就迅雷到手机客户端和这个直播或者和那个短视频的客户端是不是有点重复了？<br>G：直播的客户端它会提供一个更加纯粹的一个体验，我们的用户，特别是直播的核心用户，也就是说白了就是花很长的时间或者花更多钱去看直播的群，他会选择很多APP。因为直播的APP里面，一是他会有更加纯粹和更加高兴的一个体验，因为他的包以及它的PK会针对直播去打造，那么整个APP里面也会提供一些应用抓手。那么在手游的客户端上去提供这样的一个内容，其实是给用户优选他可。以去并且如果他发现了他的直播，并且愿意花长时间去看的话，我们有很多用户都会是通过什么需要交给人，那个市场就是这样。<br>H：我们这里有一些大家这么多年来使用迅雷的疑问，关于产品的可以提问吗？<br>G：当然可以啊，欢迎。<br>H：在直播和短视频领域，市面上已经有了做的特别好的企业，公司以后在这个领域打算如何利用优势进行竞争？<br>G：中国的互联网市场无比复杂，使得网络需要大量形态各异的产品。而我们的经营方式呢，首先是先前的用户使得我们积累大量的数据，其次我们具有自己的品牌力量，会有很大一批忠实的用户。再者，直播业务的宽带成本是很高的，而迅雷利用前期的努力，比同行大大降低了宽带成本，同时也可以利用此项技术与其他直播平台进行合作。通过当下拥抱这些新的业务体制，能够吸引更多的用户。还有一个是我们的讯飞快行：通过和各个地方的运营商和商务合作，来实现用户家庭的一个物理代价的提升。大家经常就是家里那个看待百五十兆一百兆，那么实际上家里的这个带宽的这个连接在连接能力上是超过大家实际在用的这个兆数，比如说你家里是50兆的话，你家里的带宽可能实际是200兆。解放你家里的这个带宽，那么用户可以花更少的钱，享受更高的带宽。直播是非常需要流量和带宽的，我们的可以很好地做到这一点，所以我们有我们自己的优势。<br>H：有的网站内嵌的迅雷链接点击以后跳出来显示说我没有安装最新的迅雷9，但是我明明安装了Mac迅雷？<br>G：网站你点击那个链接跳出来的是什么？你看到那个弹出的那个窗是灰色还是蓝色的？<br>H：就是那个浏览器上，就是没有直接给出那个磁链接，他可能给了你一个图片。在我没有我查看网页源代码的情况下，我只是在那个图形界面上点了一点以后，它会显示，请使用最新版本的迅雷九，没有太大印象是什么颜色的了。<br>G：加速问题：还有一个问题就是我家的网的宽带类型不是那种很好的类型，但是我自己下的话，因为我有迅雷会员，但是没有自动登录，所以在使用原本的网速下载的时候，速度大概是稳定的 700K每秒，是灰色的显示速度。但是当我点了会员加速以后，灰色的部分就突然间就减小了，就直接变成比如说300k/s，然后他就给我加了400K每秒的蓝色部分，意思就是说总速度还是700K每秒，给人的感觉是这个提速只是一个形式，并没有实质的提速。好像是把原来那个家里的宽带都分成了两部分，原来原来我用的和你们迅雷好像就没有加速，他就强行显示出来那个加速了400K/s。对于我来说我的第一反应就是他当时没有那个提速成功，然后把我家那个网速切成两半。对于其他的不太了解互联网的用户可能就会认为迅雷和百度云一样限速了，但是没有限制地那么厉害。要明确的是，我们肯定不会限速的。会员是付了钱的，我们就会将原来的P2P的资源加速移到P2S部分，你这个问题的影响因素有很多，我们等会可以再交流一下。<br>H：迅雷现在开放好像还不够，都是一个默默无闻的企业形象，然后有很多锅本来不应该是迅雷背的，现在都要迅雷背了？<br>L：嗯因为现在老板已经有想法把整个雇主的文化，把迅雷的文化，把迅雷的技术把事情在做的事情，然后再做一个对外发声的转变。包括我们的区块链大赛，包括我们去外面现在市面上做然后取得的一些成就等，还有比如分布式账本这些事情，我们现在做的对外的事情已经在慢慢的逐渐一步步的开始做，成效的话慢慢来嘛一点点做，吧然后毕竟求稳嘛。<br>H：好的十分感谢二位！</p>
-]]></content>
-      <tags>
-        <tag>work</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Container_forecast</title>
-    <url>/2020/09/16/Container-forecast/</url>
-    <content><![CDATA[<h3 id="数据预处理"><a href="#数据预处理" class="headerlink" title="数据预处理"></a>数据预处理</h3><ul>
-<li>处理缺失值</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">missingDataStat</span><span class="params">(data)</span>:</span></span><br><span class="line">  total=data.isnull().sum().sort_values(ascending=<span class="keyword">False</span>)</span><br><span class="line">  percent=(data.isnull().sum()/data.isnull().count()).sort_values(ascending=<span class="keyword">False</span>)</span><br><span class="line">  missing_data=pd.concat([total,percent],axis=<span class="number">1</span>,keys=[<span class="string">'Total'</span>,<span class="string">'Percent'</span>])</span><br><span class="line">  missing_data.head(<span class="number">20</span>)</span><br><span class="line">  msno.matrix(data)</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Diary</title>
-    <url>/2019/04/26/Diary/</url>
-    <content><![CDATA[<h3 id="2019-5-20"><a href="#2019-5-20" class="headerlink" title="2019.5.20"></a>2019.5.20</h3><p>4.26:<br>    TDL：1、PTA 2、数电理论 3、自控根轨迹<br>    扬言：每天00:30前睡，7:00前醒<br>    每天手机使用限制：早上9:50，中午吃饭，下午14:00，晚上20:00</p>
-<p>4.27:<br>    写了一下午数电作业，找到了高中时候一道题墨迹一下午的感觉，还有初中和勒勒一起在教室外面用最基础的方法磨了一下午做成题目的感觉<br>    今天尝试了……</p>
-<p>​    罢了，今天的尝试是没有必要的，所有开了局而没有结果的事情是不配被罗列或是裹挟的，些许被碾碎还可以考虑——即使如此也没有资格成为时间轱辘上的碎碎念的。</p>
-<p>​    本来是想向J友人学习的，然后没有如此的时间颗粒度管理和自制力，便无疾而终。</p>
-<p>​    Y友人倒是给我指了条名路，以前常常被冠名为理科生，所谓的理科生这种东西，其实只是迎合外界表象所在而表现出来的东西罢了吧。可能自己都未曾所直觉，理科都是需要花时间的进去的，但是英语这门语言我平时看看电影就能够达到周围优秀同学的水平，我自诩自己是有理科和体育天赋的，体育天赋过早夭折了，那么理科天赋呢，可能也被时间所磨灭了吧。但是语言学上的林林总总，使我觉得在高考结束时我会选择国际汉语教学，作为一个walkman，真正意义上的walkman。</p>
-<p>​    在唐家三少浸淫中的我——年方18——高三吧，Z友人还在我的枪战游戏昵称时，冥冥之中会发现什么吗？PORNY还在孜孜不倦熬夜打王者的时候，219充斥着娱乐的氛围时，也就是我还没有进入峡谷的时候呢，我从套子那弄来的手机上，永远都是下载好的小说，扮猪吃老虎永远都不落俗套，古月娜之于三少的意义让我感到震撼，真正意义上的文学生死是难以考究的。是要怎么样的爱才能够写得如此刻骨铭心呢？时SOLO18年的我，自诩为感情专家，但是也无法对此不震颤不动凡心。流水账通常是不被人所看待的，我觉得我有很多话要讲不知道往哪去讲，这里那里，风吹鸡蛋破。</p>
-<p>​    小记一笔，作为拙劣且无奈的琐碎记事笔记。</p>
-<h3 id="2019-5-26"><a href="#2019-5-26" class="headerlink" title="2019.5.26"></a>2019.5.26</h3>]]></content>
-      <tags>
-        <tag>Learn Log</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HTML Study</title>
-    <url>/2018/07/17/HTML-Study/</url>
-    <content><![CDATA[<h2 id="HTML-Learning"><a href="#HTML-Learning" class="headerlink" title="HTML Learning"></a>HTML Learning</h2><p>经历了暑假4天5夜的颓废（包括每天睡过早饭）以后，FPO终于开始学习了，首先先捞一捞HTML。<br>这里汇总一下HTML的标签abbreviation和full name。<br><code>href=hyper reference</code>   <code>src=source</code>  <code>br=break</code>  <code>hr=horizontal rule</code>  <code>sub=subscript</code>  <code>sup=superscript</code>  <code>kbd=keyboard</code>  <code>teletype</code>  <code>bdo=bidirectional algorithm</code>  <code>a=anchor</code>  </p>
-<h3 id="2018-7-17"><a href="#2018-7-17" class="headerlink" title="2018.7.17"></a>2018.7.17</h3><p>1、  首先质疑了一下<code>&lt;!DOCTYPE HTML&gt;</code> 作为头文件的想法，后来发现不太对，好像是标记Balabala…<br>2、  然后质疑了一下a href和img src里的href和src谁什么意思，FPO的英文拼写水平和别人判若云泥。<br>3、  中途去捣鼓了一下MD文档，已经7.18了……睡了睡了，毕竟还要云南支教～<br><a id="more"></a></p>
-<h3 id="2018-7-18"><a href="#2018-7-18" class="headerlink" title="2018.7.18"></a>2018.7.18</h3><p>1、  由于编辑HTML语言的时候都是闭合的标签，标签之间的空格<code>\0</code>和换行<code>\n</code>都是被当作无效处理的。学习到了<code>&lt;br&gt;</code>是相关命令，一个标签头就做到了换行，一个闭合的标签是空行，好像debug的时候还遇到了一个标签头加标签尾的&lt;换行，而遇到完整的标签尾&lt;&gt;是换两行，又是一门玄学。<br>2、  看到标签的属性设置，又让我想起了古老的Visual Basic。C语言没有写过相关的属性…可能是我还没有学C大程吧。HTML的属性是写在开始标签里的。<br>3、  img标签在HTML里好像不用闭合。这tm可太方便了。不过细细想象，其他标签闭合的中间就是要在page上显示出来的东西，但是img标签要显示的东西就是属性的一部分，URL or path…哈哈哈所以不用闭合也是理所当然的？笑 :)<br>4、  没有内容的 HTML 元素被称为空元素。空元素是在开始标签中关闭的。<code>&lt;br&gt;</code> 就是没有关闭标签的空元素（<code>&lt;br&gt;</code> 标签定义换行）。在 XHTML、XML 以及未来版本的 HTML 中，所有元素都必须被关闭。在开始标签中添加斜杠，比如 <code>&lt;br /&gt;</code>，是关闭空元素的正确方法，HTML、XHTML 和 XML 都接受这种方式。即使 <code>&lt;br&gt;</code> 在所有浏览器中都是有效的，但使用<code>&lt;br /&gt;</code> 其实是更长远的保障。<br>5、  <code>&lt;h1 align=&quot;center&quot;&gt;</code> 拥有关于对齐方式的附加信息，此处为居中。后来发现<code>&lt;h1 align=&quot;middle&quot;&gt; 拥有关于对齐方式的附加信息。</code>也可以居中。<br>6、  属性值应该始终被包括在引号内。双引号是最常用的，不过使用单引号也没有问题。在某些个别的情况下，比如属性值本身就含有双引号，那么您必须使用单引号<code>name=&#39;Bill &quot;HelloWorld&quot; Gates&#39;</code><br>7、  对于上面的<code>&lt;br/&gt;</code>相关的代码段落写作好像有点问题，现在回想起来脑子里面已经有点乱了，这样说吧<code>&lt;br/&gt;</code>是换一行，如果要空行的话，就要连续用两个<code>&lt;br/&gt;&lt;br/&gt;</code>才行，好了就这行吧，FPO懒得改动了。两个<code>&lt;p&gt;</code>标签内会自动空一行，注意，是空一行不是折行。</p>
-<h3 id="2018-7-23"><a href="#2018-7-23" class="headerlink" title="2018.7.23"></a>2018.7.23</h3><p>1、  今天是尼古拉斯不在的第一天，我很想他，但是当FPO今天重新pick了HTML，知道了FPO之前学的标签和属性都是在HTML4里的，在未来的HTML和XHTML是要被废除的（Deprecated）。它们包括：<code>&lt;center&gt;</code>  <code>&lt;font&gt;</code>  <code>&lt;basefont&gt;</code>  <code>&lt;s&gt;</code>  <code>&lt;strike&gt;</code>  <code>&lt;u&gt;</code>  <code>align</code>  <code>bgcolor</code>  <code>color</code>。这些最好用style属性代替。style属性用于改变样式。</p>
-<h3 id="2018-7-31"><a href="#2018-7-31" class="headerlink" title="2018.7.31"></a>2018.7.31</h3><p>1、  今天是七月的尾巴，七月流火，笑）</p>
-<h3 id="2018-8-2"><a href="#2018-8-2" class="headerlink" title="2018.8.2"></a>2018.8.2</h3><p>好的，现在我们都把这些东西放在style下面，那么是怎么实现的呢？<code>style=&quot;background-color:yellow&quot;</code>  <code>style=&quot;font-family:arial;color:red;font-size:20px;&quot;</code>  <code>style=&quot;text-align:center&quot;</code>  </p>
-<h3 id="2018-8-3"><a href="#2018-8-3" class="headerlink" title="2018.8.3"></a>2018.8.3</h3><p>1、  哇，发现文本的格式化好多代码要记啊，这个我觉得应该是不能靠强记的，应该是边用边记的，那么就发一下网址吧<a href="http://www.w3school.com.cn/html/html_formatting.asp" target="_blank" rel="noopener">http://www.w3school.com.cn/html/html_formatting.asp</a><br>2、  在这里看到了上标和下标的方法，想到了排列组合里面的上面数字要怎么办呢？一个上标和一个下标总是会有先后的，那么只能调整在后面的那个的<code>style=&quot;margin-left&quot;=-xpx</code>经过试验发现 x=8 时对得最齐，但是我感觉应该有其他的办法，先挖个坑。<br>3、  blockquote的cite属性好像没什么用，但是可以被搜索引擎抓取。<br>4、  define的三种属性值的区别是…？？？</p>
-<h3 id="2018-8-4"><a href="#2018-8-4" class="headerlink" title="2018.8.4"></a>2018.8.4</h3><p>1、  注释里面还有条件注释<code>&lt;!--[if IE 8]&gt;.... some HTML here ....&lt;![endif]--&gt;</code>看起来很粗暴，但是是怎么判断IE8呢，这是个玄学吧。条件注释定义只有 Internet Explorer 执行的 HTML 标签。<br>2、  没有下划线的链接<code>style=&quot;text-decoration:none&quot;</code>。<br>3、  Meta标签感觉全程好像很魔性，自我第一感觉是media和data但是显然不对。这里可以参考<a href="https://www.cnblogs.com/wangyang108/p/5995379.html" target="_blank" rel="noopener">傻瓜不傻的博客</a><br>4、  重定向很酷，大概很多XX网页的重定向就是1ms吧，所以会弹出很多广告。</p>
-<h3 id="2018-8-5"><a href="#2018-8-5" class="headerlink" title="2018.8.5"></a>2018.8.5</h3><p>1、  今天还是在昨天的章节，是link标签。<br>2、  a标签的里的target如果设置成_blank，就可以打开新的一页了～<br>3、  anchor可以没有href，然后a标签的id属性就相当于一个tag，舒服～</p>
-<h3 id="2020-11-9"><a href="#2020-11-9" class="headerlink" title="2020.11.9"></a>2020.11.9</h3><blockquote>
-<p>为什么两年没动？</p>
-</blockquote>
-<p>因为在研究生阶段，发现要给别人看自己的blog，实在是太粗糙了，然后最近又想把足迹加进来，然后发现自己的前端实在是太烂了，所以开始重新学习。</p>
-<p>1、替换文本属性 Alt</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"xxx.xx"</span> <span class="attr">alt</span>=<span class="string">"illustraion"</span>&gt;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Learn Log</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ITP</title>
-    <url>/2018/08/23/ITP/</url>
-    <content><![CDATA[<h2 id="管理学课程"><a href="#管理学课程" class="headerlink" title="管理学课程"></a>管理学课程</h2><h3 id="2019"><a href="#2019" class="headerlink" title="2019."></a>2019.</h3><h2 id="团队沟通与领导力"><a href="#团队沟通与领导力" class="headerlink" title="团队沟通与领导力"></a>团队沟通与领导力</h2><h3 id="2019-1"><a href="#2019-1" class="headerlink" title="2019."></a>2019.</h3><h2 id="ITP"><a href="#ITP" class="headerlink" title="ITP"></a>ITP</h2><p>终于等到了ITP，本来是在做学长组工作的，此时突然惊醒，之前对所有事情的看法都已忘了吗？那么久那么久了，那么就准备开始吧！Intensive Training Program of Innovation and Entrepreneurship。：//2019.8.23补充，看到ITP群里大家都这么认真的讨论！好激动，拿出小本本记下来随性的东西！</p>
-<blockquote>
-<p>谁能阻挡自由与自由相遇？</p>
-</blockquote>
-<p>要耐心看到中间偏后哦！<br><a id="more"></a></p>
-<h3 id="2018-8-17"><a href="#2018-8-17" class="headerlink" title="2018.8.17"></a>2018.8.17</h3><blockquote>
-<p>七夕节如何把一支玫瑰卖到100元，并可持续盈利。</p>
-</blockquote>
-<p>100元好说，但是可持续性盈利的概念不清。每天都要盈利，还是说可持续盈利的每年？<br>roseonly的话，<a href="http://www.sohu.com/a/141434121_750320" target="_blank" rel="noopener">这里</a> 有一段比较好的讲解。<br>每天点赞、照片等收回尾款。分子微雕。</p>
-<h3 id="2018-8-19"><a href="#2018-8-19" class="headerlink" title="2018.8.19"></a>2018.8.19</h3><blockquote>
-<p>数据时代的未来在于减少数据而非增加数据</p>
-</blockquote>
-<p>查理芒格逆向思维<br>幸存者偏差</p>
-<h3 id="2018-8-20"><a href="#2018-8-20" class="headerlink" title="2018.8.20"></a>2018.8.20</h3><blockquote>
-<p>马斯克713亿美元“私有化”特斯拉，意欲为何？中国能否出现像“马斯克”一样的人？</p>
-</blockquote>
-<p>马斯克——第一性原理。<br>怎么快速弄懂一家公司——</p>
-<ol>
-<li>宏观背景</li>
-<li>行业</li>
-<li>公司</li>
-<li>管理架构</li>
-</ol>
-<h3 id="2018-8-21"><a href="#2018-8-21" class="headerlink" title="2018.8.21"></a>2018.8.21</h3><blockquote>
-<p>如何看待创造101的营销策略？国产综艺如何摆脱抄袭命运？</p>
-</blockquote>
-<p>口红效应：“低价产品偏爱趋势”<br>奶头乐理论</p>
-<h3 id="2018-8-22"><a href="#2018-8-22" class="headerlink" title="2018.8.22"></a>2018.8.22</h3><blockquote>
-<p>如何看待拼多多的盈利模式与售假行为？拼多多对京东、阿里等电商有何冲击？</p>
-</blockquote>
-<p>kpi：关键绩效指标。</p>
-<h3 id="2018-8-23"><a href="#2018-8-23" class="headerlink" title="2018.8.23"></a>2018.8.23</h3><blockquote>
-<p>为什么我们需要保护隐私？隐私是否与信息时代连接一切的理念相冲突？</p>
-</blockquote>
-<p>没有第二个问题的引导，就隐私保护来说，是对人权的一种尊重。但是第二个问题未免有点误导方向。但是从出题人的角度来说，这叫引导方向，隐私对于信息时代来说。</p>
-<h3 id="2018-8-24"><a href="#2018-8-24" class="headerlink" title="2018.8.24"></a>2018.8.24</h3><blockquote>
-<p>如果三体星人侵略地球，世界上所有的人都被赶到了澳大利亚，作为一个逃难中的浙大学生，会做什么？</p>
-</blockquote>
-<p>？？？什么玩意，三体我都没看过！</p>
-<h3 id="2018-8-25"><a href="#2018-8-25" class="headerlink" title="2018.8.25"></a>2018.8.25</h3><blockquote>
-<p>Facebook已于7月18日在中国杭州成立独资公司，名为“脸书科技”，注册资本为3000万美元。随着活跃用户增速放缓，Facebook需要开拓新的市场，增加用户数量，便把目标瞄准了中国。你对此有什么看法ฅ( ̳• ε • ̳)ฅ</p>
-</blockquote>
-<p>欧洲难民问题，通过了德国各种心理测试的难民其实是恐怖组织。<br>脸书科技杭州分公司人去楼空，甚至为了临时的参观者配备了一名保安。3天后，已经悄然注销。但是在股票市场上（A股）还是有了较大的波动。</p>
-<h3 id="2018-8-26"><a href="#2018-8-26" class="headerlink" title="2018.8.26"></a>2018.8.26</h3><blockquote>
-<p>你觉得快手、抖音等APP上的一些视频，知乎等APP上一些“鸡汤”会毒害青少年的心智么？如果答案是肯定的，那么娱乐舆论应该如何加强监管。</p>
-</blockquote>
-<p>查理芒格与误判心理学。<br>犯罪心理学。李玫瑾老师——青少年教育。<br>UGC=<code>User Generated Content</code><br>PGC=<code>Professional Generated Content</code><br>OGC=<code>Occupationally Generated Content</code></p>
-<h3 id="2018-8-27"><a href="#2018-8-27" class="headerlink" title="2018.8.27"></a>2018.8.27</h3><blockquote>
-<p>大学生创业，是被时代逼上梁山么？你怎么看？</p>
-</blockquote>
-<p>中期借贷便利（MLF）</p>
-<h3 id="2018-8-28"><a href="#2018-8-28" class="headerlink" title="2018.8.28"></a>2018.8.28</h3><blockquote>
-<p>如何看待NGO？能否用创业组织的方法管理NGO</p>
-</blockquote>
-<p>NGO=<code>Non Governmental Organization</code> 参见 <a href="https://www.douban.com/note/122307800/" target="_blank" rel="noopener">我所了解的NGO系列</a><br>问题：</p>
-<ol>
-<li>问题有语病</li>
-<li>创业组织和NGO的交并集关系</li>
-<li>管理创业组织的方法？<br>营销第一大师菲利普科特勒、壹基金的执行主席周唯彦<br>大量的草根NGO都是政府买单性质。</li>
-</ol>
-<h3 id="2018-8-29"><a href="#2018-8-29" class="headerlink" title="2018.8.29"></a>2018.8.29</h3><blockquote>
-<p>如何设计一种「高考」的替代方案？</p>
-</blockquote>
-<h3 id="2018-8-30"><a href="#2018-8-30" class="headerlink" title="2018.8.30"></a>2018.8.30</h3><blockquote>
-<p>你对苹果公司的发布会或新品有什么期待？试从产品营销角度对比苹果、三星、华为、小米等品牌。</p>
-</blockquote>
-<p>苹果：下架上一代容量卖得最好的iphone<br>小米的社群经济<br>黄金圈法则：</p>
-<h3 id="2018-9-1"><a href="#2018-9-1" class="headerlink" title="2018.9.1"></a>2018.9.1</h3><blockquote>
-<p>全网skr的背后引发你对于商业、舆论、粉丝的什么思考吗？</p>
-</blockquote>
-<p>娱乐营销模式、</p>
-<h3 id="2018-9-2"><a href="#2018-9-2" class="headerlink" title="2018.9.2"></a>2018.9.2</h3><blockquote>
-<p>去年的情景模拟题</p>
-</blockquote>
-<p>逻辑、创新（脑洞）</p>
-<p>积极和消极两种情况。<br>当事人是否清楚自己的处境。<br>主客利害关系是否颠倒etc</p>
-<h3 id="2018-9-3"><a href="#2018-9-3" class="headerlink" title="2018.9.3"></a>2018.9.3</h3><blockquote>
-<p>去年报名表问题：现在，你需要在某高档小区的电梯内投放某产品的广告，请选择一款产品，说明投放的广告形式及理由。</p>
-</blockquote>
-<p>产品、广告形式</p>
-<img src="/2018/08/23/ITP/img/1.jpeg" title="[我在微信群里的答案流程图]">
-<h3 id="2018-9-4"><a href="#2018-9-4" class="headerlink" title="2018.9.4"></a>2018.9.4</h3><blockquote>
-<p>目前，中国的移动支付领域又两大巨头：支付宝与微信支付，请问，你更看好谁的发展？</p>
-</blockquote>
-<p>关键词——提供今日讨论题的报名表设计组的小伙伴们。<br>哈哈哈估计是明天就要做一个小论文资料收集了。</p>
-<h3 id="2018-9-5"><a href="#2018-9-5" class="headerlink" title="2018.9.5"></a>2018.9.5</h3><blockquote>
-<p>近日，在资本市场低迷的背景下，区块链行业迎来了“至暗时刻”。请问，你认为引发这次寒冬期的根源有哪些？区块链技术真的是很多媒体人口中的“超越互联网的革命性技术”吗？它未来的应用场景可以是？今天的话题有一定的专业性，大家未必非常熟悉，但是网络上有很多关于blockchain的分析报告，也有很多自媒体文章可以进行学习，希望大家可以踊跃发言！</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">我对区块链的了解程度是：1、明白它与比特币的关系：它起源于比特币并作为比特币的底层技术以其巨大的优势成为人们研究的对象 2、明白了它的产生与结构，它通过大量计算机计算出一个随机散列，在全网内比较算力，算力高速度快的，获得共识。取得了一个随机数。这个随机数和Hash值、时间戳组成了一个block，block用<span class="built_in">hash</span>值相连成为了chain 3、明白了它的优势，去中心化、共识等，增加了它的信用度，共识过程还保证了如需攻击，需要掌握至少51%的算力才行 4、明白了它的分类，现在chain大致可以分为公有链、联盟链、私有链、侧链、互联链等，应用正在迅速铺开。 5、明白它的应用前景之大，区块链其实就是很多block组成的chain，但是应用的一定意义上可以说是一个难以篡改的分布式账本数据库。所以它在物联网、金融业、˙智能合约等地方都有广大的应用前景。目前区块链寒冬期的根源可能是因为监管与开发不对称。在白皮书黄皮书发布以后，有很多的企业都以区块链技术发币，但多数区块链包装企业都有割韭菜的行为，国家重点批准的区块链研究中心我知道迅雷就有一个但是人家只做技术不发币以及一些灰色地带的行为。</span><br><span class="line">未来的应用场景有1、支付系统，听说支付宝等也要走一遍央行的流程，在这个支付系统中，有一个值得信赖的中央权威机构充当清算行，区块链技术则去除了对 中央权威机构的依赖。2、金融基础设施，区块链特别适合或者已经应用于股权众筹、P2P网络借贷、证券等。比如传统证券交易需要经过中央结算机构、银行、证券公司和交易所等中心机构的多重协调,而利用区块链自动化智能合约和可编程的特点,能够极大地降低成本和提高效率。3、对物联网的影响，物联网的发展受到了两方面的限制，受到终端设备的智能化程度的限制和对这些设备的管理运营水平的限制。后者，设备的管理运营水平上存在的问题则是连接成本高和信任度缺失，这就和之前说的智能合约曾经的窘境相似，区块链正好能够完美的解决这些问题。</span><br><span class="line">把比特币和区块链单一的划分成五“去中心是错的”或者“去中心是对的”我觉得不现实也不科学。以建设某种政体或者意识形态为类比，思想家的想法可能是解放全人类的生产力，上层者的目标可能是建设经济政治复合体，执行者目标可能是维护统治者的利益，下层可能在忙着贪污腐败，参与者在受惠过程中也被当韭菜割。其实区块链也一样的，最早的密码学创立者可能只是想避免交易被中心背书，后来生态的倡导者想的是算力即权力，早些年大家在利用其有值进场收割，还有一些技术人员在开发其他领域的应用，现在变成了群魔乱舞。我觉得是一个很复合的情况。</span><br></pre></td></tr></table></figure>
-<h3 id="2018-9-6"><a href="#2018-9-6" class="headerlink" title="2018.9.6"></a>2018.9.6</h3><blockquote>
-<p>请问，你觉得中国的“墙”，即“the great firewall”，有设置的必要吗？可进行一定的利弊分析，权衡之后再给出结论。</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">哈哈哈这可是我最好的方面了。</span><br><span class="line"></span><br><span class="line">对于GFW的想法。利：在我国网民基础巨大且素质参差不齐、网络监管不到位、相关法律不到位等情况下，能够有效防止中国网络舆论的泛滥。这并不是一种固步自封，说世界上和朝鲜一样的居然是中国，不能从国家层面定性的说，这个基础的量就不一样，足够质变了。可以说是北邮校长在被人诟病了那么多年以后，还是起到了一定的作用的。中国的体量可以让自己内部有一定成熟的互联网发展，国外瞄准的是中国的市场。另外由于法律的不同，视频的允许范围在枪械、暴力、淫秽方面国外是放开的，比如色情行业是合法的，google就可以搜索到，对中国青少年的心智起到了一定的保护作用...... 虽然很多资源限制了，但是正确使用互联网的人，可以自己搭建梯子或者想办法翻出去，这个过程本身也是个锻炼的过程/筛选，筛选掉了那些伸手党，这是一定程度的弊端。弊：限制了对于国外的了解。国内垄断行为严重，比如百度的搜索引擎极其不讲道理，魏则西事件等等，所以大家都说google可以科学上网。还有国内很多的学习网站感觉是国外的复刻，w3school，CSDN等......国外的学术研究更加透彻，所以google搜索出来的方法往往更加科学，除了论文引用等，日常用用也足够。比如我上次电脑坏了，百度的方法参差不齐都有些问题，翻出去google到的方法就解决了～。还有很多政治敏感性问题国内都不得而知，虽然雅虎等网站能看，但是国外的媒体就敢说敢言，可以更全面的参考一下自己的政治理解。比如在我几年前就听小区里的老奶奶（她的儿子在国外）说，国外纷纷议论习近平上台以后中南海办公室的归属问题等等...</span><br><span class="line">个人认为国外的资源是要的，但是要适合中国国情地用，要社会主义地用...所以现在还是墙了比较好。不墙感觉。</span><br></pre></td></tr></table></figure>
-<ol>
-<li>蓝灯VPN（lantern）</li>
-</ol>
-<blockquote>
-<p>流瀑效应<br>三人成虎</p>
-</blockquote>
-<h3 id="2018-9-7"><a href="#2018-9-7" class="headerlink" title="2018.9.7"></a>2018.9.7</h3><blockquote>
-<p>伴随着拼多多的上市，“消费降级”一词越来越多地出现在人们的视野中，请问，你认为这个时代是消费降级的时代吗？如果是的，其中又蕴含着什么商机呢？</p>
-</blockquote>
-<ol>
-<li><a href="https://www.zhihu.com/question/30681215" target="_blank" rel="noopener">知乎体</a></li>
-<li>快速消费品：<code>FMCG</code></li>
-<li>“消费降级”是一个伪命题，因为消费升级包括两个层面，一是可支配收入的增加，二是消费主体的扩大。而拼多多的崛起，恰恰说明了消费在升级——很多原来不用电商的人开始用电商了。真正的消费升级，应该是跳出价格和品牌的束缚，转而追求购买产品的质价比，追随内心所想，体验更佳的流程服务体验。</li>
-<li>市场下沉、70后始终都是一个需要消费降级的年龄阶层</li>
-<li></li>
-</ol>
-<h3 id="2018-9-8"><a href="#2018-9-8" class="headerlink" title="2018.9.8"></a>2018.9.8</h3><blockquote>
-<p>子弹短信自上线以来迅速冲到App store免费榜榜首，并且在七天之内获得1.5亿融资，请问你如何看待这款产品？你看好它未来的发展吗？（也可以谈一谈你对社交领域相关看法）</p>
-</blockquote>
-<h3 id="2018-9-9"><a href="#2018-9-9" class="headerlink" title="2018.9.9"></a>2018.9.9</h3><blockquote>
-<p>答疑</p>
-</blockquote>
-<h3 id="2018-9-10"><a href="#2018-9-10" class="headerlink" title="2018.9.10"></a>2018.9.10</h3><p>风险收益横纵坐标，每个象限是不同的人群。<br>市场上最好的短期理财产品，朝朝赢。</p>
-<h3 id="2018-9-11"><a href="#2018-9-11" class="headerlink" title="2018.9.11"></a>2018.9.11</h3><blockquote>
-<p>如何看待中国的保险行业（可靠性、金融属性等，可以畅聊）</p>
-</blockquote>
-<ol>
-<li>2018年1-7月，产险公司原保险保费收入6915.62亿元，同比增长13.45%，其中大部分来源于机动车保险。</li>
-<li>在2015年取消代理人资格考试。代理人数的爆发式增长</li>
-<li></li>
-</ol>
-<h3 id="2018-9-12"><a href="#2018-9-12" class="headerlink" title="2018.9.12"></a>2018.9.12</h3><blockquote>
-<p>如何解决送外卖车的超速违章等安全问题？</p>
-</blockquote>
-<h3 id="2018-9-13"><a href="#2018-9-13" class="headerlink" title="2018.9.13"></a>2018.9.13</h3><blockquote>
-<p>今日凌晨的苹果新品发布有什么亮点和槽点？</p>
-</blockquote>
-<h3 id="2018-9-14"><a href="#2018-9-14" class="headerlink" title="2018.9.14"></a>2018.9.14</h3><blockquote>
-<p>设计一个两天的行程</p>
-</blockquote>
-<p>ingress：是一款将虚拟环境与现实地理位置信息结合在一起的手机游戏，即适地性游戏（Local based game）</p>
-<h3 id="2018-9-15"><a href="#2018-9-15" class="headerlink" title="2018.9.15"></a>2018.9.15</h3><blockquote>
-<p>如何看待滴滴晚间停止运营，用户打不到车的现象？你认为公共交通有哪些可以调整的地方？</p>
-</blockquote>
-<p>劣币驱逐良币：劣币驱逐良币(Bad money drives out good)是指当一个国家同时流通两种实际价值不同而法定比价不变的货币时，实际价值高的货币或银子（良币）必然要被熔化、收藏或输出而退出流通领域，而实际价值低的货币（劣币）反而充斥市场。16世纪英国伊丽莎白造铸局长提出，也称“格雷欣现象”（Gresham’s Law），他观察：消费者保留储存成色高的货币（undebase money）（贵金属含量高），使用成色低的货币（debased money）进行市场交易、流通。<br>帕累托改进；</p>
-<h3 id="2018-9-16"><a href="#2018-9-16" class="headerlink" title="2018.9.16"></a>2018.9.16</h3><blockquote>
-<p>怎么看待众筹项目以及总筹项目中越来越多的挂羊头卖狗肉行为？</p>
-</blockquote>
-<h3 id="2018-9-17"><a href="#2018-9-17" class="headerlink" title="2018.9.17"></a>2018.9.17</h3><blockquote>
-<p>你如何看待浙大体育课新打卡制度，bug和debug<br>⊂( *･ω･ )⊃</p>
-</blockquote>
-<h3 id="2018-9-18"><a href="#2018-9-18" class="headerlink" title="2018.9.18"></a>2018.9.18</h3><blockquote>
-<p>浙大最喜欢的哪一门课，请说明理由？</p>
-</blockquote>
-<h3 id="2018-9-19"><a href="#2018-9-19" class="headerlink" title="2018.9.19"></a>2018.9.19</h3><blockquote>
-<p>紫金港的情侣们往往找不到可以经济且短暂二人独处的地方。请以此构想一个创业idea</p>
-</blockquote>
-<h3 id="2018-9-20"><a href="#2018-9-20" class="headerlink" title="2018.9.20"></a>2018.9.20</h3><blockquote>
-<p> 菲尔兹和阿贝尔奖双料得主Michael Atiyah爵士宣称自己证明了黎曼猜想，要在9月24日海德堡获奖者论坛上宣讲,有什么想法？</p>
-</blockquote>
-<h3 id="2018-9-21"><a href="#2018-9-21" class="headerlink" title="2018.9.21"></a>2018.9.21</h3><blockquote>
-<p>itp和preitp做过的最疯狂的事。</p>
-</blockquote>
-<p>哈哈哈歧义了。</p>
-<h3 id="2018-9-22"><a href="#2018-9-22" class="headerlink" title="2018.9.22"></a>2018.9.22</h3><blockquote>
-<p>分析国内游乐园的发展状态，例如对比迪士尼和方特。</p>
-</blockquote>
-<p>环球影城和欢乐谷比较优势。文化依托。<br>方特每地都有不同的风格。</p>
-<h3 id="2018-9-23"><a href="#2018-9-23" class="headerlink" title="2018.9.23"></a>2018.9.23</h3><blockquote>
-<p>中秋月饼如何创新、如何看待星巴克卖月饼？ 如何看待可口可乐公司收购costa，对星巴克有什么影响么？</p>
-</blockquote>
-<h3 id="2018-9-24"><a href="#2018-9-24" class="headerlink" title="2018.9.24"></a>2018.9.24</h3><blockquote>
-<p>2018年9月22日，中国外交部副部长王超同梵蒂冈代表团团长、教廷与各国关系部副部长卡米莱利在北京举行会谈，并签署关于主教任命的临时性协议。中梵双方将继续保持沟通，推动双方关系改善进程继续向前发展。中国外交将会有什么新举措？</p>
-</blockquote>
-<p>###2018.9.25</p>
-<blockquote>
-<p>假如你目前有启动基金1000元，如何在一周内在紫金港校区中挣到尽可能多的钱？进货、销售渠道不限。</p>
-</blockquote>
-<ol>
-<li>学霸餐</li>
-<li>给学长介绍女朋友</li>
-<li>交友party，门票费+场地费</li>
-<li>留学中介、小白司机</li>
-</ol>
-<h3 id="2018-9-26"><a href="#2018-9-26" class="headerlink" title="2018.9.26"></a>2018.9.26</h3><blockquote>
-<p>“真正健全城乡融合发展体制机制，清楚阻碍要素下乡各种障碍，进一步搭建实施乡村振兴战略地制度框架和制度体系，这其中有不少硬骨头要啃。”李伟认为。乡村振兴这盘大棋该如何下？</p>
-</blockquote>
-<ol>
-<li>东南沿海乡村和其他乡村</li>
-<li>短期生搬硬套、同质化严重</li>
-<li>对口帮扶单位高价收购某项产品，然后2020年退出</li>
-<li>新供应链、政府公益+民间公益、顶层设计</li>
-<li>《大国大城》现在区域差距的扩大是平衡的一个过程</li>
-</ol>
-<h3 id="2018-9-27"><a href="#2018-9-27" class="headerlink" title="2018.9.27"></a>2018.9.27</h3><blockquote>
-<p>1、张小平离职事件怎么看待。2、离职、跳槽是浮躁的表现吗？</p>
-</blockquote>
-<p><code>cold call</code>、<code>desk research</code></p>
-<h3 id="2018-9-28"><a href="#2018-9-28" class="headerlink" title="2018.9.28"></a>2018.9.28</h3><blockquote>
-<p>十一黄金周等法定假日队新零售行业有什么样的影响？</p>
-</blockquote>
-<p>高速路买东西？严重违法好吗</p>
-<h3 id="2018-10-1"><a href="#2018-10-1" class="headerlink" title="2018.10.1"></a>2018.10.1</h3><blockquote>
-<p>2018 年诺贝尔生理学或医学奖授予美国免疫学家詹姆斯·艾利森和日本免疫学家本庶佑，以表彰他们通过抑制免疫系统负调节发现的癌症免疫疗法。对于癌症的研究脚步前进，你对未来的医疗有什么期待？你预估十年之后智慧医疗实现将会是什么样的？</p>
-</blockquote>
-<ol>
-<li>应急性</li>
-<li>“医养结合”</li>
-<li>精准医疗要求足够多的临床数据和个人基因组信息等</li>
-</ol>
-<h3 id="2018-10-2"><a href="#2018-10-2" class="headerlink" title="2018.10.2"></a>2018.10.2</h3><blockquote>
-<p>10月1日马云放弃对于阿里巴巴的实际控制权，阿里股价一度下挫，截至北京时间2日0:46分较开盘已经下跌1.08％。此次行动，官方说法是“此举将保证阿里合伙人支付在公司治理中发挥作用，减少关键人员风险，提高VIE实体股权的稳定性”。那么马云这一次行动向市场释放了哪些信号呢？你们怎么看待这一次举措？怎么看待阿里巴巴的合伙人机制？</p>
-</blockquote>
-<p><code>VIE</code>：<a href="http://m.chuansong.me/n/2202960647031" target="_blank" rel="noopener">VIE</a></p>
-<h3 id="2018-10-3"><a href="#2018-10-3" class="headerlink" title="2018.10.3"></a>2018.10.3</h3><blockquote>
-<p>试想AR可视化应用于教育行业</p>
-</blockquote>
-<ol>
-<li>Microsoft Hololens</li>
-</ol>
-<h3 id="2018-10-4"><a href="#2018-10-4" class="headerlink" title="2018.10.4"></a>2018.10.4</h3><blockquote>
-<p>你认为科学家和企业家的区别是什么？如何看待科研成果商业化？</p>
-</blockquote>
-<p>科研必须与产业结合才能对人类进行推动，但是这个转化过程必须谨慎为之。</p>
-<h3 id="2018-10-5"><a href="#2018-10-5" class="headerlink" title="2018.10.5"></a>2018.10.5</h3><blockquote>
-<p> 青瓦舍线下座谈会</p>
-</blockquote>
-<ol>
-<li>潮牌的讨论，潮牌是什么。</li>
-<li>明星品牌、宣传飘逸。</li>
-<li>标榜国牌</li>
-<li>潮牌的收入</li>
-<li>对个性的追求等等</li>
-<li>潮牌的文化、跟风的现象</li>
-<li>衣服品质不放心</li>
-</ol>
-<p>校园的潮牌服装是怎么样的？<br>宣传、营销、需求、认可度不高。<br>平时穿得衣服，水印放淡。<br>如何在归属感的情况下进一步的开发、运用隐形暗示。<br>款式可以更多样。<br>求是印象——生活态度、非校徽、独立的牌子（exclude 求是印象）</p>
-<p>//：问卷不了解、潮牌定义、信仰、自我穿著、大学生潮牌自我认识。</p>
-<blockquote>
-<p>你最喜欢的三个APP是什么。</p>
-</blockquote>
-<ol>
-<li>网易公开课、混沌大学、得到</li>
-<li>小红书、日上、丝芙兰</li>
-<li>知乎、好奇心日报、华尔街日报</li>
-<li>水滴清单、滴答清单</li>
-<li>to the moon</li>
-</ol>
-<h3 id="2018-10-6"><a href="#2018-10-6" class="headerlink" title="2018.10.6"></a>2018.10.6</h3><blockquote>
-<p>如何看待娱乐产业暴利，就范冰冰逃税之事讨论娱乐产业合法与非法。</p>
-</blockquote>
-<p><code>半导体行业</code>：好吧，就是本意，我想多了。</p>
-<h3 id="2018-10-7"><a href="#2018-10-7" class="headerlink" title="2018.10.7"></a>2018.10.7</h3><blockquote>
-<p>从腾讯的发展历史看中国互联网巨头的历史与发展。</p>
-</blockquote>
-<h3 id="2018-10-8"><a href="#2018-10-8" class="headerlink" title="2018.10.8"></a>2018.10.8</h3><blockquote>
-<p>ITP微信推文视频</p>
-</blockquote>
-<ol>
-<li>为中国社会经济的健康发展培养创业型人才、技术创业与社会创业人才</li>
-</ol>
-<h3 id="2018-10-9"><a href="#2018-10-9" class="headerlink" title="2018.10.9"></a>2018.10.9</h3><blockquote>
-<p>奶茶调研<br>因为没有怎么喝过奶茶，所以调研了一下小伙伴们</p>
-</blockquote>
-<h3 id="2018-10-14"><a href="#2018-10-14" class="headerlink" title="2018.10.14"></a>2018.10.14</h3><blockquote>
-<p>ITP分享会<br>吴晓波老师致辞：</p>
-<ol>
-<li>创业精神就是超越你现有的资源和能力去做那些事情。</li>
-<li>对汽车感兴趣。</li>
-<li>去年中国城汽车增长量1.3%，而该企业增长为68.x%。</li>
-<li>强化班出去的人创业20%以上——不走寻常路</li>
-<li>强化班与长征类比。</li>
-<li>浙江大学高技术创新创业强化版 IT-<code>DT</code> digtial technology <code>DT</code> data technology <code>ABC</code>=AI BIG DATA CLOUD</li>
-<li><a href="https://zh.wikipedia.org/wiki/%E8%B7%AF%E5%BE%84%E4%BE%9D%E8%B5%96" target="_blank" rel="noopener">路径依赖</a></li>
-<li>教育部十大班级奖，唯一一个班级里面的同学来自不同专业的班级。</li>
-</ol>
-</blockquote>
-<p>应颂敏讲话<br>嘉宾分享环节：<br>叶雅露：</p>
-<ol>
-<li>考前一个月的时候要推掉所以事情</li>
-<li>非典型学霸、不小心连续创业者、不靠谱导师</li>
-<li>机缘巧合</li>
-<li>核心问题：创业精神——敢想、敢做、敢苦</li>
-</ol>
-<p>余腾：</p>
-<ol>
-<li>毕业五年、连续创业四年</li>
-<li>四个小故事<ol>
-<li>五个学生，价值300万</li>
-<li>一周70万粉丝，价值5000万</li>
-<li>1个月营业额翻10倍，1个月一个亿</li>
-<li>做好品牌，鼓励竞争——形象垄断</li>
-</ol>
-</li>
-<li>小康无忧、大富无望</li>
-<li>未来充满可能性</li>
-<li>一群靠谱的伙伴、一条高速的赛道、一个伟大的目标 VAT/BAT</li>
-<li>切到细分领域的第一名</li>
-<li>永远都是低端追逐高端</li>
-</ol>
-<p>龚雪：</p>
-<ol>
-<li><code>ITP</code>= Who an I + To Where + Path</li>
-<li>勇敢地站在话题中心</li>
-</ol>
-<p>方毅：</p>
-<ol>
-<li>仪式感</li>
-<li>家人的恨铁不成钢</li>
-<li>自我迭代和修复</li>
-<li>神州大地第一班</li>
-<li>班级kpi，开一家公司</li>
-<li>不确定性+恐慌 抱着这样的一种心态上去</li>
-<li>强化班班刊、7人委员会，类似一个成熟的公司</li>
-</ol>
-<h3 id="2018-10-16"><a href="#2018-10-16" class="headerlink" title="2018.10.16"></a>2018.10.16</h3><blockquote>
-<p>魏江老师公开课</p>
-</blockquote>
-<p>非线性思维：生态战略布局</p>
-<ol>
-<li>中美贸易战以后，浙江的制造业</li>
-<li>中国逢八的灾难,2018强起来——富起来的关键转折年</li>
-<li>不移动的航空母舰——南海岛屿</li>
-<li>要有底牌 </li>
-<li>碎片与整片的要求</li>
-<li>担当——2/860</li>
-<li>THE、NEWS产业合作转换NO1</li>
-<li>浙江的今天就是中国的明天，浙江人不吹人，是埋头干的</li>
-<li>创业博士点管理学院、硕士点浙江大学</li>
-<li>浙江决定中国、浙大决定浙江、ITP决定浙大</li>
-<li>有两个资产capital不是你的——1、智商 2、外表</li>
-<li>凡是创业者就是不计利害，只问是非；凡是创业者就是不顾倾家荡产也要往里冲。</li>
-</ol>
-<blockquote>
-<p>为什么在新的时代，我们需要非线性思维？</p>
-</blockquote>
-<ol>
-<li>工科与之ITP有什么用、靠模式翻一番</li>
-<li>金融顾问咨询费+=放贷，10%</li>
-<li>交易心理学和消费者心理学</li>
-</ol>
-<h2 id="ITP报名页附页："><a href="#ITP报名页附页：" class="headerlink" title="ITP报名页附页："></a>ITP报名页附页：</h2><p>欢迎学长学姐们来到这个地方，如果你们看到了这，那么一定要让我知道哦！说明你们很有耐心！</p>
-<blockquote>
-<p>说出你的故事吧！——我就是故事，我活得就是一部自己看的电影。</p>
-</blockquote>
-<img src="/2018/08/23/ITP/img/lyric.jpg" title="[刚开始写附页的时间，但是并不是附页完稿的时间]">
-<p>有很多话想和学长学姐们说，现在时间是10.21周日01:51，再过8h09min就是排球赛了。码下这些话的我在一个人的办公室里，对着屏幕不禁想起了班歌MV里的那个深夜打开mac的场景。我知道这里展示自我的空间如果放到报名表上肯定overflow了，但是我还是想说一下。这不能算是恶竞，毕竟平时没有人可以说呀，况且200字也不能把我的真实想法表述详尽呀。ITPer都是一群可以深夜食堂的人。哦对了，这个报名页附页说明的👆都是我平时做的笔记，自从搭了blog，发现记笔记很舒服～学长学姐们不要想多呀，这个BLOG是我大一暑假搭的，并不像其他同学在报名表提前一周内再搭一个网页这样👀</p>
-<p>从哪开始呢？那就按照报名表的顺序开始好啦。</p>
-<h3 id="基础信息"><a href="#基础信息" class="headerlink" title="基础信息"></a>基础信息</h3><p>在填写表格的时候出生地这里突然间电花火石了一下，然后把自己的医院也填进去了😂//学长学姐们可能看不懂，突然意识到这个附加信息页可能成为了答疑页面了。</p>
-<ul>
-<li>个人爱好与特长内<code>-</code>前面是技能爱好特长，后面是相应的水平，这佐证了我的读题还是很细心的，我的逻辑还是很严密的。</li>
-<li>那个音乐的水平是刚学的正态分布的意思～</li>
-<li>场控和MC还是有所区别的，MC是指Microphone Control，优先级比场控高～</li>
-</ul>
-<h3 id="电商"><a href="#电商" class="headerlink" title="电商"></a>电商</h3><p>因为字数限制，还有些想法没有发上来，其实早在4年前，我与杭州大厦耐克专柜的销售员加了微信以后，他是我遇到的第一个微商；然后后来的小丑鱼流量和品栋数码，都是。去年，阿里授意淘客拉拢微商为阿里导流卖货；线下消费品巨头纷纷开发独立产品进军微商；知名药厂用授权分红或占股形式招募微商代理……越来越多的人意识到微商渠道的重要性并发力挤到这辆快车上来。SES、星咖联盟等微商联盟早就应运而生了。</p>
-<h3 id="奶茶"><a href="#奶茶" class="headerlink" title="奶茶"></a>奶茶</h3><blockquote>
-<p>让一个不喝奶茶的人好为难啊！！</p>
-</blockquote>
-<p>楼上的确是第一想法了，但是仔细想想都到这一步了，怎么能放弃ITP呢？还是可以做一点东西的！</p>
-<ul>
-<li>第一判断：黑龙堂和Coco走的是品牌大型连锁顾客锁定率高；果汁吧和花哥走的是有特色没有竞争；益禾堂蜜雪冰城走的价格低；一点点广告响；明亨和小娟村各个都有一点吧……所以也不会倒闭但是也不会很火；野路子走的文艺路……浙大不需要啊；</li>
-<li>第二判断：调研一下吧。由于事务较多（ITP、运动会、排球赛、各种学习）</li>
-</ul>
-<img src="/2018/08/23/ITP/img/2.jpg" title="[时间就像海绵里的水，挤一挤，就没了]">
-<p>所以采取了顺路去堕落街采集离散顾客这样子：<br><img src="/2018/08/23/ITP/img/3.png" title="[最下面是标语]"></p>
-<ul>
-<li>其实最后还是想看看工商营业执照，想看看店铺与总店的经营方法，根据贴出来的招工广告判断营业水平，根据与店员的对话…结果都是想了想而已，真的没时间TAT</li>
-<li>思考了一下还是坚持了第一判断</li>
-</ul>
-<h3 id="项目策划书"><a href="#项目策划书" class="headerlink" title="项目策划书"></a>项目策划书</h3><p>感谢两位队友的配合！从来没有找过ITPer帮忙修改，可能是没空可能也是没有意识到，但是总感觉其他组找ITPer修改违反了一定规则，这包含了超出他们实力的部分。但是也不可否认方法和人脉也是实力的一部分…那就这样吧！</p>
-<h3 id="战争游戏"><a href="#战争游戏" class="headerlink" title="战争游戏"></a>战争游戏</h3><p>是和两个小姐姐组队的，但是其中一个金融偏文科，另一个计科偏不羁…所以只能大部分协调与想法都由我承担了…<br>想法很多很多，怕学长学姐们表刷累了就不赘述了，用图表展示一下我当时的思维历程吧～<br><img src="/2018/08/23/ITP/img/yx.png" title="[概率法]"><br><img src="/2018/08/23/ITP/img/python1.png" title="[用python强行列举已经经过博弈的数组]"><br><img src="/2018/08/23/ITP/img/python2.png" title="[6分钟的结果...怕电脑坏，关掉了]"></p>
-<h3 id="遇到的ITPer"><a href="#遇到的ITPer" class="headerlink" title="遇到的ITPer"></a>遇到的ITPer</h3><blockquote>
-<p>就是我本来是个工科生嘛，然后大一的时候加了勤创，对创新创业开始感兴趣，也很希望能够接触一下这方面的知识，给自己一个不同的看问题的视角，这算是我加入itp一个最主要的原因吧～其次的话，就是周围人大家都很想加入itp，也带动了我吧～我感觉首先就是认识了一群很厉害很优秀的人，你在与他们接触的过程中，你会发现一些新的东西。其次，我感觉itp的课程也给了我很大的启发，这跟我之前学到的知识有点不太一样，给了我一种完全不同的思维方式。</p>
-</blockquote>
-<p>//猜猜看是谁</p>
-<blockquote>
-<p>我想在大学多去接触一些行业又或是说其他专业的同学，而我当时了解到ITPer每一个里面的人，都会有自己独特的想法和有趣的灵魂。我觉得去和这些人一起度过两年，对我来说是很有意义而且可以在他们身上学到很多。这是我第一个想法。<br>第二个想法是，我自己本身是有想去学管理类的课程，偏企业的，那我觉得浙大这么多班级，强化班是一个很强很特例的存在。里面的不管是师资还是课程都是很顶尖的，我想去学系统的一套管理的方法。<br>第三个想法是我进入到强化班里面，更加深刻加深的，就是我觉得我们这一代人，能考进浙大已经是前百分之一百分之二的人的，那我们这些人都不想着去改变世界，这个时代该怎么前进呢。</p>
-</blockquote>
-<p>//猜猜看是谁</p>
-<blockquote>
-<p>加入itp的原因：本身对商业感兴趣，有使命感，希望可以用商业的方法改变这个世界，或者说，让世界变得更好。希望成为一个复合型的人才，不喜欢单调的生活，这都是原因。<br>现实：确实学到了很多商业知识，锻炼了创新创业领域的一些能力，比如行业分析，商业模式等等，但是并没有做到主修与辅修最佳的平衡，所以还是有点遗憾的。<br>思考：ITP的成员都很优秀，保持交流，持续学习，但是也要明确自己的目标，不随波逐流，做好自己，耐心学习，敢于实践。</p>
-</blockquote>
-<p>//猜猜看是谁</p>
-<h3 id="自荐书"><a href="#自荐书" class="headerlink" title="自荐书"></a>自荐书</h3><p>有点意识流写法，但是还是经过构思的——</p>
-<ul>
-<li>开头的两个事例在结尾得到了呼应</li>
-<li>这两个事例是我的动机想法一部分</li>
-<li>都是真人真事</li>
-<li>奶奶真的很辛苦，就算对不起自己，也要让奶奶骄傲！</li>
-<li>中间还有加粗的地方是呼应</li>
-</ul>
-<h2 id="请务必比我们做得更好"><a href="#请务必比我们做得更好" class="headerlink" title="请务必比我们做得更好"></a>请务必比我们做得更好</h2><p>无论初衷与现实，尽人事听天命，学长学姐们看到这里辛苦啦！希望在ITP里面再见～</p>
-<h2 id="一面"><a href="#一面" class="headerlink" title="一面"></a>一面</h2><blockquote>
-<p>被锅老师说了，突然有一点点小紧张，准备来这里看看。</p>
-<ol>
-<li>独角兽企业：初创估值在10亿美元以上的公司。 ITP作为标志应该是对独角兽潜力和能力的信任。</li>
-<li>ITP intensice training program of innovation and entrepreneurship</li>
-<li>班刊《创想》原名《教务评论》</li>
-<li>浙江大学校内论坛飘渺水云间BrainStorm版块</li>
-<li>我们总共进行了上海、杭州、北京3地，累计43小时录音</li>
-<li>班训：沟通，内省，实践</li>
-<li>自我介绍：<br> 各位学长学姐们好，我叫胡家翌，古月胡，家庭的家，翌日的翌，意思为家庭的明天。目前本科二年级自动化控制在读。像电影bucket list那样，我一直都想surround to the void，拥抱边际，有着向未知探索的冲动，我觉得ITP是一个引起我内心躁动的地方，最后谢谢给我的这次面试机会，我希望能走得更远。</li>
-<li>1、国家首肯，市场规范，有法可依消解电子商务痛点；2、自然人网商正式进入行政监管视野；3、明确电商平台数据提供和报送义务</li>
-<li>动机：就像我自荐书里写到的，小时候是奶奶带的我，然后看到奶奶生活节俭就像赚大钱，后来开始反思自己和“那些”有杰出成果的人之间的差距，有想法一定要去做。千篇一律的模式化生活束缚了我。虽然说创业十创九死，但是只要我还活着，就可以再来。在九年制义务教育之前都被压抑着，到了大学这边就应该放开了，大学生都和以前一样的话，那社会还有什么改变呢？想做一些对这个世界有点改变的事情，然后看到ITP就点燃了我内心的躁动。我就来了</li>
-<li>大数据、区块链、人工智能</li>
-<li>未来酒店</li>
-<li>人类本质的-—健康，3D打印身体、未开发的——太空海洋、管理现有秩序的——区块链。</li>
-</ol>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>Exploring Life</tag>
-        <tag>ITP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Meetings</title>
-    <url>/2018/10/21/Meetings/</url>
-    <content><![CDATA[<h3 id="2018-10-21"><a href="#2018-10-21" class="headerlink" title="2018.10.21"></a>2018.10.21</h3><p>参会人员：9人</p>
-<ol>
-<li>会议记录轮流记</li>
-<li>网盘制度—yct</li>
-<li>人资的联系人制度—zbm</li>
-<li>财务-lxy</li>
-</ol>
-<a id="more"></a>
-<ol start="5">
-<li>因为科技部人员冗余，需要起草一个考核机制文案</li>
-<li>回复个人优点的消息</li>
-<li>收集竞赛信息*2 wzh/zhy</li>
-<li>学习小组<ol>
-<li>有四个小组</li>
-<li>拉小群，发任务</li>
-<li>每个人都要定目标和每周安排、作业、评分</li>
-<li>线下，答疑自己安排</li>
-<li>每周汇报、进度要排好</li>
-<li>linux-wk ROS-yjtz </li>
-</ol>
-</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>Exploring Life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MacAppRecmd</title>
-    <url>/2020/10/01/MacAppRecmd/</url>
-    <content><![CDATA[<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>​        这应该算是这个blog三分钟热度以后的第一次好好写的文章，原因是在新阶段开启以后，犬子若楠寻求Mac的APP好用的解决方案，那关键词是效率，所以就开了一个新的tags：Efficiency.</p>
-<a id="more"></a>
-<h4 id="锦上添花"><a href="#锦上添花" class="headerlink" title="锦上添花"></a>锦上添花</h4><ul>
-<li><strong>FluxFlux</strong> </li>
-</ul>
-<p>​    简介：Flux的作用是能让你的电脑显示光随着你所在地区的自然光变化的一款软件.</p>
-<p>​    心得：适合紫金港断电的宿舍使用，如像玉泉般有台灯，则效果不好，因为台灯强行延长环境光强，而位置计算的光已经很弱，故效果不好，笔者来到玉泉以后弃用。</p>
-<img src="/2020/10/01/MacAppRecmd/img/flux.jpg" title="[Flux Interface]">
-<p>点击下载<a href="https://justgetflux.com/" target="_blank" rel="noopener">Flux</a></p>
-<ul>
-<li><strong>Itsycal</strong></li>
-</ul>
-<p>​    简介：Itsyacal的作用是在顶部除了Mac自带的时间，另加一个月、日、星期，以及一个隐藏式日历.</p>
-<p>​    心得：我挺喜欢的，写项目管理或者规划随后一看日历就很快。</p>
-<img src="/2020/10/01/MacAppRecmd/img/Itsycal.jpg" title="[Hidden schedule]">
-<p>点击下载<a href="https://www.mowglii.com/itsycal/" target="_blank" rel="noopener">Itsycal</a></p>
-<ul>
-<li><strong>Grid</strong> ⭐️</li>
-</ul>
-<p>​    简介：Grid提供了快捷键的半分屏、四分屏操作，使得屏幕操作更加简便.</p>
-<p>​    心得：一般就是在对着pdf、word看文献、搬运等用途就很巴适。</p>
-<img src="/2020/10/01/MacAppRecmd/img/Grid.gif" title="[Example]">    
-<p>点击下载<a href="[http://mildgrind.com](http://mildgrind.com/">Grid</a>)</p>
-<ul>
-<li><strong>Foldery</strong></li>
-</ul>
-<p>​    简介：Foldery提供了Folder的颜色化，在Mac千篇一律蓝下，提供了千马彩的可能性。</p>
-<p>​    心得：红色绿色吧，太花了好像也不太合适。</p>
-<img src="/2020/10/01/MacAppRecmd/img/Foldery.jpg" title="[Great Look！]">    
-<p>点击下载<a href="https://mac.orsoon.com/Mac/162400.html" target="_blank" rel="noopener">Foldery</a></p>
-<ul>
-<li><strong>Bartender</strong></li>
-</ul>
-<p>​    简介：Bartender提供了一种缩减bar空间的方案。</p>
-<p>​    心得：同时开的小图标占满了bar，我的网易云歌词放不出来了，心情简单。</p>
-<img src="/2020/10/01/MacAppRecmd/img/bartender.gif" title="[eiheihei]">    
-<p>点击下载<a href="http://www.sdifen.com/bartender3125.html" target="_blank" rel="noopener">Bartender</a></p>
-<h4 id="快马加鞭"><a href="#快马加鞭" class="headerlink" title="快马加鞭"></a>快马加鞭</h4><ul>
-<li>CleanMyMac</li>
-</ul>
-<p>​    简介：头部的清理软件、空间透镜</p>
-<p>​    心得：有破解版的，我却买了正版的，心安理得</p>
-<img src="/2020/10/01/MacAppRecmd/img/cmm1.png" title="[Vision]">
-<img src="/2020/10/01/MacAppRecmd/img/cmm2.png" title="[Space Lens]">
-<p>点击下载<a href="http://www.sdifen.com/cleanmymacx4613.html" target="_blank" rel="noopener">CleanMyMac</a></p>
-<ul>
-<li>Paste ⭐️</li>
-</ul>
-<p>​    简介：Paste 提供了快速的、回溯功能，而且天人合一。</p>
-<p>​    心得：真nm的好看</p>
-<img src="/2020/10/01/MacAppRecmd/img/Paste.gif" title="[Fucking Awesome]">
-<p>点击下载<a href="https://pasteapp.io/" target="_blank" rel="noopener">Paste</a></p>
-]]></content>
-      <tags>
-        <tag>Efficiency</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>STM32</title>
-    <url>/2018/08/19/STM32/</url>
-    <content><![CDATA[<h2 id="STM32-Learning"><a href="#STM32-Learning" class="headerlink" title="STM32 Learning"></a>STM32 Learning</h2><p>经历了深圳的颓废以后，看清楚了人世险恶，也认清楚了一些所谓朋友，FPO于2018.8.19开启了STM32的学习。痛心忍性，增益其所不能。</p>
-]]></content>
-      <tags>
-        <tag>Learn Log</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Singapore</title>
-    <url>/2019/09/09/Singapore/</url>
-    <content><![CDATA[<center><font size="5">新加坡游学研修营</font></center>
-
-<h3 id="2019-8-29"><a href="#2019-8-29" class="headerlink" title="2019.8.29"></a>2019.8.29</h3><p>​        在告别了骤降10度温度的杭州，我们在一路颠簸中来到了上海浦东。第一次来到这里，以浙江大学控制学院的身份出行，我的心中不免有了许多新的想法和感触。在外人看来，这个车里是浙江大学的代表位出发，而我们此时内心对于这个代表位并没有明显的认识。新加坡落地后能够看到的随处可见的语言指示牌英文、中文、日文、马来文四大语言体系。整顿安置好之后，虽然老师对于我们的任务就是要吃饱喝足修养生息，但是在我们看来这就一个对新加坡的初步探索之夜。</p>
-<ol>
-<li>银行换来的货币面额其实硕大，换来的100 Singapore Dollar其实在新加坡本地算是较大的数额，一般的小店不太找得开，这就对于我们一开始打算在711换零钱造成了一定的困难。</li>
-<li>从机场到住宿所在的地方，限速70码的东西向Highway，约莫过了半个小时左右，我们已经到了新加坡一般的距离。这座城市之国以其极其短小精悍的能力和容纳养育着可持续发展和发达国家的内涵。这就是我们游学研修的内容指向性 </li>
-<li>新加坡的房屋建筑安排错落有致，但是风格不一。今天晚上小组夜行的区域和地方类似于穆斯林群居区，所以大胆推断新加坡这个混合人种的国家有其独特的种族区域聚落的划分。</li>
-<li>新加坡三面环海，实在岛国。所以新加坡水资源极其贵重，2 Dollar一瓶的水实在是难以承受生命之轻的重量。而新加坡牛奶的价格和国内比较持平，所以有水掺杂的物品都会比较贵重。3 Dollar同一品牌的土豆泥对标国内6RMB的售价。</li>
-<li>作为一个老司机，新加坡的开车靠左。司机车位靠右也深深吸引着我。明天需要一探究竟的是是否整个车都轴对称了导致左边是油门右边是刹车呢？毕竟人是没办法轴对称的。</li>
-<li>新加坡路牌距离指示的时候，并没有说还有多远，而是说距离机场24mins。这个小到寸土寸金的地方，毕竟可以用时间来计算距离了。</li>
-</ol>
-<img src="/2019/09/09/Singapore/img/1.jpg" title="[Above_the_air]">
-<img src="/2019/09/09/Singapore/img/2.jpg" title="[Night]">
-<a id="more"></a>
-<h3 id="2019-8-30"><a href="#2019-8-30" class="headerlink" title="2019.8.30"></a>2019.8.30</h3><p>​        今天的行程主要是A*STAR里的汇智世界展示厅参观和WU YAN博士的分享解答plus新生水厂。</p>
-<h4 id="A-STAR"><a href="#A-STAR" class="headerlink" title="A*STAR"></a>A*STAR</h4><p>A<em>STAR stands for </em>Agency for Science, Technology and Research*，这个abbreviation解答了我们对于这个STAR里第二个A含义的包容。首先在游客展示通用的汇智展厅里展示了7项科技成果。</p>
-<ol>
-<li>SINGAPP 可以将人读英文的声音录入然后进行一定程度的转换，目测是匹配已经有的曲调而不是针对声音自带的曲调进行曲调再创作（这部分还要更多的自动学习加进去），目标人群是胆怯于唱歌或者唱歌不好的人。有一定的启蒙基础，但是对于唱歌还好的猛男一族比如说我就没有很大的用处。</li>
-<li>iLIFT 这个就是一个从软硬件同时升级的智能电梯。我的想法是这个人工这方面在我国已经是很多的AI取代了，但是SG这边却应用了人工，所以对于这个HR是一个很大的浪费。Let’s assume 这样不仅会有很多人工的24小时待机制度，还要求所有的engineers都standby这样才能够更好的。没有办法自动处理好事故的电梯实在是称不上智能。现在回到酒店想想这个事故的概率很低，然后还要大规模全天候布置人力资源真的是有点浪费。</li>
-<li>BUSSYSTEM APP 主要针对人群是SCHOOL CHILDREN这个教育的切入点不错，能够带来很好的收入和应用市场。这里涉及到的万一有学生起晚了还可以绕路进行路线自定义规划然后接送的设计，但是细细想来如果每个学生每个节点都不规则的冒出来的话，这样就比较难解决这些问题了。这里就涉及到了新加坡的法律Personal Data Protection Commission，但是我关注的点是公家存储的时间，for sth crime or responsibility tracing back用的，可能要去 PDPC里面查询了吧。</li>
-<li>Visualized Detector 这个感觉就是一个交互式视觉识别检查机器。细细想来好像没有什么特别的难度只要导入大量的数据库和经验数据就好</li>
-<li>Enter Tech。利用脑部不同的alpha、beta，gamma波进行相应的分析计算简直就是和回车科技如出一辙，感觉好像两边实力没有办法比较，毕竟这个项目是在A*STAR的光环之下。</li>
-<li>Vans。可以感应的风扇，唯一可以拍照取证的地方更多地倾向于视觉效果，所谓的感应到人的motion就可以转动，感觉就是一个传感器和感应范围+精度的问题。</li>
-<li>裸眼3D，refer：iflythreed.com ，比较成熟的技术了，只是想到家中的Hisense电视机也宣扬了</li>
-</ol>
-<h4 id="WU-YAN"><a href="#WU-YAN" class="headerlink" title="WU YAN"></a>WU YAN</h4><p>​    学长的讲解对于新加坡是真的有新的认识，但是这里Slides不够，所以暂时空缺，这直接导致了我想要来新加坡暑研然后来新加坡读研究生并移民（移民并不成熟）的想法。</p>
-<ol>
-<li>新加坡<strong>Tertiary Education</strong>，这是一种成熟的人才引进策略+教育自循环强国的目的。</li>
-<li>新加坡不愧为亚洲四小龙之首，这个教育普及率是真的高，90%以上是-发达，我本来对它有所脾气的，现在也烟消云散了。</li>
-<li>新加坡历史不曾研究，但是作为弹丸之地的岛国，必然有土地的需求，所以就会填海造地，然后还有xx（同学人名）告诉我的新加坡相关的人种筛选计划加上今天新加坡不生小孩却人口激增都是变相的一种政策畸形。</li>
-<li>新加坡默默登上了很多世界第一，并不是纯粹靠马六甲海峡，这个让我想到了Quietly Brilliant的HTC，但是讽刺的是HTC最后把自己Quietly没了。</li>
-<li>A<em> STAR里分为三个部分，BMRC、SERC 研究所等，其中第三部分主要实现的是商业变现，也就是我们所说的”产学研结合”，一个科研如果没有变现的话其实是没有什么实际的价值，现实地来说就是最终都要服务于社会和人类。就这个安排来说，整个A</em> STAR就是一个小型的国家综合浓缩，这也难怪，毕竟新加坡就是个城市之国。</li>
-<li>A<em> STAR的政策很好 ，所谓A</em> STAR的PhD的工资比Stuff的还要高是真的有吸引力。</li>
-</ol>
-<h4 id="新生水厂"><a href="#新生水厂" class="headerlink" title="新生水厂"></a>新生水厂</h4><p>​    新生水厂这个是新加坡的命脉，这个小国家的运输成本和天然优势，可以使的新生水厂达到一定的垄断和科技集中发展。</p>
-<p>​    新生水厂的参观走廊从分别的4大顺序技术进行分析讲解，但是由于大致懂得和园区的幼稚园设计使得我没有很大的心思去参看，但是这个物理上的实际模型建筑对于技术的讲解对应倒是有点意思。徜徉在整个机械的厂房内，想象着这些都是洁净的、pure的水就是这么出来的，所谓的净化一说，就是这么的工厂化，想到了农夫山泉的广告，心里登时对这个工业化4.0的社会有了一些从源头上、生产上不一样的认识。</p>
-<p>​    新生水厂ABC：Active、Beautiful、Clean</p>
-<p>​    新生水厂Vow：All Conserve Value Enjoy</p>
-<h4 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h4><ul>
-<li>这个行程单上的 纬壹科技城就是以A*STAR的楼为中心的几重楼盘，作为一整个科技区</li>
-<li>新加坡起步谷就是最大的LJT。建筑商建厂房和租户的故事，说是硅谷和中关村也有一定的道理。就在23楼往下眺望的一小块地方ahhhh</li>
-<li>机器人研究所看了看也是都是一些可以理解的机器人物体，不是很懂是怎么回事。好像还是一家中国的企业里面还有浙大的学长，难怪灿若星辰的浙大人的称号是全球共誉的。</li>
-</ul>
-<h3 id="2019-8-31"><a href="#2019-8-31" class="headerlink" title="2019.8.31"></a>2019.8.31</h3><h4 id="NUS-Pros"><a href="#NUS-Pros" class="headerlink" title="NUS Pros"></a>NUS Pros</h4><p><strong>李海洲</strong>：语音识别和信号处理</p>
-<ol>
-<li>Biological character like Iris and Fingerprints are the most difficult to copy in biometrics how is the voiceprint’s。uniqueness compared to the former two like speed intonation frequency or other words to say ur insight and advice based on these years‘ experience about the voiceprint?    </li>
-<li>obstacle and goal to be conquer</li>
-<li>李海洲教授提出要不忘初心，语音识别的初心是为了让人有所依从而动。</li>
-<li>听觉实验，这个一开始没有意识到是高频低频敏感性，一开始只是以为是周期性节选不太一样导致循环音节在脑中形成的听觉效果不一样。</li>
-</ol>
-<p><strong>林芝平</strong>：人工智能医疗应用</p>
-<ol>
-<li>biomedical signal processing remember a scandal 2 years ago a blood test company blood test is one kind of biomedical signal but not more than bioeletrical signal when I am at my Freshman year，blood suger ，small scales but integrated</li>
-<li>MOSQUITO NET</li>
-<li>biomedical combination application prospect</li>
-<li>obstacle and goal to be conquer</li>
-</ol>
-<ul>
-<li>pigmentation</li>
-<li>transfer learning</li>
-<li>SMOTE</li>
-<li>v-PLDA</li>
-<li>SSIM-Index</li>
-<li>confusion matrix</li>
-<li>GAIN 网络</li>
-<li>CNN </li>
-<li>同一类再增加60个sample</li>
-<li>Pre-process Datawashing </li>
-</ul>
-<ol start="5">
-<li>其实所有的医疗/科研都需要一个起点进行，这个色斑/色素沉着的点其实真的是小到不能再小，但是作为经验先验转换为纯粹理性化的量化知识是一个弥天大坎。这就是科研，从每一个细小的地方出发，从而能够进一步做到更好。</li>
-</ol>
-<p><strong>Alex Kot</strong>：图像与视频相关处理与应用</p>
-<ol>
-<li>Stanford and Princeton DEEPFACE text into random lyrics，the video can be changed，it has much to do with these tech ，insight about?</li>
-</ol>
-<ul>
-<li>right labeling</li>
-<li>spatial temporal context——combined into a matrix</li>
-<li>Robust Trust Gate——datawashing method</li>
-<li>another gate to make  sure the relationship is consistary</li>
-<li>vertical 垂直细分市场</li>
-</ul>
-<p><strong>NUST-labs</strong>：Intern的Boss</p>
-<p>​        林丰博士作为任老师的好基友，带我们领略了一下飞行器实验室的陈列展览。我们得知了林博士和任老师是PhD的队友，他们合作开发的直升机He、She、It现在还有几架陈列在T-Lab里，其中我们看到了一架早期（开发者现在在MIT和Boston Dynamic前沿实验室工作）油动的六旋翼，其中我们还在端详的时候，任老师早就口出金句，这个是油动二进程的吗？Intelligence unmaned control？和林丰博士的相互互动也是十分有趣。林丰：这个的稳定性十分地好，因为它油动所以是线性的控制关系，所以控制十分地稳定，但是根据守恒原理，那么机械结构就会极其复杂。同样的，相比较于其他的飞行器，如果一个舵机坠落了，就会全盘皆输。</p>
-<h3 id="2019-9-1"><a href="#2019-9-1" class="headerlink" title="2019.9.1"></a>2019.9.1</h3><p>​        今天Universal Studio和Beach都逛过了，但是并不是很满意或者很猛男，对于尘世的情绪再次泛上。明信片也没有投递，真的是替代性感情呗。</p>
-<p>​        囿于贫穷的限制还是没有很好地选择到iFLY，但是和任老师交流时发现风洞飞行还是和跳伞有很大的不一样。跳伞有一种虚空感，没有风洞的实心托举。但是我还是一次都没有跳过伞，任老师已经做到了自我跳伞的证明了。这就像是黑暗油田中掉落了一根火星火柴。跳伞和潜水是相互联系的，一般对于这样追求的人来说，往往有很多的相似程度。类似我高中毕业的OW和AOW等我也试探性地提了出来，未曾想得任老师也是这方面的专家，直接现身说法得指出潜水的证是很好拿的，但是不能为了拿证而拿证，要看潜水的瓶数，30瓶AOW起步吧。</p>
-<p>​        啊，世界好大。</p>
-<img src="/2019/09/09/Singapore/img/3.jpg" title="[Tour]">
-<h3 id="2019-9-2"><a href="#2019-9-2" class="headerlink" title="2019.9.2"></a>2019.9.2</h3><h4 id="教育部教育沿革中心："><a href="#教育部教育沿革中心：" class="headerlink" title="教育部教育沿革中心："></a>教育部教育沿革中心：</h4><p>​        一直以来我都觉得SG的街道装潢风格很有特点，可能是为了充分利用土地资源，SGIsland本来就不是一个怎么平整的地方，换句话说相当于丘陵，那么在本来国土面积不大还需要填海造田的基础上，丘陵不可能被夷为平地，这样突起的土地资源也算是很有价值的一部分了，不太可能被移除的。所以秉承着这样的想法，一进到教育部就看到了一个Inspiration Garden，我感到深深的舒服。这个很好地表达了对教育的专注。接待我们的Kok是代表SG参加APEC的教育会议代表，Volunteer来到这个地方，很能够看出她对于自己这份介绍的自豪。她爷爷来自广东，爸爸马来西亚，而从小她只能选择一种语言，所以选择了英语，没有学汉语。</p>
-<p>​        <strong>1700s</strong>：在最早的时候新加坡大部分是中国和马来西亚的移民，所以大多数都是中国学校和马来西亚学校。在中国学校里还能看到清辫，是很彻底的学习了。</p>
-<p>​        <strong>1800s</strong>：这个时候是很多殖民地来到这里，殖民就是教育输出，殖民者没钱啊，但是谁有钱呢？传教士有钱，所以传教士所在的国家/宗教就派他们出来，所以传教士就疯狂办学。所以就形成了三足鼎立之势——政府学校、传教士学校、地方学校</p>
-<p>​        这个时候呢相比1800s来说摄影已经产生了，在一张张黑白照片里我们能更好的还原整个全貌，比1700s的油画要高明许多。由于这段时间人数激增，所以更多的教学楼拔地而起。</p>
-<p>​        <strong>1900s</strong>：世界殖民混战，Japanese冲到了这里，进行了殖民教育。🐶日本帝国，讲道理，这段时间学生数量骤减到1/10。所有中国人办的学校都不办了，进行了务农等曲线救国的活动。</p>
-<p>​        乱世出英雄，在这种情况下出现了三大巨擘，分别是Tan kah kee、Lee kong chian、Tan lark sye。在战乱时间因为军需是第一需求，所以没有办法需要很多钱，这时候三位巨擘出手了，怎么赚钱呢？从亚太沿圈国家进口Rober和Tin然后进行加工返厂贩卖一气呵成。</p>
-<p>​        随着日本投降和SG独立，越来越多的人需要教育，不然没有办法达到这个发达国家都难以望其项背的教育普及率，那么怎么办呢？学校有Double session制，上下午两班倒，充分利用学校和土地。对于老师来说，还有TTC，Teacher Train College，加上定期的Thinking Conference，这样多方面多点加强是真的不错。也难怪教育一直在国防后面紧跟第二（虽然21世纪以来可能掉到了交通后面）</p>
-<p>​        在结尾处看到了Flexiblity和Diversity&amp;Thinking School 和Learning Country，这就是多维度学习、终身学习的理念了，放在展厅的结尾着实是不错。</p>
-<img src="/2019/09/09/Singapore/img/4.jpg" title="[Words]">
-<h4 id="南洋理工"><a href="#南洋理工" class="headerlink" title="南洋理工"></a>南洋理工</h4><p><strong>ROSE</strong>：Rapid-Rich Object Search    </p>
-<p>​        很有趣的真假人脸识别，结合到最近的ZAO，一个软件的推出封装好的技术在娱乐下只是一个幌子，在很多人都不看的用户需知里面有很多的流氓条款，这便是开启犯罪的闸门。一瞬就可以有很多的犯罪，但是实验室识别换过的脸（还未实现）真假静态脸都要花费很长的时间，真是善恶一念间，所有的科研投入和经费values。科学技术是第一生产力（莫名其妙蹦出这句话）</p>
-<p><strong>IMI</strong>：Image Media Institute</p>
-<p>​        在IMI的官方fb上进行了报道，和四大技术（主要是仿人技术）进行了交流。具体细节还未可知，但是没有很多新的摄入，没有具体涉及到技术细节，所以侃侃而谈就没有很大的意义。同样有一个图片填补学习技术。这个展示的技术（卖给PS但是还未成功）是基于所有的库的，在这个基础上研究员说对人脸的识别比较有参考性，但是我觉得基于地球上的景色，所有的东西只要possilbe都可以入库，所以理论上自然景色也是可以学习填补的。不会差别特别大。这个还是让人认为比较有趣的。</p>
-<img src="/2019/09/09/Singapore/img/5.png" title="[saying]">
-<h3 id="2019-9-3"><a href="#2019-9-3" class="headerlink" title="2019.9.3"></a>2019.9.3</h3><h4 id="陆路交通局"><a href="#陆路交通局" class="headerlink" title="陆路交通局"></a>陆路交通局</h4><p>​        展示了新加坡的BUS、BIKE、AIR、BRT等大纵深交通网络交织，能够很好地体现新加坡的网络结构。联想到当初在教育局的时候SG的APEC代表说的，交通已经悄然成为了新加坡第二发展目标。的的确确的，作为一个城市大小的国家，如果彼此之间的交通没有达到目标，没有办法彼此勾连的话，就更别提其他的发展了。就拿杭州来举例子，半小时城市生活经济圈，交通圈开始建造，萧山机场即将建成国内第一个机场高铁互通站，富阳即将通地铁，绍兴也进入了大绕城的范围内。一切都与交通有着密切的联系。</p>
-<h4 id="城市重建局"><a href="#城市重建局" class="headerlink" title="城市重建局"></a>城市重建局</h4><p>​        展示了新加坡的土地规划、城市建立的过程，很多壁画很精致，最后的市中心沙盘挺有感觉，也没有很多想说的。只是在看沙盘填海造地区域的时候会想到精卫填海或者更久远的全球变暖问题，讲道理SG这个地方可能在几十年可预见的未来要考虑一下海平面的问题，所以现在还是比较担心SG的永久居民/公民的。</p>
-<h4 id="达士岭租屋"><a href="#达士岭租屋" class="headerlink" title="达士岭租屋"></a>达士岭租屋</h4><p>​        考虑到房子的事情，新加坡的国情和中国的国籍的确可以享受到很多东西。这个楼顶的风光倒是也不错，新加坡政府的联租屋（岭租屋）是一个不错的gov措施，能够很好地运用到很多地方。今天是放松的一天，我觉得还是不错的。差不多到这里吧，Over。</p>
-<p>​        迎着朝阳我们出发朝着故乡，心中却已经种下了方向。</p>
-<img src="/2019/09/09/Singapore/img/6.png" title="[Topwind]">
-<h3 id="News-Press"><a href="#News-Press" class="headerlink" title="News Press"></a>News Press</h3><p>​        <strong>NUST-labs</strong>：Where most of ZJU summer intren students gathered</p>
-<p>​        Shortly after three dilivering conspicuous speaches, we headed to T-Labs which is short for Temasek Laboratories. Dr.Lin Feng,Dr. Ren QinYuan’s PhD partner as well as the boss of T-Labs first showed us around the aircraft exhibition room. Among them displayed Dr.Ren QinYuan’s PhD masterpiece and some brilliant works of the Lab’s member. </p>
-<p>​        One of them caught our eyes and voke Dr. Len and Dr. Ren’s memory. Let’s call it OPA(Oil Powered Aircraft).The OPA was directly differ from other aircrafts displayed by it’s power system. It’s tank under the bracket contains gallons of oil to make it fly longer(the primary purpose of designing it).  The gifted maker was now in Bonston Dynamic &amp; MIT colaborated labs doing science job. The main advantage of the OPA besides longer time is its outstanding stability. Closed Loop control was quite stable because of the uping power the engine offered is linear according to the oil powered system. As long as it’s linear,the equation (famous known in Automatic Control Theory) was simplified without the index parameter which makes the system fully controled. As a old chinese slang saying “The simpliest, the most beautiful”, the stable working system costs the complexity in mechanical framework.  Let’s take a example. Assume the OPA crushs into a bird or something obstacle during the flying and lose one engine, not like normal electricity-driven aircrafts, the OPA can’t adjust it’s flying position and gesture and some terriable may occure. </p>
-<p>​        After the one specific illustruted above, we come to different parts of the Lab’s which contains different techniques. Conlude to say, the most important techniquesleaving the trivials away are motion planing and control stability. It‘s worth noting that the drones once made up to a formation that can move and act colaborately, that was showed at the Marine Bay Gargen in front of the whole Singapore citizens and its prime minister.</p>
-<p>​        By the end of visit of T-Labs, Dr. Lin Feng and Dr. Ren QinYuan retold the stories back the times during their PhDs. The three mates groups made helicopter into three types and names after them” HE SHE IT”, the PhD experience impress the students and stimulate them to better learning and science working demosticsly. </p>
-<img src="/2019/09/09/Singapore/img/7.png" title="[sunrise]">]]></content>
-      <tags>
-        <tag>Exploring Life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Stumbling Blocks In Update Log &amp; Initial Guide</title>
-    <url>/2018/07/15/Stumbling%20Blocks%20In%20Update%20Log%20&amp;%20Initial%20Guide/</url>
-    <content><![CDATA[<h2 id="Stumbling-Blocks-In-Update-Log"><a href="#Stumbling-Blocks-In-Update-Log" class="headerlink" title="Stumbling Blocks In Update Log"></a>Stumbling Blocks In Update Log</h2><p>大家好！<br>欢迎来到FPO的博客。FPO会在这里更新一些自己想说的话（不在主流媒体包括但不仅限于QQ、微信、微博等），也会写一些自己关于代码的东西。有兴趣的可以进来逛逛呀！</p>
-<h3 id="2018-7-14"><a href="#2018-7-14" class="headerlink" title="2018.7.14"></a>2018.7.14</h3><p>1、  今天换了themes以后，根据一系列的初级设置(参照<a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">Next</a>)设置完了themes，结果cd到blog目录hexo s的时候，出现了一连串黄色的东西，隐约看着好像是新主题下被我选中的scheme出了问题，果断vim _config.yml看到了同时使用了两个scheme ；）</p>
-<a id="more"></a>
-<p><img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/1.jpeg" alt="这是我选中了两个scheme的图片"></p>
-<p><img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/1.jpeg" alt="这是我选中了两个scheme的图片"></p>
-<img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/1.jpeg" title="[这是我选中了两个scheme的图片]">
-<p>重要的事情放三遍…：//其实是我用了三种代码</p>
-<p>2、  成功hexo s以后，发现标题每次都对不上号，下面的代码段好像也有点问题，我明明是从内置的md文件复制过来的啊？？？</p>
-<img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/2.png" title="[应该出现的标题]">
-<img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/3.jpg" title="[我的神奇界面？]">
-<p>Debug到一半，后知后觉以后觉得terminal修改vim实在是太卡了，我只好转战VScode，然后就蹦出来了markdownlint，很好心地帮我纠错高亮了！原来是前后呼应的地方多了个空格！Space！<br><img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/4.png" title="[空格预警提示]"><br>没错，就是TM的空格！害我Debug了1.45h ：）</p>
-<p>3、  为了把这些坑都填得有模有样，我还准备了图片，但是都放不上来！：//上面这些图片都是debug好久的图片了。既然你看过1、2的坑了，说明我的代码已经成功把图片放上去了。图片这里我不想说什么，本来放在source里的images完全没有，不得不google一下开启了post_asset_folder放到了同步文件夹里才成功。后来Chrome、Firefox、Safari只有Safari能显示出来，我却在Chrome利用控制变量Debug了2.1h，很好，现在是7.14 23:38，FPO又没有学物理和微观经济学。生气😠</p>
-<h3 id="2018-7-17"><a href="#2018-7-17" class="headerlink" title="2018.7.17"></a>2018.7.17</h3><p>1、  其实是在学HTML的时候想更新HTML博客时候发现自己Markdown语法一窍不通。本来是想像划重点笔那样划出效果来的，先是xjb捣鼓了<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">```bash</span><br><span class="line">    what u want to say</span><br><span class="line">```</span><br></pre></td></tr></table></figure></p>
-<p>考虑成不换行的代码，后来发现，诶？显示了<code>bash what u want to say</code>， 差个bash就完事了！然后自然而然把bash去掉。后来发现三个反引号在单行代码里会出问题，然后改成了两个，谢天谢地显示正确了。——原来这种叫做行内代码。网上的代码段好像也没有bash的，我就把代码段的bash去掉试了试。——发现根本没鸟的影响，哦我的天，既没显示也没有用。</p>
-<p>2、  在发现行内代码和段落代码的区别以后，我才知道这个叫做Markdown语法，唉，年轻了。以后还是Google Markdown语法好了，不然可太傻了。诶？又发现行内代码还有不同颜色，google去咯…… ；）</p>
-<p>3、  FPO好像找到了行内代码颜色的设置，MD并没有内嵌的代码，只有通过HTML来实现。比如<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;font color=#0099ff size=3 face=&quot;黑体&quot;&gt;FPO&lt;/font&gt;</span><br></pre></td></tr></table></figure></p>
-<p>会显示什么呢？让我们拭目以待——</p>
-<font color="#0099ff" size="3" face="黑体">FPO</font>
-
-<p>哈哈哈，成功了，还间接证明了hexo的文本是size3。但是好像还是没有在行中代码实现颜色的变化。让我再来试一试<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">```html</span><br><span class="line">&lt;font color=#0099ff size=3 face=&quot;黑体&quot;&gt;FPO&lt;/font&gt;</span><br><span class="line">```</span><br></pre></td></tr></table></figure></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">#0099ff</span> <span class="attr">size</span>=<span class="string">3</span> <span class="attr">face</span>=<span class="string">"黑体"</span>&gt;</span>FPO<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>哈哈哈😂又成功了，怎么这么顺利，这时候我就要驳斥1中的观点了，三个反引号后面是高亮代码段的代码种类。哈哈哈虽然不知道bash是什么代码类型。给大家科普一下好了：<a href="https://zh.wikipedia.org/wiki/Bash" target="_blank" rel="noopener">bash</a> ;)</p>
-<h3 id="2018-10-26"><a href="#2018-10-26" class="headerlink" title="2018.10.26"></a>2018.10.26</h3><p>1、在为ITP附加页维护的时候发现我的浏览量不见了？</p>
-<img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/5.png" title="[Powered-off]">
-<p>看了一下<code>_config</code>文件里面并没有什么问题，嗯，有事找google daddy。然后发现busuanzi（不蒜子）的域名挂掉了。😂，果断改了script里的js链接，然后成功啦～</p>
-<h2 id="Initial-Guide"><a href="#Initial-Guide" class="headerlink" title="Initial Guide"></a>Initial Guide</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;My New Post&quot;</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-      <tags>
-        <tag>Learn Log</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>TLC</title>
-    <url>/2019/03/04/TLC/</url>
-    <content><![CDATA[<h2 id="新媒体运营"><a href="#新媒体运营" class="headerlink" title="新媒体运营"></a>新媒体运营</h2><h2 id="每日科普"><a href="#每日科普" class="headerlink" title="每日科普"></a>每日科普</h2><h3 id="2019-3-5"><a href="#2019-3-5" class="headerlink" title="2019.3.5"></a>2019.3.5</h3><p><a href="https://mp.weixin.qq.com/s/hnoj5lDIN8kaesOxCwoTHg" target="_blank" rel="noopener">错误的糖分估计</a><br>每日科普——错误的糖分估计。世界卫生组织每日建议摄入糖24g以下。麦片+咖啡，看似健康的饮食为什么糖分含量超标了？BBC揭发食品乱象！用极乐点蒙蔽大家对糖的估计，你吃的糖是你以为的4倍！看看这篇推文吧！</p>
-<a id="more"></a>
-<p><a href="https://mp.weixin.qq.com/s/PBaNYHgf-p5zwvIlC5JGPQ" target="_blank" rel="noopener">你真的会喝咖啡吗？</a><br>每日科普——你真的会喝咖啡吗？很多人一喝咖啡就失眠，那为什么有人一喝咖啡就想睡觉呢？靠咖啡提神醒脑的现代生活咖啡是越多越好吗？错误的咖啡饮用反而会对人体造成伤害！从原理上入手了解并解决疑惑吧！</p>
-<h3 id="2019-3-6"><a href="#2019-3-6" class="headerlink" title="2019.3.6"></a>2019.3.6</h3><p><a href="https://mp.weixin.qq.com/s/UMeR0GhbP-E0wKR2AzYqnQ" target="_blank" rel="noopener">一去不复返的睡眠！</a><br>每日科普——一去不复返的睡眠。现代社会996的工作模式压榨着睡眠时间，24小时待机状态更是将深睡时间消耗殆尽。每次能够睡到自然醒的周末是人们自我犒劳的温床，然而对于身体而言真的是如此吗？</p>
-<p><a href="https://mp.weixin.qq.com/s/UMeR0GhbP-E0wKR2AzYqnQ" target="_blank" rel="noopener">慎重的坚果选择</a><br>每日科普——慎重的坚果选择。坚果能够有效地抑制心血管疾病等诸多症结，但是逢年过节亲戚桌上摆放的林林总总坚果真的可以做到吗？答案是否定的，此坚果并非彼坚果，那就让这边文章告诉大家坚果选择吧！</p>
-<h3 id="2019-3-7"><a href="#2019-3-7" class="headerlink" title="2019.3.7"></a>2019.3.7</h3><p><a href="https://mp.weixin.qq.com/s/ZOmxyt0vCJ43ZVF7KfgysQ" target="_blank" rel="noopener">正确认识牛奶</a></p>
-<p>#每日科普#<br>正确认识牛奶。乳制品与健康一直息息相关，最新研究表明牛奶可以降低死亡率！那到底是喝牛奶还是喝酸奶，大家是不是也和小编一样，摄入牛奶时会有不适感呢？那这篇文章可得好好看看了。</p>
-<p><a href="https://mp.weixin.qq.com/s/h_3mPVQ1Nq3qbrd_wA_HnQ" target="_blank" rel="noopener">认清蜂蜜的真相</a></p>
-<p>#每日科普#<br>认清蜂蜜的真想。提到蜂蜜，大家想到的是润肠通便、美白润肤、清热解毒、益气补血、养肝明目……就差治疗癌症了！看似光鲜的背后隐藏着铭心的真相，蜂蜜不能排毒反而增肥！看看这篇文章吧！</p>
-<h3 id="2019-3-8"><a href="#2019-3-8" class="headerlink" title="2019.3.8"></a>2019.3.8</h3><p><a href="https://mp.weixin.qq.com/s/gHJUbe_OmEQDsEgx1qIc6w" target="_blank" rel="noopener">女王节特刊</a></p>
-<p>#每日科普#<br>女王特刊！群里的女王们节日快乐、永葆青春～那么我们应该如何永葆青春呢？饮食起居生活方面有什么要注意的吗？这篇知识点黄页你可不能错过。</p>
-<h3 id="2019-3-9"><a href="#2019-3-9" class="headerlink" title="2019.3.9"></a>2019.3.9</h3><p><a href="https://mp.weixin.qq.com/s/bCb0CUz43B9Xsqle_jekTQ" target="_blank" rel="noopener">致我们逝去的青春</a></p>
-<p>#今日推广#<br>你离理想还差什么？理想并没有那么遥远，但是经常在一步之遥的范围之外，触手可及却可望不可即。青春已经过去了，我们还有什么可挥霍的呢？小编用亲身经历告诉你，选择TLC，与时间斗争！</p>
-<h3 id="2019-3-10"><a href="#2019-3-10" class="headerlink" title="2019.3.10"></a>2019.3.10</h3><p><a href="https://mp.weixin.qq.com/s/h4AONfCBpNVqDdZrCALS8Q" target="_blank" rel="noopener">脂肪可以延年益寿？</a></p>
-<p>#每日科普#<br>相信大家每天都有在努力得和脂肪说拜拜，没有脂肪！一身轻松！不仅如此，没有脂肪还有可能增加死亡率，适当地选择脂肪让自己更健康吧！</p>
-<p><a href="https://mp.weixin.qq.com/s/bKHcW3C12Z7T_wd7D5pWMA" target="_blank" rel="noopener">1克盐是多少？</a></p>
-<p>#每日科普#<br>民以食为天，柴米油酱醋盐，一日三餐谁都不能离～WHO每日推荐摄入量5g，中国居民膳食指南推荐6g，那么我们的身边的食物们调料们到底含盐量怎么样呢？</p>
-<h3 id="2019-3-11"><a href="#2019-3-11" class="headerlink" title="2019.3.11"></a>2019.3.11</h3><p><a href="https://mp.weixin.qq.com/s/mRrSe9D3gHIIfNIxFXkBtg" target="_blank" rel="noopener">亲自动手做低碳水餐饮</a></p>
-<p>#每日科普#<br>相信大家都很喜欢吃，但是忙碌的生活常常让我们左支右绌，没时间做菜。去食堂吃吧，有很多是高碳水，这时候，大家家里的微波炉就起了作用！如何在5mins内做低碳水餐饮呢？、</p>
-<p><a href="https://mp.weixin.qq.com/s/-WR8qGzl315JN4y3nEvkcA" target="_blank" rel="noopener">直面果汁</a></p>
-<p>#每日科普#<br>水果可谓是人人喜爱，果汁也顺带着成为了众人的焦点，但是水果和果汁真的能画上等号吗？为什么那么多人喜欢喝果汁却不喜欢吃水果呢？果汁的糖分含量令人惊心……</p>
-<p><a href="https://mp.weixin.qq.com/s/ud0Tj_TuXH3EVZk-O1w4fQ" target="_blank" rel="noopener">TLC女王节火热来袭</a></p>
-<p>#今日推广#<br>春节刚过，倔强的女王们纷纷进入了健身房补偿过年期间的身体变形，脑子虽然悔过了，但是身体却很诚实，停留在过年的温床里不肯出来，健身房前后还重了……三八妇女节已过，TLC强势出击为女神们打造称心活动⬇猛戳！</p>
-<p><a href="https://mp.weixin.qq.com/s/jySy2il-CV01lUXVmXj5XA" target="_blank" rel="noopener">抬起你的头吧！</a></p>
-<p>#每日科普#<br>现在人的大家每天似乎都会有一点身体的酸痛，不知道是否有脖颈的不舒适呢？小编经常有这种感觉，直到TLC霜姐纠正了我的一大生活恶习！快看推文学习一下吧！</p>
-<p><a href="https://mp.weixin.qq.com/s/Vh56y1X1XHHrXZuvD7YjnQ" target="_blank" rel="noopener">睡眠和失眠？</a></p>
-<p>#每日科普#<br>每日8个小时的成年人睡眠是足够的，那为什么有的人会嫌多，有的人会不够呢？睡着了就真的不是失眠了吗？睡眠和失眠有着千丝万缕的联系，看推文学习一下相关概念和你不知道的小知识吧！</p>
-<h3 id="2019-3-19"><a href="#2019-3-19" class="headerlink" title="2019.3.19"></a>2019.3.19</h3><p>#每日推广#<br><a href="https://mp.weixin.qq.com/s/OYmV6vCfSOiuG63DfA0E5Q" target="_blank" rel="noopener">小疑问汇总</a>“三分吃，七分练”，在TLC的健康理念下，相信大家很多人都已经获得了自己满意的身材和习惯，那么大家还对TLC有什么疑问吗？这里小编整理了一周用户的问题 ，大家可以看一下～</p>
-<p>#每日科普#<br><a href="https://mp.weixin.qq.com/s/7cdaAWAfGedv5GIum82quQ" target="_blank" rel="noopener">粗细搭配，干活不累</a><br>TLC的健康饮食能让大家在保质保量的情况下瘦身，那么大家一般认为的不吃主食就能瘦是真的吗？答案是肯定的，只要掌握好粗细搭配，就能轻松完成这点任务！戳推文看一下吧！</p>
-<h3 id="2019-3-23"><a href="#2019-3-23" class="headerlink" title="2019.3.23"></a>2019.3.23</h3><p>#今日科普#<br><a href="https://mp.weixin.qq.com/s/pcpGMOGfq4AARQeOIMESHw" target="_blank" rel="noopener">高纤维的妙用</a><br>在平日的餐饮咀嚼中，一些拗口的食物经常会被嫌弃。他们是高纤维食物！益生菌作为细菌能被人们所认同，这次高纤维给自己正名！</p>
-<p>#今日科普#<br><a href="https://mp.weixin.qq.com/s/FKB5My0tIQklSA0ASLxNTw" target="_blank" rel="noopener">巧克力</a><br>大家知道巧克力风靡全球，但是大家真的知道巧克力在世界上 各个国家 内的食用量吗？巧克力与健康千丝万缕的联系一直被人们所研究，这一次，巧克力似乎与骨质疏松也有了一定程度的关系。</p>
-]]></content>
-      <tags>
-        <tag>work</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Volunteer Teaching</title>
-    <url>/2018/07/22/Volunteer-Teaching/</url>
-    <content><![CDATA[<h2 id="Volunteer-Teaching"><a href="#Volunteer-Teaching" class="headerlink" title="Volunteer Teaching"></a>Volunteer Teaching</h2><p>坐标：云南省临沧市云县大寨镇<br>FPO为了逃脱杭州的酷暑，经历了37h的绿皮火车和11h的巴士颠簸，来到了大寨中学进行支教。</p>
-<h3 id="2018-7-21-Day0"><a href="#2018-7-21-Day0" class="headerlink" title="2018.7.21 Day0"></a>2018.7.21 Day0</h3><p>九曲十八弯，随着陀螺仪上的海拔攀升，半规管对内耳的敏感周期式的堵塞，当天空离我变得最近，大把大把的☁️在山头上，大寨镇离我们很近了。<br>下午15时，见到了孩子们，凉拖、黝黑、眼睛、牙齿。晚上21时，星星、沙土、浑浊、呼吸。<br>晚上22时45分，包含了所有幻想的昏花的灯光闪烁在Judy的瞳孔周遭，回响在大家的胸腔</p>
-<a id="more"></a>
-<h3 id="2018-7-22-Day1"><a href="#2018-7-22-Day1" class="headerlink" title="2018.7.22 Day1"></a>2018.7.22 Day1</h3><p>凌晨03点25分，昏暗的灯光映衬着晃动的人影，忽长忽短，趿拉着三三两两的人影。孩子们醒了，在没有手机甚至手表的情况下，楼道内中充满着快活的空气。坐标大寨中学学生寝室一楼。<br>“你们几点钟醒来的啊？” “我们5点钟就醒了。”<br>早上10点10分，四年级和六年级的孩子步入了英语的殿堂。尼古拉斯和莉兹纷纷攻陷了。<br>下午2时30分，排球和篮球在李峰和张新伟的带领下，掀起了一波热血如潮的竞技。<br>左右手运球、变相、突破、上篮。一传、二传、反向、暴扣。扳脚、放平、起脚、连续。<br>下午4时56分，翻飞的皮筋划碎了蔚蓝的天空，牛仔裤的摩擦缠绕着红白绳索。<br>“老师老师，我告诉你一个小秘密”<br>傍晚8时8分，聆听大山。</p>
-<h3 id="2018-7-23-Day2"><a href="#2018-7-23-Day2" class="headerlink" title="2018.7.23 Day2"></a>2018.7.23 Day2</h3><p>早上7时21分，义勇军进行曲高歌满怀永续文明。<br>今天是尼古拉斯离开的第一天，想他。<br>“同学你平时不上学的周末干嘛啊？”“帮爷爷放牛。”<br>上午9时07分，在面对大山的办公室里响彻了《通天大道宽又阔》似的耳熟能详：刚翻过了几座山、又跨过了几条河。<br>云雾缭绕，天与云与山与水，上下一白。<br>尼古拉斯又出现了。<br>乒乓球这帮小孩还想教育我，结果被我反教育一番。<br>有两个小朋友有天赋。</p>
-<h3 id="2018-7-24-Day3"><a href="#2018-7-24-Day3" class="headerlink" title="2018.7.24 Day3"></a>2018.7.24 Day3</h3><p>时21点45分，拉孩子去操场跑步。</p>
-<h3 id="2018-7-27-Day6"><a href="#2018-7-27-Day6" class="headerlink" title="2018.7.27 Day6"></a>2018.7.27 Day6</h3><p>时21:03，折好了很久没折的纸玫瑰。</p>
-<h3 id="2018-7-28-Day7"><a href="#2018-7-28-Day7" class="headerlink" title="2018.7.28 Day7"></a>2018.7.28 Day7</h3><p>今天支教已经过半了。高空的卷积云、漫山的梯田、奔腾的黄沙。</p>
-<h3 id="2018-7-29-Day8"><a href="#2018-7-29-Day8" class="headerlink" title="2018.7.29 Day8"></a>2018.7.29 Day8</h3><p>今天作为PG的一场球赛，应该是以比分领衔的。但是小冯老师受了冲撞变得脆弱了，在眼皮这里缝了7针。</p>
-<h3 id="2018-7-31-Day9"><a href="#2018-7-31-Day9" class="headerlink" title="2018.7.31 Day9"></a>2018.7.31 Day9</h3><p>今天老师大杀四方。如果我还是小学的话，或许会参与到小女生中间的一系列竞争吧。可惜现在已经物是人非了。MD，嗓子刚刚好，剩下年级的人又让我把喉咙喊哑了，我真是日了狗了。唉，小学老师真的是难当啊，看来以后还是去当初中老师比较好，这样能在自己的掌控范围内。或者说，高中也行，能够保持与时俱进的高考能力。诶，但是这么想来，好像学过大学数学以后，还是大学老师比较好，还可以认识一些新的大学生～</p>
-<h3 id="2018-8-5-The-Last-Day"><a href="#2018-8-5-The-Last-Day" class="headerlink" title="2018.8.5 The Last Day"></a>2018.8.5 The Last Day</h3><p>On my way back to KunMing, feeling empty and hungry.</p>
-<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>要写活动总结呀！活动总结分教学科目、兴趣班和活动策划。各个负责人负责<br>内容包括：<br>1.工作内容<br>2.自己的收获和进步<br>3.孩子们的收获和进步<br>4.发现的问题以及解决方法</p>
-<h3 id="工作内容"><a href="#工作内容" class="headerlink" title="工作内容"></a>工作内容</h3><p>1、教学科目：教学工作内容分为两块，首先作为英语组的组长，基于三个年级教学班的英语基础很薄弱，与预计差距较大，以及课程设计方面与主办方有所冲突所以临时改变了教学方案和课时，以字母教学为主，每个年级有8节课时。而作为灵活机动补充课程，每个年级开设两节课，总共6节课。课名取自英语著名动画片《TOM &amp; JERRY》，本意是根据基础英语课的老师的上课内容然后补充相应的英语环境的口试和生活内容，并作出相应的拓展。但是囿于时间和地点的限制，于是将2*3的拓展课内容改为中英文化与思维的概论。特点是凭借我的放牛技巧达到的生动有趣。教学内容（三个年级班统一教学内容）大致包括第一课时：劝说英语的学习、英语的组成、英语的缩写。第二课时：英语的缩写补充、颜色的意义、中英思维差距。吊死鬼游戏的玩法：<br>    现在附上教案：<br>    <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">配不配合我。配合还可以有游戏可以玩。</span><br><span class="line">自我介绍</span><br><span class="line">你们觉得英语难学吗？</span><br><span class="line">中国 法语 俄语 泰语：你好  Bonjour дравствыйте สวัสดี</span><br><span class="line">中文14亿 使用人数最多 </span><br><span class="line">英语的地位73个国家 使用国家最广 英语10亿 在欧洲的地位</span><br><span class="line">英文的语言是混杂的，印欧语系中日耳曼语族下的西日耳曼语支。</span><br><span class="line">Long Time No See</span><br><span class="line">fengshui  wuxia</span><br><span class="line">你应该知道的 PRC CHN the People‘s Republic of China 和 CHINA的区别 US与USA 合众国 墨西哥和美国 Trump 川普</span><br><span class="line">K.O.  Knock Out、Kick Out、Keep Off  </span><br><span class="line">VS versus</span><br><span class="line">VIP very important person</span><br><span class="line">W.C. water cloest</span><br><span class="line">RMB renminbi</span><br><span class="line"></span><br><span class="line">英国美国的不一样 Color</span><br><span class="line">颜色表达心情：举例</span><br><span class="line">green 嫉妒，很奇怪的 人们说He’s green with envy. </span><br><span class="line">blue  情绪低落 心情沮丧 忧愁苦闷 ， 不用讲了吧 </span><br><span class="line">pink 可以是尴尬（紧张） </span><br><span class="line">yellow可以表示胆小、卑怯、卑鄙的意思</span><br><span class="line">purple 可以象征贵族 也有贵族blueblood之说 </span><br><span class="line">（white）在汉语和英语的联想意义中都有纯洁和清白的意思,但也有一些含义上的不同.例如,汉民族文化中,白色与死亡、丧事相联系,如“红白喜事”中的“白”指丧事（funeral）,表示哀悼.但在英语文化中,</span><br><span class="line">white表示幸福和纯洁,如新娘在婚礼上穿白色礼服,代表爱情的纯洁和婚姻的贞洁.</span><br><span class="line">（black）在英语和汉语两种语言文化中的联系意义大致相同.例如,黑色是悲哀的颜色,英美人在葬礼上穿黑色服装,中国人在葬礼上戴黑纱.英语中的</span><br><span class="line">Black Friday</span><br><span class="line"></span><br><span class="line">中英的思维差距：</span><br><span class="line"></span><br><span class="line">例如，我们可以试着翻译下面两个句子：</span><br><span class="line">（1）你舞跳得很好。</span><br><span class="line">（2）那首歌是怎么唱的？</span><br><span class="line">参考译文分别是：</span><br><span class="line">（1）You are a good dancer.</span><br><span class="line">（2）How does that song go?</span><br><span class="line">怎么样，是不是和你想的一样呢？我想大多数人会翻译成：</span><br><span class="line">（1）You dance very well.</span><br><span class="line">（2）How <span class="keyword">do</span> you sing that song?</span><br><span class="line">而后者的翻译恰恰说明了你的英语在很大程度上受到了汉语的影响，还未形成自己的英语思维。</span><br><span class="line">这两种不同的翻译方法，其实是反映了汉英两种语言在描述同一种事物时的思维角度不一样，只有先了解中英文思维的差别，我们才能更好的培养英文思维。</span><br><span class="line">总结来说，两者的思维差别主要有以下四个方面：</span><br><span class="line">一、汉语很直观，在描述一件事物的时候，倾向于用身体可以感受到的动作或表象来直接描述，而英语则倾向于透过现象描述本质的东西。</span><br><span class="line">例如：</span><br><span class="line">Help me up! Let me see <span class="keyword">if</span> I can bear weight.</span><br><span class="line">这句话发生的情境是说话的人脚摔伤了，需要别人帮忙把她搀起来。汉语用的是“站”这个最直观的词，不管你是不是因为受伤了想站起来还是坐久了想站起来，反正都是站。</span><br><span class="line">但在英语中，则明确表明了她是想验证自己伤得重不重，自己的脚是不是还能支撑身体的重量，和一般的“站起来”是不同的，所以用了“bear weight”，意思更加明确。</span><br><span class="line">二、汉语主观性强，英语客观性强。</span><br><span class="line">汉语的主观性体现在人与人之间的交流上，在英语对话中一般只会谈个人的感受，而汉语则会加入一些个人的判断。</span><br><span class="line">例如，我们对别人表示感谢的回应是“不客气”，潜台词就是这是我应该做的，你的感谢是一种客套，而英语则说“You‘re welcome.”或“My pleasure.”</span><br><span class="line">只谈自己的感受或意思。</span><br><span class="line">三、在句子的表达顺序上。</span><br><span class="line">汉语倾向于从整体出发叙述问题，先整体，后局部，先次要后主要；英语则倾向于从局部出发叙述问题，先局部后整体，先主要，后次要。最常见的例子就是姓名以及地址的排序问题。</span><br><span class="line">地球亚洲中国云南省临沧市云县大寨镇大寨中学</span><br><span class="line">Michael Jordan 姚明 </span><br><span class="line">Donald John Trump 唐纳德 约翰 特朗普 美国总统</span><br><span class="line">中国古代3月取名、20岁赐字 </span><br><span class="line">字者，人年二十，有为人父之道，朋友等类不可直呼其名，故冠而加字。 刘备 玄德 张飞 益德（翼德）关羽 云长   </span><br><span class="line">《三国志》是西晋265史学家陈寿撰写的史书 《三国演义》是中国古代元末明初1368第一部长篇章回小说。</span><br><span class="line">号、谥号。 欧阳修 字永叔，号醉翁，晚号六一居士 谥号文忠</span><br><span class="line">四、英语句子结构严谨，汉语则相对松散。</span><br><span class="line">对英语来说，除了祈使句，一般情况下句子中的主语、谓语等主干成分是不可缺少的，而且各个句子成分之间的逻辑关系必须通过一些连接词交代清楚。</span><br><span class="line">而汉语则没有这么严谨，经常会出现成分缺失的情况，成分之间的逻辑关系也不一定非得做出交代，只要意思上能被理解就可以了。</span><br><span class="line">当然，英语思维是要逐渐培养的，并不能一蹴而就，这就要求我们平时在说写英语时要积极注意和中文之间的转换，两者之间的区别，只有多读，多写，多听，才能事半功倍。</span><br></pre></td></tr></table></figure></p>
-<p>承担了英语教学任务的同时，因为看图这玫瑰的技巧得到了美术老师的赏识，所以担任了纸玫瑰的教学。分为有花瓣教学和无花瓣教学。作为体育兴趣班的老师，还承担了体育理论课的教学。</p>
-<p>2、兴趣班 作为体育兴趣班的老师，在一开始招生不利的情况下后来居上，成为了一匹黑马，独占80+学生里面的40+。工作量巨大，没有休息可言。兴趣班开设了诸多体育活动，本人负责的有乒乓球、篮球、毽子、大绳、五子棋、军棋、象棋、拔河、啦啦操的教学。分别在教学内容上完胜学生，又恰到好处地输给了学生以便挽尊。</p>
-<p>3、园运会 在开心老师准备教案的时候和🐷老师讨论了一下，确立了评分的方案并且否定了一些有游戏。在园运会实行的过程中，主持了绕柱计时跑的部分。</p>
-<h3 id="自己的收获和进步"><a href="#自己的收获和进步" class="headerlink" title="自己的收获和进步"></a>自己的收获和进步</h3><p>总：作为一个自我认识比较完全的人，我对于自己的收获就是，穷则独善其身，达则兼济天下。世界上的不平衡始终存在，我们一直在路上，可能有时候没有太多的时间停留。要边走边收获了。这个过程的收获就是穷和无知是循环交替的闭环控制，必须需要一个触发条件来打破平衡，那就是读书。能做的就是尽力和学生保持联系，让支教不流于形式，然后让他们积极读书，解答他们的问题。反哺过来就是我们自己也要积极地读书。所以千马现在在深圳的时候也在积极地码字呢。<br>1、 教学科目：作为一个自认为口才挺好并且教学经验丰富的老师，收获到了当有的学生在放牛的时候，你需要把她的牛鼻子牵着走，自顾自地讲，然后沉默来控场。如果后期有精力的话可以考虑以嗓门来控场。作为一个控院学子我自认为嗓门还是可以的：）主要是教学技巧方面的问题，老师要投其所好比如说啦啦操教学时对于比较开放的动作要大胆地做。<br>2、 兴趣班：作为一个担任了9年体委的人，在大学并没有竞选体育职位但是还是保留了一身技巧，让孩子们开了眼界见了世面。一个人稍微经过努力就可以变得阳光的全面。爱运动的孩子是一眼就能看出来的，是一眼就会被相中的。爱学技巧的并不多，这很正常，能有一两个致力于学技巧的已经很不错了。like me在高中才开始致力于技巧的学习。技多不压身，口径要宽，基础要厚，精度要高～<br>3、 园运会：又累又嗓子哑的一天，好像没什么收获。过。</p>
-<h3 id="孩子们的收获和进步"><a href="#孩子们的收获和进步" class="headerlink" title="孩子们的收获和进步"></a>孩子们的收获和进步</h3><p>总：我无法从老师的角度得出孩子们具体的想法，我采访了我的大宝贝，记录将会稍后上传，我只能从自己的角度进行相应的解读。<br>1、教学科目：明白了缩写以及点所对应的形式，明白了从大到小和从小到大的辩证思维，明白了吊死鬼的游戏，明白了特朗普、美国、合众国、中华人民共和国、香港、台湾、西藏等一些简单的东西！注意！是简单的东西！因为难的他们完全没记住。<br>2、 兴趣班：明白了篮球运球的动作和规则，简单介绍了二三联防和挡拆空切的战术。有两个同学掌握较好。还明白了乒乓球的规则和11分比赛制的赛点问题，在11分比赛制中，石兆俊7:11千马老师无数局，场面一度十分尴尬。<br>3、 活动策划：8.1日建军节，大部分晴。在绕柱时间赛这里，有逞能装逼的男孩子们，还有温柔似水的女孩子们，那些拍球也拍不好的女孩子，在慢慢地拍完全程舒了一口气以后，得知是靠时间取胜的，倒吸一口冷气，于是千马老师心软得又给了她们一次机会。在最后，小蓝觉得自己还差3分换取一个东西，然后想让我直接要，我说你都有过了一次怎么能有第二次呢。然后我就说，如果你能赢过开心老师，那么我就直接给你5分。结果开心老师自己把球运丢了，啊啊哈哈哈。在最后的最后，开心老师为了挽尊和小蓝进行了30个俯卧撑的赌注，时间是2秒以内，结果着急又1.6秒，啊哈哈哈哈哈又输了。这里又告诉了我们只要靠自己的努力争取一下，就能获得意想不到的惊喜。小蓝就是一个成功的例子。还告诉了我们只要长得好看就有可能获得更多的机会，如果长相平平，就要增加自己其他方面的得分来拉动氛围，比如千马老师就学了很多很多东西。</p>
-<h3 id="发现的问题以及解决方法"><a href="#发现的问题以及解决方法" class="headerlink" title="发现的问题以及解决方法"></a>发现的问题以及解决方法</h3><p>政府层面：流于形式，感觉权力有被架空的感觉。李主任明白自己有办好的这个心，但是他同时也承认了自己对于细节活着的落实到基层的东西是一窍不通的。这两个是矛盾的共同体，是不可分割的，人为并且主观承认并且割裂的话是做不好事情的，也就慢慢地流于形式。虽然说李主任飞来浙大的那次我没有看到，但是不排除是顺道过来看看的，主要矛盾不在我们的这里的可能。再说李主任的百年武术的梦想，中共也就5年计划，您居然想到了100年？不说您下任会不会接替这个想法，学生们都没有学习的兴趣，只靠一两个老师然后做到这种程度，教的不好，孩子们也不愿意学，这就是impossible，没有一撇的impossible.kinda ridiculous.解决方案：等待新的有识之士出现。<br>学校层面：图书室有的，但是没有电子图书出纳管理系统，图书会破损并且丢失比较严重，图书室没有桌子可以读书，必然导致学生会将书本带回教室，但是课业压力大是基本应该没有时间读书的的。教室设备良好，虽然教学时间内出现多起事故，但多数由于老师操作不当造成，别无二事，都在掌控范围内，设备精度尚可。楼梯有上下楼梯分割线，三间并行，考虑了正常上学时候的空间问题。楼道里有从中共一大到十九大的简介，很不错！！！历史肯定没问题了，虽然我知道小朋友们是肯定不会看的。一楼还有个道德讲堂，看样子是讲国学的，桌子还像模像样地装帧成了国学的样子，但是灰尘极多，不排除是暑假期间滞留的结果。旱厕的冲水系统频率闭环，但是效果不行也没有排风系统。水质不提。住宿供电有限，大伯直播扰民。浴室尚可。解决方案：暂无。<br>老师层面：不知道丰乳老师在哪里高就暂时不提。经调查，多数学校平时上课时只有2节课pre学期。这和李主任百年武术背道而驰真是啼笑皆非。还有些老师缺少一些严厉，有些是老师应该做的，但是绝对不能将界限模糊化。<br>学生层面：不爱学习，放任满山标语而不顾，表示担忧，没有太多的话可以说。加油！ May the force be with you.</p>
-<h2 id="贺官洁采访录"><a href="#贺官洁采访录" class="headerlink" title="贺官洁采访录"></a>贺官洁采访录</h2><p>千：这个夏令营过得怎么样？<br>洁：挺好玩的，但是以后…下次就不要上晚自习了，也不要有阅读课了。<br>千：有什么印象深刻的事情？<br>洁：和小黄老师和神奇老师一起玩耍的那天。<br>千：来夏令营的时候是怎么想的？<br>洁：我们要学什么在学校住几天？<br>千：还有别的想说的嘛？<br>洁：练军体拳时候有这样的想法：我不想去！我还收获了快乐。</p>
-<img src="/2018/07/22/Volunteer-Teaching/img/1.JPG" title="[大宝贝贺官洁]">
-<img src="/2018/07/22/Volunteer-Teaching/img/2.JPG" title="[大宝贝贺官洁]">
-<h2 id="体育兴趣班备课"><a href="#体育兴趣班备课" class="headerlink" title="体育兴趣班备课"></a>体育兴趣班备课</h2><p>未出发前体育兴趣班备课准备了两大球和一小球，分别是篮球、排球和乒乓球。每天三节的体育兴趣课，前两节课用来分班上课，最后一节课用来集中进行体育理论课。但是由于当地学校的组织工作不当，所以导致我们的器材难以到位场地也年久失修，我们通过我们的聪明才智，将课程内容因地制宜，拓展到了乒乓球、篮球、排球、毽子、大绳、五子棋、军棋、象棋、拔河、啦啦操当中。第一天的开课情况与我们想的大相径庭，猜测是当地学生不了解体育兴趣班的课程以及家长老师的多方因素，所以花了半天的时间进行了劝说和伶牙俐齿地攻击，辩正了他们对体育兴趣班的看法，招到了50%以上的人数。因此我们的多样化课程相应地得以落实。体育兴趣班的预计是他们的体育基础没有形成，只是凭借本能在那里奔跑玩耍形成了所谓的体育活动。经过第一天的半天的游说过程中，我们了解到当地学生在各自的完全小学里面的体育课相当于没有一样，一个学期只有两节课。注意！是两节课！这就导致了他们对于体育的基本知识都没有。<br>体育的室内课，也就是理论课。我们根据每个老师的专长和体育课程的相应内容，准备了以下几个大模块：1、热身以及其重要性 2、奥运会相关 3、世界杯相关 4、篮球相关 5、 乒乓球相关 6、排球相关 7、啦啦操相关。这些理论课能够增长孩子们的理论知识，尽量用趣味化、视频化的内容吸引他们。因为体育最重要的就是活动，但是理论课是为活动课打基础的，也是十分重要的。孩子们暂时很难意识到这点，但是在活动期间，二胖脚伤了，而其他孩子没有受伤，这就是热身的重要性所在了吧。<br>体育的室外课，也就是实践课程。我们安排的是每节课都讲一下技术手段，然后留出35%的时间进行单独辅导，形成了多加一的融合化模式教学。为了保证孩子们的兴趣，设置了单挑和比赛的环节用以打败他们的自傲，增加对老师的信任和向往。又设置了适当的防水，保证了孩子们的输赢平衡性。内容上循序渐进，乒乓球从最开始的垫球、到运球、到姿势、到挥拍形成了递进式的教学内容。方便消化，螺旋上升。（这里你们补充）</p>
-]]></content>
-      <tags>
-        <tag>Exploring Life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>family</title>
-    <url>/2018/12/19/family/</url>
-    <content><![CDATA[<h1 id="罗佳驹"><a href="#罗佳驹" class="headerlink" title="罗佳驹"></a>罗佳驹</h1><ol>
-<li>03 itper 班委、08魏江硕士、09学智教育【卖给俞敏洪】、13小美快购买、18Panda英语-至今</li>
-<li>认真、实践、family制度创立者</li>
-</ol>
-<a id="more"></a>
-<ol start="3">
-<li>创业是因为够自由<br>对自己足够真实、对别人尽量真实<br><code>弄清楚自己的阶段性人设比什么都重要</code><br>有情有义比有钱有梦更重要<br>最大理想是公司上市而我跑掉</li>
-<li>起手Panda英语是想留名</li>
-<li>有情有义：拿16万给新跟创业的女管理<br>给自己公司卧底的人10w然后5年后回报180w</li>
-<li>要招一定量的奇葩</li>
-<li>公司可以战死，不可以笨死</li>
-<li>优势是往后看八到十步</li>
-<li>刚开始掌握一定的<code>短逻辑能力</code> 短逻辑曲线 <a href="https://baike.baidu.com/item/%E9%80%BB%E8%BE%91%E8%87%AA%E6%B4%BD/16991011" target="_blank" rel="noopener">逻辑自洽</a></li>
-<li><code>人贵有自知之明</code></li>
-<li><blockquote>
-<p>吾日三省吾身</p>
-</blockquote>
-</li>
-</ol>
-<h2 id="15级班长"><a href="#15级班长" class="headerlink" title="15级班长"></a>15级班长</h2><ol>
-<li>大家精力分散，需要一些奇葩</li>
-</ol>
-<h3 id="ITP的印象"><a href="#ITP的印象" class="headerlink" title="ITP的印象"></a>ITP的印象</h3><ol>
-<li>1999 born 2002 富有争议：ITP到底要培养什么 2008 十周年争议度下降 不够aggressive</li>
-<li>不怎么融洽、有一群奇怪的人、一个模糊的未来</li>
-<li>ITPer不怎么敢和长辈说话</li>
-<li><blockquote>
-<p>生活的意义就是到了老了依然念念不忘的人</p>
-</blockquote>
-</li>
-</ol>
-<h3 id="STH-relevant："><a href="#STH-relevant：" class="headerlink" title="STH relevant："></a>STH relevant：</h3><ol>
-<li>创业导向、赵紫龙：傻逼才开发票</li>
-<li>魏江：选择没有对错，做得对不对才行<br>强悍的人格</li>
-<li><a href="https://baike.baidu.com/item/%E6%9D%AD%E5%B7%9E%E6%B3%9B%E5%9F%8E%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/10259730?fr=aladdin" target="_blank" rel="noopener">泛城科技</a></li>
-<li>创业合伙人，挂科挂一半：<a href="https://baike.baidu.com/item/%E9%99%88%E4%BC%9F%E6%98%9F/10062671?fr=aladdin" target="_blank" rel="noopener">陈伟星</a><br>Bitcoin一手3kw、通过说服企业家给浙大捐了100w，并自己获得特优奖学金</li>
-</ol>
-<h3 id="飞行棋起飞计划"><a href="#飞行棋起飞计划" class="headerlink" title="飞行棋起飞计划"></a>飞行棋起飞计划</h3><ol>
-<li>每月一次小聚，只要开心</li>
-<li>每学期2次大聚，自选外援团</li>
-<li>创业选手辅导专项：场地、商业模式设计、融资等</li>
-<li>给有意义的事插上翅膀</li>
-<li>各种实习实践机会、Panda或外在（可定制）</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>ITP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>getui</title>
-    <url>/2019/01/02/getui/</url>
-    <content><![CDATA[<h2 id="2019-1-2个推"><a href="#2019-1-2个推" class="headerlink" title="2019.1.2个推"></a>2019.1.2个推</h2><h3 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h3><p>1、董明 足球机器人<br>2、强化班内的豪华团队进行创业—后续创业会有压力<br>3、00级创业soar<br>4、创业是种病，具有感染性<br>5、过汇率 30%<br>6、吴晓波一杯茅台两个小时<br>7、最重要的时间会留给强化班</p>
-<a id="more"></a>
-<p>8、北京的金融街<br>9、聚到一起，讨论怎么建设<br>10、魏老师曾经改过口号<br>11、强化班的事情我不推<br>12、兴趣的选择和互信<br>13、财务成本和机会成本<br>14、98招99有宣讲会<br>15、个推今日累计下发量163亿（18:33）<br>16、97级竺院学生会主席，误会作弊失去学位——作弊需要答辩<br>17、方毅—正常的辅修-班长面试自不知<br>18、浙大玉泉只有一个二食堂<br>19、方毅，个推创始人兼CEO，浙江大学竺可桢学院混合班特优毕业生、计算机学院研究生<br>20、initial 元空间赞助，从0到1<br>21、强化版1.0、强化版2.0、强化版3.0</p>
-<h3 id="需要注意的点"><a href="#需要注意的点" class="headerlink" title="需要注意的点"></a>需要注意的点</h3><p>1、对原来单位的认识<br>2、爱迪生发明灯泡，技术创新的方法<br>3、项目管理是一门很有挑战的课：**图、关键路径<br>4、这个老师没人上课的话，用脚投票<br>5、最敬佩：华家池上课雪天早上6点、赵单<br>   最记恨：副班长，疯狂找笔签到<br>6、拿到了证书没有毕业，有些人毕业了没有证书<br>7、60个人第一届毕业10多个，第二届毕业20多个，第三届毕业40多个</p>
-<h3 id="强化版改进"><a href="#强化版改进" class="headerlink" title="强化版改进"></a>强化版改进</h3><p>1、问卷，是否要创业，右键作者FY<br>2、强行出征、寸草不生<br>3、表刷从FY开始<br>4、选举班长3/4多数才行，半年以后，不满足3/4多数但满足1/2多数就任副班长。班长明选产生、<br>5、强化班建设促进组<br>6、挑战工高班，篮球赛<br>7、硅谷有个peple merfi/产业界的万群/<br>8、麦肯锡只招清北复交的<br>9、史玉柱的女儿<br>10、marine教会了怎么写CV<br>11、在陌生的领域内达到专家的水平：focus learning</p>
-<h3 id="自由讲话"><a href="#自由讲话" class="headerlink" title="自由讲话"></a>自由讲话</h3><p>1、抓住主要矛盾<br>2、个推今日累计下发量177亿（19:45）<br>3、mastering battle<br>4、战略新兴板、新三板、做A股<br>5、港股是一个市场，会有一批新公司冒出来<br>6、处理朋友圈的信息！！！做一个离身的处理，漂浮体位<br>7、人口空间动态实验室—-愿不愿意为此付钱<br>8、renew your CV daily<br>9、</p>
-]]></content>
-      <tags>
-        <tag>ITP</tag>
-      </tags>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>MacAppRecmd</title>
+      <link href="2020/10/01/MacAppRecmd/"/>
+      <url>2020/10/01/MacAppRecmd/</url>
+      
+        <content type="html"><![CDATA[<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>​        这应该算是这个blog三分钟热度以后的第一次好好写的文章，原因是在新阶段开启以后，犬子若楠寻求Mac的APP好用的解决方案，那关键词是效率，所以就开了一个新的tags：Efficiency.</p><a id="more"></a><h4 id="锦上添花"><a href="#锦上添花" class="headerlink" title="锦上添花"></a>锦上添花</h4><ul><li><strong>FluxFlux</strong> </li></ul><p>​    简介：Flux的作用是能让你的电脑显示光随着你所在地区的自然光变化的一款软件.</p><p>​    心得：适合紫金港断电的宿舍使用，如像玉泉般有台灯，则效果不好，因为台灯强行延长环境光强，而位置计算的光已经很弱，故效果不好，笔者来到玉泉以后弃用。</p><img src="/2020/10/01/MacAppRecmd/img/flux.jpg" title="[Flux Interface]"><p>点击下载<a href="https://justgetflux.com/" target="_blank" rel="noopener">Flux</a></p><ul><li><strong>Itsycal</strong></li></ul><p>​    简介：Itsyacal的作用是在顶部除了Mac自带的时间，另加一个月、日、星期，以及一个隐藏式日历.</p><p>​    心得：我挺喜欢的，写项目管理或者规划随后一看日历就很快。</p><img src="/2020/10/01/MacAppRecmd/img/Itsycal.jpg" title="[Hidden schedule]"><p>点击下载<a href="https://www.mowglii.com/itsycal/" target="_blank" rel="noopener">Itsycal</a></p><ul><li><strong>Grid</strong> ⭐️</li></ul><p>​    简介：Grid提供了快捷键的半分屏、四分屏操作，使得屏幕操作更加简便.</p><p>​    心得：一般就是在对着pdf、word看文献、搬运等用途就很巴适。</p><img src="/2020/10/01/MacAppRecmd/img/Grid.gif" title="[Example]">    <p>点击下载<a href="[http://mildgrind.com](http://mildgrind.com/">Grid</a>)</p><ul><li><strong>Foldery</strong></li></ul><p>​    简介：Foldery提供了Folder的颜色化，在Mac千篇一律蓝下，提供了千马彩的可能性。</p><p>​    心得：红色绿色吧，太花了好像也不太合适。</p><img src="/2020/10/01/MacAppRecmd/img/Foldery.jpg" title="[Great Look！]">    <p>点击下载<a href="https://mac.orsoon.com/Mac/162400.html" target="_blank" rel="noopener">Foldery</a></p><ul><li><strong>Bartender</strong></li></ul><p>​    简介：Bartender提供了一种缩减bar空间的方案。</p><p>​    心得：同时开的小图标占满了bar，我的网易云歌词放不出来了，心情简单。</p><img src="/2020/10/01/MacAppRecmd/img/bartender.gif" title="[eiheihei]">    <p>点击下载<a href="http://www.sdifen.com/bartender3125.html" target="_blank" rel="noopener">Bartender</a></p><h4 id="快马加鞭"><a href="#快马加鞭" class="headerlink" title="快马加鞭"></a>快马加鞭</h4><ul><li>CleanMyMac</li></ul><p>​    简介：头部的清理软件、空间透镜</p><p>​    心得：有破解版的，我却买了正版的，心安理得</p><img src="/2020/10/01/MacAppRecmd/img/cmm1.png" title="[Vision]"><img src="/2020/10/01/MacAppRecmd/img/cmm2.png" title="[Space Lens]"><p>点击下载<a href="http://www.sdifen.com/cleanmymacx4613.html" target="_blank" rel="noopener">CleanMyMac</a></p><ul><li>Paste ⭐️</li></ul><p>​    简介：Paste 提供了快速的、回溯功能，而且天人合一。</p><p>​    心得：真nm的好看</p><img src="/2020/10/01/MacAppRecmd/img/Paste.gif" title="[Fucking Awesome]"><p>点击下载<a href="https://pasteapp.io/" target="_blank" rel="noopener">Paste</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Efficiency </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Container_forecast</title>
+      <link href="2020/09/16/Container-forecast/"/>
+      <url>2020/09/16/Container-forecast/</url>
+      
+        <content type="html"><![CDATA[<h3 id="数据预处理"><a href="#数据预处理" class="headerlink" title="数据预处理"></a>数据预处理</h3><ul><li>处理缺失值</li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">missingDataStat</span><span class="params">(data)</span>:</span></span><br><span class="line">  total=data.isnull().sum().sort_values(ascending=<span class="keyword">False</span>)</span><br><span class="line">  percent=(data.isnull().sum()/data.isnull().count()).sort_values(ascending=<span class="keyword">False</span>)</span><br><span class="line">  missing_data=pd.concat([total,percent],axis=<span class="number">1</span>,keys=[<span class="string">'Total'</span>,<span class="string">'Percent'</span>])</span><br><span class="line">  missing_data.head(<span class="number">20</span>)</span><br><span class="line">  msno.matrix(data)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CSEIntI</title>
+      <link href="2020/09/11/CSEIntI/"/>
+      <url>2020/09/11/CSEIntI/</url>
+      
+        <content type="html"><![CDATA[<h2 id="CSEBA-FINAL——this-time-together"><a href="#CSEBA-FINAL——this-time-together" class="headerlink" title="CSEBA FINAL——this time together"></a>CSEBA FINAL——this time together</h2><p>CSEBA June 1st News , Basketball Court, Yuquan Campus</p><p>​    The CSEBA playoffs finals continue, the union of class 17-winner of Zijingang and the union of class 15-winner of Yuquan entered the final game. </p><p>​    At the beginning of the first quarter, Jiayi Hu joined forces with Yuchen Zhang to make an attacking wave for union of class 17, and Jiacheng He from union of calss 15 responded with a sudden shot. Then the union of class 17 made a 13-2 climax. The union of class 15 were still supported by Jiacheng, and the points difference gradually widened. After the first quarter, the union of class 17 lead the union of class 15 26-12. </p><p>​    In the second quarter, the union of class 17 continued their offensive style and continued to get points inside and outside . But Shuyang suddenly broke out in a single quarter and scored 13 points with 3 threes and 1 penalty to help the team to retrieve the rhythm. The union of class 15 continued to pressure the penalty area and hit a 10-3 spurt to reduce the score gap to single digits. After the second quarter, the union of class 17 lead the union of class 15 48-40.</p><a id="more"></a> <p>​    During the second half game, the union of class 15 blasted an 8-0 start to equalize the score, but after that the team’s offensive attack misfired, only scored 3 points in nearly 6 minutes, the union of class 17 took the opportunity to return a wave of 15-3 to extend the lead to 15 points. Fortunately, at the end of the quarter, the union of calss 15 once again apporach the point gap to 10 points through free throws. </p><p>​    In the last quarter of the game, the union of class 15 were still unable to stop Yucheng’s strong scoring. The union of class 15 who couldn’t attack and defend did not have too many ways to get points, and the game lost suspense to garbage time. Finally the score came to 96-85.</p><p>​    ”They are on the brink of elimination.”JingWang said to the reporter, “And now Jiayi and Yucheng have to try to recover from a dismal  three quarters in former Zijingang Conference semifinal and hang on to the energy of a fourth-quarter surge that proved there was still signs of life coming from a seemingly flattened bunch.”</p><p>​    Jiayi and Yucheng have to convince each other, and their supporting cast, that there is still a chance that this bubble odyssey isn’t over.</p><p>​    “The conversation is, number one, take care of the play in front of you,” Jiayi said. “It’s obviously win or go home, so you have to be able to make sure you come out and have that mindset. And it’s one game at a time, especially here down in the bubble.“</p><p>​    “It’s a different scenario than any other playoffs, so to be able to take our time and make sure we take advantage of our size and our speed. We have to do it if we want to win. We just have to come back to what gives us the best chance of winning. And that conversation starts tonight and tomorrow and hopefully, we can take care of business the next year.”</p><h2 id="Dreamtalker-Detector"><a href="#Dreamtalker-Detector" class="headerlink" title="Dreamtalker Detector"></a>Dreamtalker Detector</h2><p>​    It’s been a long time before Yuman relealized that it’s Jiayi’s somniloquy he faces in the midnight.</p><p>​    “It’s pretty loud and scaring”,Yuman said.”I have to wake up and then have difficulty falling in slumber again.” </p><p>​    “Somniloquy is a parasomnia that refers to talking aloud while sleep. This parasomnia usually happens during transitory arousals from NREM sleep. The recording of these parasomnias could be useful to help in the diagnosis of certain psychological pathologies given that they can reflect a state of anxiety or some behaviors which could be identified as psychological diagnosis criteria. “</p><p>​    In order to find out how the somniloquy come into being Yuman went through a lot of books. He found out the sleep talking is defined by both stages and severity:</p><!--more--> <p><strong>Stages 1 and 2:</strong> these stages, the sleep talker isn’t in as deep of sleep as stages 3 and 4, and their speech is easier to understand. A sleep talker in stages 1 or 2 can have entire conversations that make sense.</p><p><strong>Stages 3 and 4:</strong> The sleep talker is in a deeper sleep, and their speech is usually harder to understand. It may sound like moaning or gibberish.</p><p>Sleep talk severity is determined by how frequently it occurs:</p><p><strong>Mild:</strong>Sleep talk happens less than once a month.</p><p><strong>Moderate:</strong>Sleep talk occurs once a week, but not every night. The talking doesn’t interfere much with the sleep of other people in the room.</p><p><strong>Severe:</strong> Sleep talking happens every night and may interfere with the sleep of other people in the room.</p><p>​                            Pic: the-four-stage-of-sleep</p><p>​    Sleep talking can happen to anyone at any time, but it appears to be more common in children and men. There may also be a genetic link to sleep talking. So if you have parents or other family members who talked a lot in their sleep, you may be at risk too. Likewise, if you talk in your sleep and you have children, you may notice that your children talk in their sleep too.The sleep talker isn’t aware that they’re talking and won’t remember it the next day</p><p>​    “Well, I don’t quite agree”,Jiayi said.”I can remember what I said in the dream, especially when I shouted out loudly, I would tell myself ‘I am dreaming and the just shout may wake my roommate up’, but even that recognization I would still keep on dreaming, still a distance to wakeness.”</p><p>​    As the material contracts with Jiayi’s mind, Jiayi and Yuman decide to build a detector to record the voice to verify the test. They use Ubuntu Operating System and Python and a small microphone to get all things done-a mobile platform which only records sleep-talking (excluding other noises or sounds) and analyze them to identify the main words in the voice, allowing making a transcription of the conversation, is presented.</p><p>​                            Pic: Yuman and his code</p><p>​                            Pic: Code and Chart</p><p>​    Here are some words detected(with time stamp):</p><p>12.4 03:34 : You wanna go? Go what?!</p><p>12.7 02:43：That doesn’t matter, Let he rush.</p><p>12.8 03:00:  I don’t understand, I can’t see it.</p><p>12.8 04:01: department store</p><p>12.15 05:13: stick my mbp back!!</p><p>12.21 04:25: You have no chance without money.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Exploring Life </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Singapore</title>
+      <link href="2019/09/09/Singapore/"/>
+      <url>2019/09/09/Singapore/</url>
+      
+        <content type="html"><![CDATA[<center><font size="5">新加坡游学研修营</font></center><h3 id="2019-8-29"><a href="#2019-8-29" class="headerlink" title="2019.8.29"></a>2019.8.29</h3><p>​        在告别了骤降10度温度的杭州，我们在一路颠簸中来到了上海浦东。第一次来到这里，以浙江大学控制学院的身份出行，我的心中不免有了许多新的想法和感触。在外人看来，这个车里是浙江大学的代表位出发，而我们此时内心对于这个代表位并没有明显的认识。新加坡落地后能够看到的随处可见的语言指示牌英文、中文、日文、马来文四大语言体系。整顿安置好之后，虽然老师对于我们的任务就是要吃饱喝足修养生息，但是在我们看来这就一个对新加坡的初步探索之夜。</p><ol><li>银行换来的货币面额其实硕大，换来的100 Singapore Dollar其实在新加坡本地算是较大的数额，一般的小店不太找得开，这就对于我们一开始打算在711换零钱造成了一定的困难。</li><li>从机场到住宿所在的地方，限速70码的东西向Highway，约莫过了半个小时左右，我们已经到了新加坡一般的距离。这座城市之国以其极其短小精悍的能力和容纳养育着可持续发展和发达国家的内涵。这就是我们游学研修的内容指向性 </li><li>新加坡的房屋建筑安排错落有致，但是风格不一。今天晚上小组夜行的区域和地方类似于穆斯林群居区，所以大胆推断新加坡这个混合人种的国家有其独特的种族区域聚落的划分。</li><li>新加坡三面环海，实在岛国。所以新加坡水资源极其贵重，2 Dollar一瓶的水实在是难以承受生命之轻的重量。而新加坡牛奶的价格和国内比较持平，所以有水掺杂的物品都会比较贵重。3 Dollar同一品牌的土豆泥对标国内6RMB的售价。</li><li>作为一个老司机，新加坡的开车靠左。司机车位靠右也深深吸引着我。明天需要一探究竟的是是否整个车都轴对称了导致左边是油门右边是刹车呢？毕竟人是没办法轴对称的。</li><li>新加坡路牌距离指示的时候，并没有说还有多远，而是说距离机场24mins。这个小到寸土寸金的地方，毕竟可以用时间来计算距离了。</li></ol><img src="/2019/09/09/Singapore/img/1.jpg" title="[Above_the_air]"><img src="/2019/09/09/Singapore/img/2.jpg" title="[Night]"><a id="more"></a><h3 id="2019-8-30"><a href="#2019-8-30" class="headerlink" title="2019.8.30"></a>2019.8.30</h3><p>​        今天的行程主要是A*STAR里的汇智世界展示厅参观和WU YAN博士的分享解答plus新生水厂。</p><h4 id="A-STAR"><a href="#A-STAR" class="headerlink" title="A*STAR"></a>A*STAR</h4><p>A<em>STAR stands for </em>Agency for Science, Technology and Research*，这个abbreviation解答了我们对于这个STAR里第二个A含义的包容。首先在游客展示通用的汇智展厅里展示了7项科技成果。</p><ol><li>SINGAPP 可以将人读英文的声音录入然后进行一定程度的转换，目测是匹配已经有的曲调而不是针对声音自带的曲调进行曲调再创作（这部分还要更多的自动学习加进去），目标人群是胆怯于唱歌或者唱歌不好的人。有一定的启蒙基础，但是对于唱歌还好的猛男一族比如说我就没有很大的用处。</li><li>iLIFT 这个就是一个从软硬件同时升级的智能电梯。我的想法是这个人工这方面在我国已经是很多的AI取代了，但是SG这边却应用了人工，所以对于这个HR是一个很大的浪费。Let’s assume 这样不仅会有很多人工的24小时待机制度，还要求所有的engineers都standby这样才能够更好的。没有办法自动处理好事故的电梯实在是称不上智能。现在回到酒店想想这个事故的概率很低，然后还要大规模全天候布置人力资源真的是有点浪费。</li><li>BUSSYSTEM APP 主要针对人群是SCHOOL CHILDREN这个教育的切入点不错，能够带来很好的收入和应用市场。这里涉及到的万一有学生起晚了还可以绕路进行路线自定义规划然后接送的设计，但是细细想来如果每个学生每个节点都不规则的冒出来的话，这样就比较难解决这些问题了。这里就涉及到了新加坡的法律Personal Data Protection Commission，但是我关注的点是公家存储的时间，for sth crime or responsibility tracing back用的，可能要去 PDPC里面查询了吧。</li><li>Visualized Detector 这个感觉就是一个交互式视觉识别检查机器。细细想来好像没有什么特别的难度只要导入大量的数据库和经验数据就好</li><li>Enter Tech。利用脑部不同的alpha、beta，gamma波进行相应的分析计算简直就是和回车科技如出一辙，感觉好像两边实力没有办法比较，毕竟这个项目是在A*STAR的光环之下。</li><li>Vans。可以感应的风扇，唯一可以拍照取证的地方更多地倾向于视觉效果，所谓的感应到人的motion就可以转动，感觉就是一个传感器和感应范围+精度的问题。</li><li>裸眼3D，refer：iflythreed.com ，比较成熟的技术了，只是想到家中的Hisense电视机也宣扬了</li></ol><h4 id="WU-YAN"><a href="#WU-YAN" class="headerlink" title="WU YAN"></a>WU YAN</h4><p>​    学长的讲解对于新加坡是真的有新的认识，但是这里Slides不够，所以暂时空缺，这直接导致了我想要来新加坡暑研然后来新加坡读研究生并移民（移民并不成熟）的想法。</p><ol><li>新加坡<strong>Tertiary Education</strong>，这是一种成熟的人才引进策略+教育自循环强国的目的。</li><li>新加坡不愧为亚洲四小龙之首，这个教育普及率是真的高，90%以上是-发达，我本来对它有所脾气的，现在也烟消云散了。</li><li>新加坡历史不曾研究，但是作为弹丸之地的岛国，必然有土地的需求，所以就会填海造地，然后还有xx（同学人名）告诉我的新加坡相关的人种筛选计划加上今天新加坡不生小孩却人口激增都是变相的一种政策畸形。</li><li>新加坡默默登上了很多世界第一，并不是纯粹靠马六甲海峡，这个让我想到了Quietly Brilliant的HTC，但是讽刺的是HTC最后把自己Quietly没了。</li><li>A<em> STAR里分为三个部分，BMRC、SERC 研究所等，其中第三部分主要实现的是商业变现，也就是我们所说的”产学研结合”，一个科研如果没有变现的话其实是没有什么实际的价值，现实地来说就是最终都要服务于社会和人类。就这个安排来说，整个A</em> STAR就是一个小型的国家综合浓缩，这也难怪，毕竟新加坡就是个城市之国。</li><li>A<em> STAR的政策很好 ，所谓A</em> STAR的PhD的工资比Stuff的还要高是真的有吸引力。</li></ol><h4 id="新生水厂"><a href="#新生水厂" class="headerlink" title="新生水厂"></a>新生水厂</h4><p>​    新生水厂这个是新加坡的命脉，这个小国家的运输成本和天然优势，可以使的新生水厂达到一定的垄断和科技集中发展。</p><p>​    新生水厂的参观走廊从分别的4大顺序技术进行分析讲解，但是由于大致懂得和园区的幼稚园设计使得我没有很大的心思去参看，但是这个物理上的实际模型建筑对于技术的讲解对应倒是有点意思。徜徉在整个机械的厂房内，想象着这些都是洁净的、pure的水就是这么出来的，所谓的净化一说，就是这么的工厂化，想到了农夫山泉的广告，心里登时对这个工业化4.0的社会有了一些从源头上、生产上不一样的认识。</p><p>​    新生水厂ABC：Active、Beautiful、Clean</p><p>​    新生水厂Vow：All Conserve Value Enjoy</p><h4 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h4><ul><li>这个行程单上的 纬壹科技城就是以A*STAR的楼为中心的几重楼盘，作为一整个科技区</li><li>新加坡起步谷就是最大的LJT。建筑商建厂房和租户的故事，说是硅谷和中关村也有一定的道理。就在23楼往下眺望的一小块地方ahhhh</li><li>机器人研究所看了看也是都是一些可以理解的机器人物体，不是很懂是怎么回事。好像还是一家中国的企业里面还有浙大的学长，难怪灿若星辰的浙大人的称号是全球共誉的。</li></ul><h3 id="2019-8-31"><a href="#2019-8-31" class="headerlink" title="2019.8.31"></a>2019.8.31</h3><h4 id="NUS-Pros"><a href="#NUS-Pros" class="headerlink" title="NUS Pros"></a>NUS Pros</h4><p><strong>李海洲</strong>：语音识别和信号处理</p><ol><li>Biological character like Iris and Fingerprints are the most difficult to copy in biometrics how is the voiceprint’s。uniqueness compared to the former two like speed intonation frequency or other words to say ur insight and advice based on these years‘ experience about the voiceprint?    </li><li>obstacle and goal to be conquer</li><li>李海洲教授提出要不忘初心，语音识别的初心是为了让人有所依从而动。</li><li>听觉实验，这个一开始没有意识到是高频低频敏感性，一开始只是以为是周期性节选不太一样导致循环音节在脑中形成的听觉效果不一样。</li></ol><p><strong>林芝平</strong>：人工智能医疗应用</p><ol><li>biomedical signal processing remember a scandal 2 years ago a blood test company blood test is one kind of biomedical signal but not more than bioeletrical signal when I am at my Freshman year，blood suger ，small scales but integrated</li><li>MOSQUITO NET</li><li>biomedical combination application prospect</li><li>obstacle and goal to be conquer</li></ol><ul><li>pigmentation</li><li>transfer learning</li><li>SMOTE</li><li>v-PLDA</li><li>SSIM-Index</li><li>confusion matrix</li><li>GAIN 网络</li><li>CNN </li><li>同一类再增加60个sample</li><li>Pre-process Datawashing </li></ul><ol start="5"><li>其实所有的医疗/科研都需要一个起点进行，这个色斑/色素沉着的点其实真的是小到不能再小，但是作为经验先验转换为纯粹理性化的量化知识是一个弥天大坎。这就是科研，从每一个细小的地方出发，从而能够进一步做到更好。</li></ol><p><strong>Alex Kot</strong>：图像与视频相关处理与应用</p><ol><li>Stanford and Princeton DEEPFACE text into random lyrics，the video can be changed，it has much to do with these tech ，insight about?</li></ol><ul><li>right labeling</li><li>spatial temporal context——combined into a matrix</li><li>Robust Trust Gate——datawashing method</li><li>another gate to make  sure the relationship is consistary</li><li>vertical 垂直细分市场</li></ul><p><strong>NUST-labs</strong>：Intern的Boss</p><p>​        林丰博士作为任老师的好基友，带我们领略了一下飞行器实验室的陈列展览。我们得知了林博士和任老师是PhD的队友，他们合作开发的直升机He、She、It现在还有几架陈列在T-Lab里，其中我们看到了一架早期（开发者现在在MIT和Boston Dynamic前沿实验室工作）油动的六旋翼，其中我们还在端详的时候，任老师早就口出金句，这个是油动二进程的吗？Intelligence unmaned control？和林丰博士的相互互动也是十分有趣。林丰：这个的稳定性十分地好，因为它油动所以是线性的控制关系，所以控制十分地稳定，但是根据守恒原理，那么机械结构就会极其复杂。同样的，相比较于其他的飞行器，如果一个舵机坠落了，就会全盘皆输。</p><h3 id="2019-9-1"><a href="#2019-9-1" class="headerlink" title="2019.9.1"></a>2019.9.1</h3><p>​        今天Universal Studio和Beach都逛过了，但是并不是很满意或者很猛男，对于尘世的情绪再次泛上。明信片也没有投递，真的是替代性感情呗。</p><p>​        囿于贫穷的限制还是没有很好地选择到iFLY，但是和任老师交流时发现风洞飞行还是和跳伞有很大的不一样。跳伞有一种虚空感，没有风洞的实心托举。但是我还是一次都没有跳过伞，任老师已经做到了自我跳伞的证明了。这就像是黑暗油田中掉落了一根火星火柴。跳伞和潜水是相互联系的，一般对于这样追求的人来说，往往有很多的相似程度。类似我高中毕业的OW和AOW等我也试探性地提了出来，未曾想得任老师也是这方面的专家，直接现身说法得指出潜水的证是很好拿的，但是不能为了拿证而拿证，要看潜水的瓶数，30瓶AOW起步吧。</p><p>​        啊，世界好大。</p><img src="/2019/09/09/Singapore/img/3.jpg" title="[Tour]"><h3 id="2019-9-2"><a href="#2019-9-2" class="headerlink" title="2019.9.2"></a>2019.9.2</h3><h4 id="教育部教育沿革中心："><a href="#教育部教育沿革中心：" class="headerlink" title="教育部教育沿革中心："></a>教育部教育沿革中心：</h4><p>​        一直以来我都觉得SG的街道装潢风格很有特点，可能是为了充分利用土地资源，SGIsland本来就不是一个怎么平整的地方，换句话说相当于丘陵，那么在本来国土面积不大还需要填海造田的基础上，丘陵不可能被夷为平地，这样突起的土地资源也算是很有价值的一部分了，不太可能被移除的。所以秉承着这样的想法，一进到教育部就看到了一个Inspiration Garden，我感到深深的舒服。这个很好地表达了对教育的专注。接待我们的Kok是代表SG参加APEC的教育会议代表，Volunteer来到这个地方，很能够看出她对于自己这份介绍的自豪。她爷爷来自广东，爸爸马来西亚，而从小她只能选择一种语言，所以选择了英语，没有学汉语。</p><p>​        <strong>1700s</strong>：在最早的时候新加坡大部分是中国和马来西亚的移民，所以大多数都是中国学校和马来西亚学校。在中国学校里还能看到清辫，是很彻底的学习了。</p><p>​        <strong>1800s</strong>：这个时候是很多殖民地来到这里，殖民就是教育输出，殖民者没钱啊，但是谁有钱呢？传教士有钱，所以传教士所在的国家/宗教就派他们出来，所以传教士就疯狂办学。所以就形成了三足鼎立之势——政府学校、传教士学校、地方学校</p><p>​        这个时候呢相比1800s来说摄影已经产生了，在一张张黑白照片里我们能更好的还原整个全貌，比1700s的油画要高明许多。由于这段时间人数激增，所以更多的教学楼拔地而起。</p><p>​        <strong>1900s</strong>：世界殖民混战，Japanese冲到了这里，进行了殖民教育。🐶日本帝国，讲道理，这段时间学生数量骤减到1/10。所有中国人办的学校都不办了，进行了务农等曲线救国的活动。</p><p>​        乱世出英雄，在这种情况下出现了三大巨擘，分别是Tan kah kee、Lee kong chian、Tan lark sye。在战乱时间因为军需是第一需求，所以没有办法需要很多钱，这时候三位巨擘出手了，怎么赚钱呢？从亚太沿圈国家进口Rober和Tin然后进行加工返厂贩卖一气呵成。</p><p>​        随着日本投降和SG独立，越来越多的人需要教育，不然没有办法达到这个发达国家都难以望其项背的教育普及率，那么怎么办呢？学校有Double session制，上下午两班倒，充分利用学校和土地。对于老师来说，还有TTC，Teacher Train College，加上定期的Thinking Conference，这样多方面多点加强是真的不错。也难怪教育一直在国防后面紧跟第二（虽然21世纪以来可能掉到了交通后面）</p><p>​        在结尾处看到了Flexiblity和Diversity&amp;Thinking School 和Learning Country，这就是多维度学习、终身学习的理念了，放在展厅的结尾着实是不错。</p><img src="/2019/09/09/Singapore/img/4.jpg" title="[Words]"><h4 id="南洋理工"><a href="#南洋理工" class="headerlink" title="南洋理工"></a>南洋理工</h4><p><strong>ROSE</strong>：Rapid-Rich Object Search    </p><p>​        很有趣的真假人脸识别，结合到最近的ZAO，一个软件的推出封装好的技术在娱乐下只是一个幌子，在很多人都不看的用户需知里面有很多的流氓条款，这便是开启犯罪的闸门。一瞬就可以有很多的犯罪，但是实验室识别换过的脸（还未实现）真假静态脸都要花费很长的时间，真是善恶一念间，所有的科研投入和经费values。科学技术是第一生产力（莫名其妙蹦出这句话）</p><p><strong>IMI</strong>：Image Media Institute</p><p>​        在IMI的官方fb上进行了报道，和四大技术（主要是仿人技术）进行了交流。具体细节还未可知，但是没有很多新的摄入，没有具体涉及到技术细节，所以侃侃而谈就没有很大的意义。同样有一个图片填补学习技术。这个展示的技术（卖给PS但是还未成功）是基于所有的库的，在这个基础上研究员说对人脸的识别比较有参考性，但是我觉得基于地球上的景色，所有的东西只要possilbe都可以入库，所以理论上自然景色也是可以学习填补的。不会差别特别大。这个还是让人认为比较有趣的。</p><img src="/2019/09/09/Singapore/img/5.png" title="[saying]"><h3 id="2019-9-3"><a href="#2019-9-3" class="headerlink" title="2019.9.3"></a>2019.9.3</h3><h4 id="陆路交通局"><a href="#陆路交通局" class="headerlink" title="陆路交通局"></a>陆路交通局</h4><p>​        展示了新加坡的BUS、BIKE、AIR、BRT等大纵深交通网络交织，能够很好地体现新加坡的网络结构。联想到当初在教育局的时候SG的APEC代表说的，交通已经悄然成为了新加坡第二发展目标。的的确确的，作为一个城市大小的国家，如果彼此之间的交通没有达到目标，没有办法彼此勾连的话，就更别提其他的发展了。就拿杭州来举例子，半小时城市生活经济圈，交通圈开始建造，萧山机场即将建成国内第一个机场高铁互通站，富阳即将通地铁，绍兴也进入了大绕城的范围内。一切都与交通有着密切的联系。</p><h4 id="城市重建局"><a href="#城市重建局" class="headerlink" title="城市重建局"></a>城市重建局</h4><p>​        展示了新加坡的土地规划、城市建立的过程，很多壁画很精致，最后的市中心沙盘挺有感觉，也没有很多想说的。只是在看沙盘填海造地区域的时候会想到精卫填海或者更久远的全球变暖问题，讲道理SG这个地方可能在几十年可预见的未来要考虑一下海平面的问题，所以现在还是比较担心SG的永久居民/公民的。</p><h4 id="达士岭租屋"><a href="#达士岭租屋" class="headerlink" title="达士岭租屋"></a>达士岭租屋</h4><p>​        考虑到房子的事情，新加坡的国情和中国的国籍的确可以享受到很多东西。这个楼顶的风光倒是也不错，新加坡政府的联租屋（岭租屋）是一个不错的gov措施，能够很好地运用到很多地方。今天是放松的一天，我觉得还是不错的。差不多到这里吧，Over。</p><p>​        迎着朝阳我们出发朝着故乡，心中却已经种下了方向。</p><img src="/2019/09/09/Singapore/img/6.png" title="[Topwind]"><h3 id="News-Press"><a href="#News-Press" class="headerlink" title="News Press"></a>News Press</h3><p>​        <strong>NUST-labs</strong>：Where most of ZJU summer intren students gathered</p><p>​        Shortly after three dilivering conspicuous speaches, we headed to T-Labs which is short for Temasek Laboratories. Dr.Lin Feng,Dr. Ren QinYuan’s PhD partner as well as the boss of T-Labs first showed us around the aircraft exhibition room. Among them displayed Dr.Ren QinYuan’s PhD masterpiece and some brilliant works of the Lab’s member. </p><p>​        One of them caught our eyes and voke Dr. Len and Dr. Ren’s memory. Let’s call it OPA(Oil Powered Aircraft).The OPA was directly differ from other aircrafts displayed by it’s power system. It’s tank under the bracket contains gallons of oil to make it fly longer(the primary purpose of designing it).  The gifted maker was now in Bonston Dynamic &amp; MIT colaborated labs doing science job. The main advantage of the OPA besides longer time is its outstanding stability. Closed Loop control was quite stable because of the uping power the engine offered is linear according to the oil powered system. As long as it’s linear,the equation (famous known in Automatic Control Theory) was simplified without the index parameter which makes the system fully controled. As a old chinese slang saying “The simpliest, the most beautiful”, the stable working system costs the complexity in mechanical framework.  Let’s take a example. Assume the OPA crushs into a bird or something obstacle during the flying and lose one engine, not like normal electricity-driven aircrafts, the OPA can’t adjust it’s flying position and gesture and some terriable may occure. </p><p>​        After the one specific illustruted above, we come to different parts of the Lab’s which contains different techniques. Conlude to say, the most important techniquesleaving the trivials away are motion planing and control stability. It‘s worth noting that the drones once made up to a formation that can move and act colaborately, that was showed at the Marine Bay Gargen in front of the whole Singapore citizens and its prime minister.</p><p>​        By the end of visit of T-Labs, Dr. Lin Feng and Dr. Ren QinYuan retold the stories back the times during their PhDs. The three mates groups made helicopter into three types and names after them” HE SHE IT”, the PhD experience impress the students and stimulate them to better learning and science working demosticsly. </p><img src="/2019/09/09/Singapore/img/7.png" title="[sunrise]">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Exploring Life </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Diary</title>
+      <link href="2019/04/26/Diary/"/>
+      <url>2019/04/26/Diary/</url>
+      
+        <content type="html"><![CDATA[<h3 id="2019-5-20"><a href="#2019-5-20" class="headerlink" title="2019.5.20"></a>2019.5.20</h3><p>4.26:<br>    TDL：1、PTA 2、数电理论 3、自控根轨迹<br>    扬言：每天00:30前睡，7:00前醒<br>    每天手机使用限制：早上9:50，中午吃饭，下午14:00，晚上20:00</p><p>4.27:<br>    写了一下午数电作业，找到了高中时候一道题墨迹一下午的感觉，还有初中和勒勒一起在教室外面用最基础的方法磨了一下午做成题目的感觉<br>    今天尝试了……</p><p>​    罢了，今天的尝试是没有必要的，所有开了局而没有结果的事情是不配被罗列或是裹挟的，些许被碾碎还可以考虑——即使如此也没有资格成为时间轱辘上的碎碎念的。</p><p>​    本来是想向J友人学习的，然后没有如此的时间颗粒度管理和自制力，便无疾而终。</p><p>​    Y友人倒是给我指了条名路，以前常常被冠名为理科生，所谓的理科生这种东西，其实只是迎合外界表象所在而表现出来的东西罢了吧。可能自己都未曾所直觉，理科都是需要花时间的进去的，但是英语这门语言我平时看看电影就能够达到周围优秀同学的水平，我自诩自己是有理科和体育天赋的，体育天赋过早夭折了，那么理科天赋呢，可能也被时间所磨灭了吧。但是语言学上的林林总总，使我觉得在高考结束时我会选择国际汉语教学，作为一个walkman，真正意义上的walkman。</p><p>​    在唐家三少浸淫中的我——年方18——高三吧，Z友人还在我的枪战游戏昵称时，冥冥之中会发现什么吗？PORNY还在孜孜不倦熬夜打王者的时候，219充斥着娱乐的氛围时，也就是我还没有进入峡谷的时候呢，我从套子那弄来的手机上，永远都是下载好的小说，扮猪吃老虎永远都不落俗套，古月娜之于三少的意义让我感到震撼，真正意义上的文学生死是难以考究的。是要怎么样的爱才能够写得如此刻骨铭心呢？时SOLO18年的我，自诩为感情专家，但是也无法对此不震颤不动凡心。流水账通常是不被人所看待的，我觉得我有很多话要讲不知道往哪去讲，这里那里，风吹鸡蛋破。</p><p>​    小记一笔，作为拙劣且无奈的琐碎记事笔记。</p><h3 id="2019-5-26"><a href="#2019-5-26" class="headerlink" title="2019.5.26"></a>2019.5.26</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Learn Log </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>TLC</title>
+      <link href="2019/03/04/TLC/"/>
+      <url>2019/03/04/TLC/</url>
+      
+        <content type="html"><![CDATA[<h2 id="新媒体运营"><a href="#新媒体运营" class="headerlink" title="新媒体运营"></a>新媒体运营</h2><h2 id="每日科普"><a href="#每日科普" class="headerlink" title="每日科普"></a>每日科普</h2><h3 id="2019-3-5"><a href="#2019-3-5" class="headerlink" title="2019.3.5"></a>2019.3.5</h3><p><a href="https://mp.weixin.qq.com/s/hnoj5lDIN8kaesOxCwoTHg" target="_blank" rel="noopener">错误的糖分估计</a><br>每日科普——错误的糖分估计。世界卫生组织每日建议摄入糖24g以下。麦片+咖啡，看似健康的饮食为什么糖分含量超标了？BBC揭发食品乱象！用极乐点蒙蔽大家对糖的估计，你吃的糖是你以为的4倍！看看这篇推文吧！</p><a id="more"></a><p><a href="https://mp.weixin.qq.com/s/PBaNYHgf-p5zwvIlC5JGPQ" target="_blank" rel="noopener">你真的会喝咖啡吗？</a><br>每日科普——你真的会喝咖啡吗？很多人一喝咖啡就失眠，那为什么有人一喝咖啡就想睡觉呢？靠咖啡提神醒脑的现代生活咖啡是越多越好吗？错误的咖啡饮用反而会对人体造成伤害！从原理上入手了解并解决疑惑吧！</p><h3 id="2019-3-6"><a href="#2019-3-6" class="headerlink" title="2019.3.6"></a>2019.3.6</h3><p><a href="https://mp.weixin.qq.com/s/UMeR0GhbP-E0wKR2AzYqnQ" target="_blank" rel="noopener">一去不复返的睡眠！</a><br>每日科普——一去不复返的睡眠。现代社会996的工作模式压榨着睡眠时间，24小时待机状态更是将深睡时间消耗殆尽。每次能够睡到自然醒的周末是人们自我犒劳的温床，然而对于身体而言真的是如此吗？</p><p><a href="https://mp.weixin.qq.com/s/UMeR0GhbP-E0wKR2AzYqnQ" target="_blank" rel="noopener">慎重的坚果选择</a><br>每日科普——慎重的坚果选择。坚果能够有效地抑制心血管疾病等诸多症结，但是逢年过节亲戚桌上摆放的林林总总坚果真的可以做到吗？答案是否定的，此坚果并非彼坚果，那就让这边文章告诉大家坚果选择吧！</p><h3 id="2019-3-7"><a href="#2019-3-7" class="headerlink" title="2019.3.7"></a>2019.3.7</h3><p><a href="https://mp.weixin.qq.com/s/ZOmxyt0vCJ43ZVF7KfgysQ" target="_blank" rel="noopener">正确认识牛奶</a></p><p>#每日科普#<br>正确认识牛奶。乳制品与健康一直息息相关，最新研究表明牛奶可以降低死亡率！那到底是喝牛奶还是喝酸奶，大家是不是也和小编一样，摄入牛奶时会有不适感呢？那这篇文章可得好好看看了。</p><p><a href="https://mp.weixin.qq.com/s/h_3mPVQ1Nq3qbrd_wA_HnQ" target="_blank" rel="noopener">认清蜂蜜的真相</a></p><p>#每日科普#<br>认清蜂蜜的真想。提到蜂蜜，大家想到的是润肠通便、美白润肤、清热解毒、益气补血、养肝明目……就差治疗癌症了！看似光鲜的背后隐藏着铭心的真相，蜂蜜不能排毒反而增肥！看看这篇文章吧！</p><h3 id="2019-3-8"><a href="#2019-3-8" class="headerlink" title="2019.3.8"></a>2019.3.8</h3><p><a href="https://mp.weixin.qq.com/s/gHJUbe_OmEQDsEgx1qIc6w" target="_blank" rel="noopener">女王节特刊</a></p><p>#每日科普#<br>女王特刊！群里的女王们节日快乐、永葆青春～那么我们应该如何永葆青春呢？饮食起居生活方面有什么要注意的吗？这篇知识点黄页你可不能错过。</p><h3 id="2019-3-9"><a href="#2019-3-9" class="headerlink" title="2019.3.9"></a>2019.3.9</h3><p><a href="https://mp.weixin.qq.com/s/bCb0CUz43B9Xsqle_jekTQ" target="_blank" rel="noopener">致我们逝去的青春</a></p><p>#今日推广#<br>你离理想还差什么？理想并没有那么遥远，但是经常在一步之遥的范围之外，触手可及却可望不可即。青春已经过去了，我们还有什么可挥霍的呢？小编用亲身经历告诉你，选择TLC，与时间斗争！</p><h3 id="2019-3-10"><a href="#2019-3-10" class="headerlink" title="2019.3.10"></a>2019.3.10</h3><p><a href="https://mp.weixin.qq.com/s/h4AONfCBpNVqDdZrCALS8Q" target="_blank" rel="noopener">脂肪可以延年益寿？</a></p><p>#每日科普#<br>相信大家每天都有在努力得和脂肪说拜拜，没有脂肪！一身轻松！不仅如此，没有脂肪还有可能增加死亡率，适当地选择脂肪让自己更健康吧！</p><p><a href="https://mp.weixin.qq.com/s/bKHcW3C12Z7T_wd7D5pWMA" target="_blank" rel="noopener">1克盐是多少？</a></p><p>#每日科普#<br>民以食为天，柴米油酱醋盐，一日三餐谁都不能离～WHO每日推荐摄入量5g，中国居民膳食指南推荐6g，那么我们的身边的食物们调料们到底含盐量怎么样呢？</p><h3 id="2019-3-11"><a href="#2019-3-11" class="headerlink" title="2019.3.11"></a>2019.3.11</h3><p><a href="https://mp.weixin.qq.com/s/mRrSe9D3gHIIfNIxFXkBtg" target="_blank" rel="noopener">亲自动手做低碳水餐饮</a></p><p>#每日科普#<br>相信大家都很喜欢吃，但是忙碌的生活常常让我们左支右绌，没时间做菜。去食堂吃吧，有很多是高碳水，这时候，大家家里的微波炉就起了作用！如何在5mins内做低碳水餐饮呢？、</p><p><a href="https://mp.weixin.qq.com/s/-WR8qGzl315JN4y3nEvkcA" target="_blank" rel="noopener">直面果汁</a></p><p>#每日科普#<br>水果可谓是人人喜爱，果汁也顺带着成为了众人的焦点，但是水果和果汁真的能画上等号吗？为什么那么多人喜欢喝果汁却不喜欢吃水果呢？果汁的糖分含量令人惊心……</p><p><a href="https://mp.weixin.qq.com/s/ud0Tj_TuXH3EVZk-O1w4fQ" target="_blank" rel="noopener">TLC女王节火热来袭</a></p><p>#今日推广#<br>春节刚过，倔强的女王们纷纷进入了健身房补偿过年期间的身体变形，脑子虽然悔过了，但是身体却很诚实，停留在过年的温床里不肯出来，健身房前后还重了……三八妇女节已过，TLC强势出击为女神们打造称心活动⬇猛戳！</p><p><a href="https://mp.weixin.qq.com/s/jySy2il-CV01lUXVmXj5XA" target="_blank" rel="noopener">抬起你的头吧！</a></p><p>#每日科普#<br>现在人的大家每天似乎都会有一点身体的酸痛，不知道是否有脖颈的不舒适呢？小编经常有这种感觉，直到TLC霜姐纠正了我的一大生活恶习！快看推文学习一下吧！</p><p><a href="https://mp.weixin.qq.com/s/Vh56y1X1XHHrXZuvD7YjnQ" target="_blank" rel="noopener">睡眠和失眠？</a></p><p>#每日科普#<br>每日8个小时的成年人睡眠是足够的，那为什么有的人会嫌多，有的人会不够呢？睡着了就真的不是失眠了吗？睡眠和失眠有着千丝万缕的联系，看推文学习一下相关概念和你不知道的小知识吧！</p><h3 id="2019-3-19"><a href="#2019-3-19" class="headerlink" title="2019.3.19"></a>2019.3.19</h3><p>#每日推广#<br><a href="https://mp.weixin.qq.com/s/OYmV6vCfSOiuG63DfA0E5Q" target="_blank" rel="noopener">小疑问汇总</a>“三分吃，七分练”，在TLC的健康理念下，相信大家很多人都已经获得了自己满意的身材和习惯，那么大家还对TLC有什么疑问吗？这里小编整理了一周用户的问题 ，大家可以看一下～</p><p>#每日科普#<br><a href="https://mp.weixin.qq.com/s/7cdaAWAfGedv5GIum82quQ" target="_blank" rel="noopener">粗细搭配，干活不累</a><br>TLC的健康饮食能让大家在保质保量的情况下瘦身，那么大家一般认为的不吃主食就能瘦是真的吗？答案是肯定的，只要掌握好粗细搭配，就能轻松完成这点任务！戳推文看一下吧！</p><h3 id="2019-3-23"><a href="#2019-3-23" class="headerlink" title="2019.3.23"></a>2019.3.23</h3><p>#今日科普#<br><a href="https://mp.weixin.qq.com/s/pcpGMOGfq4AARQeOIMESHw" target="_blank" rel="noopener">高纤维的妙用</a><br>在平日的餐饮咀嚼中，一些拗口的食物经常会被嫌弃。他们是高纤维食物！益生菌作为细菌能被人们所认同，这次高纤维给自己正名！</p><p>#今日科普#<br><a href="https://mp.weixin.qq.com/s/FKB5My0tIQklSA0ASLxNTw" target="_blank" rel="noopener">巧克力</a><br>大家知道巧克力风靡全球，但是大家真的知道巧克力在世界上 各个国家 内的食用量吗？巧克力与健康千丝万缕的联系一直被人们所研究，这一次，巧克力似乎与骨质疏松也有了一定程度的关系。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> work </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>getui</title>
+      <link href="2019/01/02/getui/"/>
+      <url>2019/01/02/getui/</url>
+      
+        <content type="html"><![CDATA[<h2 id="2019-1-2个推"><a href="#2019-1-2个推" class="headerlink" title="2019.1.2个推"></a>2019.1.2个推</h2><h3 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h3><p>1、董明 足球机器人<br>2、强化班内的豪华团队进行创业—后续创业会有压力<br>3、00级创业soar<br>4、创业是种病，具有感染性<br>5、过汇率 30%<br>6、吴晓波一杯茅台两个小时<br>7、最重要的时间会留给强化班</p><a id="more"></a><p>8、北京的金融街<br>9、聚到一起，讨论怎么建设<br>10、魏老师曾经改过口号<br>11、强化班的事情我不推<br>12、兴趣的选择和互信<br>13、财务成本和机会成本<br>14、98招99有宣讲会<br>15、个推今日累计下发量163亿（18:33）<br>16、97级竺院学生会主席，误会作弊失去学位——作弊需要答辩<br>17、方毅—正常的辅修-班长面试自不知<br>18、浙大玉泉只有一个二食堂<br>19、方毅，个推创始人兼CEO，浙江大学竺可桢学院混合班特优毕业生、计算机学院研究生<br>20、initial 元空间赞助，从0到1<br>21、强化版1.0、强化版2.0、强化版3.0</p><h3 id="需要注意的点"><a href="#需要注意的点" class="headerlink" title="需要注意的点"></a>需要注意的点</h3><p>1、对原来单位的认识<br>2、爱迪生发明灯泡，技术创新的方法<br>3、项目管理是一门很有挑战的课：**图、关键路径<br>4、这个老师没人上课的话，用脚投票<br>5、最敬佩：华家池上课雪天早上6点、赵单<br>   最记恨：副班长，疯狂找笔签到<br>6、拿到了证书没有毕业，有些人毕业了没有证书<br>7、60个人第一届毕业10多个，第二届毕业20多个，第三届毕业40多个</p><h3 id="强化版改进"><a href="#强化版改进" class="headerlink" title="强化版改进"></a>强化版改进</h3><p>1、问卷，是否要创业，右键作者FY<br>2、强行出征、寸草不生<br>3、表刷从FY开始<br>4、选举班长3/4多数才行，半年以后，不满足3/4多数但满足1/2多数就任副班长。班长明选产生、<br>5、强化班建设促进组<br>6、挑战工高班，篮球赛<br>7、硅谷有个peple merfi/产业界的万群/<br>8、麦肯锡只招清北复交的<br>9、史玉柱的女儿<br>10、marine教会了怎么写CV<br>11、在陌生的领域内达到专家的水平：focus learning</p><h3 id="自由讲话"><a href="#自由讲话" class="headerlink" title="自由讲话"></a>自由讲话</h3><p>1、抓住主要矛盾<br>2、个推今日累计下发量177亿（19:45）<br>3、mastering battle<br>4、战略新兴板、新三板、做A股<br>5、港股是一个市场，会有一批新公司冒出来<br>6、处理朋友圈的信息！！！做一个离身的处理，漂浮体位<br>7、人口空间动态实验室—-愿不愿意为此付钱<br>8、renew your CV daily<br>9、</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> ITP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>family</title>
+      <link href="2018/12/19/family/"/>
+      <url>2018/12/19/family/</url>
+      
+        <content type="html"><![CDATA[<h1 id="罗佳驹"><a href="#罗佳驹" class="headerlink" title="罗佳驹"></a>罗佳驹</h1><ol><li>03 itper 班委、08魏江硕士、09学智教育【卖给俞敏洪】、13小美快购买、18Panda英语-至今</li><li>认真、实践、family制度创立者</li></ol><a id="more"></a><ol start="3"><li>创业是因为够自由<br>对自己足够真实、对别人尽量真实<br><code>弄清楚自己的阶段性人设比什么都重要</code><br>有情有义比有钱有梦更重要<br>最大理想是公司上市而我跑掉</li><li>起手Panda英语是想留名</li><li>有情有义：拿16万给新跟创业的女管理<br>给自己公司卧底的人10w然后5年后回报180w</li><li>要招一定量的奇葩</li><li>公司可以战死，不可以笨死</li><li>优势是往后看八到十步</li><li>刚开始掌握一定的<code>短逻辑能力</code> 短逻辑曲线 <a href="https://baike.baidu.com/item/%E9%80%BB%E8%BE%91%E8%87%AA%E6%B4%BD/16991011" target="_blank" rel="noopener">逻辑自洽</a></li><li><code>人贵有自知之明</code></li><li><blockquote><p>吾日三省吾身</p></blockquote></li></ol><h2 id="15级班长"><a href="#15级班长" class="headerlink" title="15级班长"></a>15级班长</h2><ol><li>大家精力分散，需要一些奇葩</li></ol><h3 id="ITP的印象"><a href="#ITP的印象" class="headerlink" title="ITP的印象"></a>ITP的印象</h3><ol><li>1999 born 2002 富有争议：ITP到底要培养什么 2008 十周年争议度下降 不够aggressive</li><li>不怎么融洽、有一群奇怪的人、一个模糊的未来</li><li>ITPer不怎么敢和长辈说话</li><li><blockquote><p>生活的意义就是到了老了依然念念不忘的人</p></blockquote></li></ol><h3 id="STH-relevant："><a href="#STH-relevant：" class="headerlink" title="STH relevant："></a>STH relevant：</h3><ol><li>创业导向、赵紫龙：傻逼才开发票</li><li>魏江：选择没有对错，做得对不对才行<br>强悍的人格</li><li><a href="https://baike.baidu.com/item/%E6%9D%AD%E5%B7%9E%E6%B3%9B%E5%9F%8E%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/10259730?fr=aladdin" target="_blank" rel="noopener">泛城科技</a></li><li>创业合伙人，挂科挂一半：<a href="https://baike.baidu.com/item/%E9%99%88%E4%BC%9F%E6%98%9F/10062671?fr=aladdin" target="_blank" rel="noopener">陈伟星</a><br>Bitcoin一手3kw、通过说服企业家给浙大捐了100w，并自己获得特优奖学金</li></ol><h3 id="飞行棋起飞计划"><a href="#飞行棋起飞计划" class="headerlink" title="飞行棋起飞计划"></a>飞行棋起飞计划</h3><ol><li>每月一次小聚，只要开心</li><li>每学期2次大聚，自选外援团</li><li>创业选手辅导专项：场地、商业模式设计、融资等</li><li>给有意义的事插上翅膀</li><li>各种实习实践机会、Panda或外在（可定制）</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> ITP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>American-Politics</title>
+      <link href="2018/11/22/American-Politics/"/>
+      <url>2018/11/22/American-Politics/</url>
+      
+        <content type="html"><![CDATA[<h3 id="2018-11-22-小雪"><a href="#2018-11-22-小雪" class="headerlink" title="2018.11.22 小雪"></a>2018.11.22 小雪</h3><ol><li>君子不党</li><li>支持理想青年为我党输入新鲜血液</li><li>六四过来人，不要成为政治的牺牲品</li></ol><a id="more"></a><p>A4纸、5号、常规行间距。<br>从川普当选看西方民主制的漏洞。</p><p>期末论文：5个以上符合学术规范的注释。<br>引用中文书籍和外国书籍是不一样的。<br>Reference：政治学研究、美国研究、世界经济与政治<br>孙仲只能引用一次<br>什么出版社、第几页什么的</p><ol start="4"><li>五月花号</li><li>佛教、伊斯兰教、基督教</li><li>基督教：天主教、东正教、新教</li><li>新教-WASP人种 abbreviation for white angle saxon protestant——抗议宗</li><li>新教——&gt; 圣公会、清教（最严苛）、</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Learn Log </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Meetings</title>
+      <link href="2018/10/21/Meetings/"/>
+      <url>2018/10/21/Meetings/</url>
+      
+        <content type="html"><![CDATA[<h3 id="2018-10-21"><a href="#2018-10-21" class="headerlink" title="2018.10.21"></a>2018.10.21</h3><p>参会人员：9人</p><ol><li>会议记录轮流记</li><li>网盘制度—yct</li><li>人资的联系人制度—zbm</li><li>财务-lxy</li></ol><a id="more"></a><ol start="5"><li>因为科技部人员冗余，需要起草一个考核机制文案</li><li>回复个人优点的消息</li><li>收集竞赛信息*2 wzh/zhy</li><li>学习小组<ol><li>有四个小组</li><li>拉小群，发任务</li><li>每个人都要定目标和每周安排、作业、评分</li><li>线下，答疑自己安排</li><li>每周汇报、进度要排好</li><li>linux-wk ROS-yjtz </li></ol></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Exploring Life </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Cognitive Practice</title>
+      <link href="2018/09/11/Cognitive%20Practice/"/>
+      <url>2018/09/11/Cognitive%20Practice/</url>
+      
+        <content type="html"><![CDATA[<h2 id="学院现状"><a href="#学院现状" class="headerlink" title="学院现状"></a>学院现状</h2><p>学院教学院长侯迪波教授致辞2017认知实习启动，控制学院以87%的深造率领跑浙江大学。学院下设无人系统协会、<code>智慧城市与交叉创新俱乐部</code>等五个社团和诸多实验室。</p><ol><li>目标</li><li>踏实</li><li>精力</li></ol><p>是侯迪波教授提出的三条要求。控制学院目前下设三个研究所<br><a id="more"></a></p><ol><li>智能感知与检测研究所</li><li>工业控制研究所</li><li>智能系统与控制研究所。</li></ol><h2 id="老师的问题"><a href="#老师的问题" class="headerlink" title="老师的问题"></a>老师的问题</h2><p>Q1：发挥你的想象，谈谈10年后物联网的应用场景？<br>Q2: 以上介绍的竞赛你最感兴趣的是哪一个？<br>Q3：脑机接口让猴子进食？</p><h2 id="自我感想"><a href="#自我感想" class="headerlink" title="自我感想"></a>自我感想</h2><p>A2:在当日展示的无人帆船（WRSC）、轮式足球机器人、仿人式足球机器人(robocup)和机甲射击机器人（Robomaster ）等比赛，由于我本身也是一个体育爱好者，便对足球机器人产生了浓厚的兴趣。<br>在对机器人未尝涉足的情况下，我进行了相关资料的阅读。了解到让机器人踢足球进行比赛，这一设想由加拿大不列颠英哥伦比亚大学的学者艾兰.麦克乌斯教授于1992年在一篇题为“关于可视机器人”的文章中首次提出【1】。机器人足球比赛系统涉及了机器人视觉技术、机电一体化技术，无线通信技术，多智能体协调控制技术，传感器融合技术、计算机硬件技术、人工生命与遗传学技术，人-机接口技术等多门学科的内容，足球机器人是这些关键技术的集成。<br>关注到视频中所放的小型轮式足球机器人，其速度与球速都十分惊人，控球率也有一定的保证，极其类似人类的足球作战。但是机器人不是人，他没有前锋、中场、边路的意识。所以机器人首先就需要视觉绝对坐标/球场来确定自己的位置和朝向，然后利用线性矩阵让这种人眼和脑一瞬间能处理的情况变为机器人能处理的计算。在视频中的小车，并没有观察到转向轮，所以合理推测轮式足球机器人是通过两轮的差速来实现转向的。机器人没有柔软性和任意精度的自由度控制，所以对于灵活多变的足球运动来说，要求就十分高。对于单个轮子来说，需要三个自由度来控制它，简单来说就是x方向y方向的力学方程和一个转动角动量；对于整个小车来说，有一个质心的平动和质心的转动等等【2】。运动控制方面，有基于BP神经网络的PID控制、基于SVM路径规划、时间最优Bang-Bang算法等。<br>从小车的个体抽象出来，放眼整个足球场。足球是11个人的运动，也是最考验“交互”的运动。在过去60年中，人工智能研究的主要问题是“单主体静态可预测环境中的问题求解”，其标准问题是国际象棋人一机对抗赛;未来40年中，人工智能的主要问题是“多主体动态不可预测环境中的问题求解”，其标准问题是足球的机一机对抗赛和人一机对抗赛。在机器能够拥有初步只能处理的情况下，与其他机器乃至人交流是大势所趋，而到2050年基本实现机器人与人类世界杯球队踢球【3】也让未来可期。回归到机器人足球的球场上，在现有的Rob oCup的赛场上，主要分为两种Remoto-brainless系统（全局视角）和Robot-based系统（局部视角）。足球运动是不允许发生冲撞的，所以利用队形变换撕开防线就是最经典的突破，对于机器人来说，在获取了整体定位以后就要规划最优路径了。在基本运动规划方面主要有以下三种方法【4】：1、Decomposition 方法 2、RoadMap方法 3、Potential Field方法。而随机运动规划也包括三种方法：1、随机势场法 2、概率路标法 3、快速扫描随机树方法。<br>大致了解了这些方法的内容以后，重新回想视频比赛中的情况，在主要是局部视角的情况下，机器人能够做出晃人、假动作、变速球等动作。个人猜想应该是在动作处理库（一个函数库/深度学习库）里将战术存放进去，然后再放进深度学习里面让深度学习能够自我调用等。如果人类足球前锋能够骗过守门员和摄像机，那么机器人应该也可以——在视频中前几个高速抽射，美国的守门员都能瞬间扑住，但是外围一个缓慢的球守门员却没有任何反应。我自己有两种考虑，就以前锋持球面对守门员的时候为例。一种是将假动作这个写进程序，当判断到达前锋守门员1vs1的时候随机触发，设这个概率为ζ ，ζ在自我学习中根据成功率不断修正；第二种是加上读取对手动作的视觉反馈环节，对方守门员可能会根据机器人开球部位的动作分析做出动作，而我们可以降低开球部分的速度，从而在对方守门员进行相应反应时，我们读取他的动作，然后进行假动作。可能造成对方守门卡顿或者扑向完全相反的方向。在自我设想以后，我查阅了相关的资料【5】，考虑到足球中传控是最主要的一环，而射门也可以算是加强版的传球——基于CMAES逐层学习的传球。在CMAES的架构下，可以分为1、灵活传球的分层学习 2、稳定传球的分层学习 3、精准传球的分层学习。学习了传球的基础上再分解动作，比如在Keepaway局部学习下有带球、传球、射门、向静止的球靠近或者截段对手的球、无球跑动等。</p><p>A3:在控制学院三大研究所之一的智能系统与控制研究所的介绍内，老师讲解了将猴子绑在椅子上，使其通过“意念”隔空操作机械臂进食的脑机接口、看到蚊子在大雨中来去自如而引发的建模实验、还有小型无人机炸弹“蜂群”等。其中最感兴趣的莫过于脑机接口的应用，这满足了人类的无限幻想。<br>大脑是人类最复杂的神经中枢，里面数以亿计的计算都是通过脑电波，一种电磁波进行的，私以为，只要在电磁层面，就可以将这种电信号提取出来，然后做相关处理。查阅相关资料，脑机接口形式一般以信息采集方式为主划分：通常被分为侵入式、半侵入式、非侵入式（脑外）。在上述划分中，侵入式和半侵入式都需要实施手术，不可避免地对动物体或人体造成伤害，非侵入式脑机接口其实就是一套可穿戴设备，虽然避免了昂贵而危险的手术，但是由于颅骨对信号的衰减作用和对神经元发出电磁波的分散和模糊效应，记录到信号的分辨率并不高。<br>清华大学医学院生物医学工程系洪波教授洪波也表示【6】，原来的实验室工作基本上都是植入式脑机接口，但是这些年的工作都是无创的脑机接口，“这说明经过这么多年，做植入式脑机接口还是很困难的。因为你植入这么多电极，这些神经是不死的，会有反应的，会包裹电极，把信道降低。”<br>1988年首次报告了用脑电α波信号控制移动机器人，目前这种无创的脑电波采集方法正是实现脑机接口的最主要方式之一。除此之外，还有脑磁（MEG），功能磁共振（fMRI）、功能性近红外光谱（fNIRS）以及有创的皮层脑电（ECoG）、神经元群体记录等信号采集技术。大脑有边缘系统和新皮质，边缘系统在大脑中相对简单，负责人类相对简单的冲动——吃食物、搏斗和性，这些都与生存有关；新皮质是大脑中相对高级的部分，负责艺术、商业、技术、哲学和游戏。新皮质让真正负责思考的并非是其“主体”，而是顶部2毫米厚的物质层，下方的其余部分实际上相当于连线。所以脑机接口就是将2毫米厚的物质层进行相应的对接。<br>    在实际应用方面，脑机接口和展示视频最直接相关的就是帮助神经受损的伤患进行肢体延伸。以猴子为例子，美国杜克大学研究人员在两只猴子的脑部负责躯体运动和感觉的两个区域植入数以百计、只有发丝大小的微细纤维，形成微电极阵列。通过这一阵列，外部设备就能接收神经元发出的脑电波。从而驱动相应的机械设备达到绕过受损神经元的目的。参与研究的杜克大学研究人员米盖尔·尼科莱利斯说，此前也有一些非嵌入式的方法可以帮助残疾人士恢复一定活动能力，比如在头部贴上电极来传输并转化脑电波，从而操控机械轮椅或机械手臂，但这种做法效率很低。而新研究显示，在脑内植入电极能够对机械轮椅实现更高效的操控（侵入式）。但是这样同样也会面临产品更新换代但是植入脑的无法更新换代等问题。同样还会面临相应的伦理问题，因为涉及到了人类最深层次的大脑。但是在文体悬而未决的情况下并不影响脑机接口的未来可塑性【7】。Facebook提出了实现“读心术”，像科幻电影中仅利用脑电波进行交流，他们准备将脑机接口的语言输入提升到每分钟100字，同时打造商用设备。特斯拉与SpaceX的创始人埃隆·马斯克则建立了“神经织网（Neuralink）”公司，旨在拓展研发脑机接口。<br>    大体了解了情况以后，尚不具备相应专业知识的我为了深入了解查阅了相关资料。在实际应用方面，除了绕过部分神经受损方面，还有字符输入和完全闭锁状态患者信息输出。在硬件方面【8】对新型小型的设备的兼容性、无线化提出了新要求，德国柏林工业大学的无线模块化硬件架构M3BA，单个仅长42mm；信号制约也会极大影响效果，美国UCLA开发了将电极放在耳后无毛发覆盖区域的稳态视觉系统诱发电位脑机接口系统提升了相应的稳定性。传输速率上从原来的0.5bit/s——清华4.5bit/s——中科大6.3bit/s——丹麦的自适应式特征提取脑机算法。<br>    脑机接口神秘而空间巨大，充满着吸引我的力量。还需努力学习，方能进一步探索科学世界。</p><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>[1] A.K.Mackworth. On seeing robots. In:Computer Vision:System, Theory and Applica ions[M],World Science Press, Singapore , 1993.<br>[2] 孙淑云. 轮式足球机器人运动控制算法研究与实现[D].成都理工大学,2009.<br>[3] 郑春阳,李永新,李尚荣,孙刚,陈盛,朱璐,皮骄阳.轮式足球机器人平滑运动轨迹控制算法的研究——Robocup系列研究之四[J].自动化与仪表,2004(01):10-13<br>[4] 周科. RoboCup小型组（F-180）足球机器人的运动控制和路径规划[D].浙江大学,2004<br>[5] 李学骏. 足球机器人局部传球与战术配合[D].南京邮电大学,2016<br>[6] 孙进,张征,周宏甫,等.基于脑机接口技术的康复机器人综述[J].机电工程技术,2010,39(4):13-16.<br>[7] 张丹,李佳蔚.探索思维的力量:脑机接口研究现状与展望[J].科技导报,2017,35(9):62-67<br>[8] 张丹,陈菁菁,王毅军.2017年脑机接口研发热点回眸[J].科技导报201836(01):104-109</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Learn Log </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ITP</title>
+      <link href="2018/08/23/ITP/"/>
+      <url>2018/08/23/ITP/</url>
+      
+        <content type="html"><![CDATA[<h2 id="管理学课程"><a href="#管理学课程" class="headerlink" title="管理学课程"></a>管理学课程</h2><h3 id="2019"><a href="#2019" class="headerlink" title="2019."></a>2019.</h3><h2 id="团队沟通与领导力"><a href="#团队沟通与领导力" class="headerlink" title="团队沟通与领导力"></a>团队沟通与领导力</h2><h3 id="2019-1"><a href="#2019-1" class="headerlink" title="2019."></a>2019.</h3><h2 id="ITP"><a href="#ITP" class="headerlink" title="ITP"></a>ITP</h2><p>终于等到了ITP，本来是在做学长组工作的，此时突然惊醒，之前对所有事情的看法都已忘了吗？那么久那么久了，那么就准备开始吧！Intensive Training Program of Innovation and Entrepreneurship。：//2019.8.23补充，看到ITP群里大家都这么认真的讨论！好激动，拿出小本本记下来随性的东西！</p><blockquote><p>谁能阻挡自由与自由相遇？</p></blockquote><p>要耐心看到中间偏后哦！<br><a id="more"></a></p><h3 id="2018-8-17"><a href="#2018-8-17" class="headerlink" title="2018.8.17"></a>2018.8.17</h3><blockquote><p>七夕节如何把一支玫瑰卖到100元，并可持续盈利。</p></blockquote><p>100元好说，但是可持续性盈利的概念不清。每天都要盈利，还是说可持续盈利的每年？<br>roseonly的话，<a href="http://www.sohu.com/a/141434121_750320" target="_blank" rel="noopener">这里</a> 有一段比较好的讲解。<br>每天点赞、照片等收回尾款。分子微雕。</p><h3 id="2018-8-19"><a href="#2018-8-19" class="headerlink" title="2018.8.19"></a>2018.8.19</h3><blockquote><p>数据时代的未来在于减少数据而非增加数据</p></blockquote><p>查理芒格逆向思维<br>幸存者偏差</p><h3 id="2018-8-20"><a href="#2018-8-20" class="headerlink" title="2018.8.20"></a>2018.8.20</h3><blockquote><p>马斯克713亿美元“私有化”特斯拉，意欲为何？中国能否出现像“马斯克”一样的人？</p></blockquote><p>马斯克——第一性原理。<br>怎么快速弄懂一家公司——</p><ol><li>宏观背景</li><li>行业</li><li>公司</li><li>管理架构</li></ol><h3 id="2018-8-21"><a href="#2018-8-21" class="headerlink" title="2018.8.21"></a>2018.8.21</h3><blockquote><p>如何看待创造101的营销策略？国产综艺如何摆脱抄袭命运？</p></blockquote><p>口红效应：“低价产品偏爱趋势”<br>奶头乐理论</p><h3 id="2018-8-22"><a href="#2018-8-22" class="headerlink" title="2018.8.22"></a>2018.8.22</h3><blockquote><p>如何看待拼多多的盈利模式与售假行为？拼多多对京东、阿里等电商有何冲击？</p></blockquote><p>kpi：关键绩效指标。</p><h3 id="2018-8-23"><a href="#2018-8-23" class="headerlink" title="2018.8.23"></a>2018.8.23</h3><blockquote><p>为什么我们需要保护隐私？隐私是否与信息时代连接一切的理念相冲突？</p></blockquote><p>没有第二个问题的引导，就隐私保护来说，是对人权的一种尊重。但是第二个问题未免有点误导方向。但是从出题人的角度来说，这叫引导方向，隐私对于信息时代来说。</p><h3 id="2018-8-24"><a href="#2018-8-24" class="headerlink" title="2018.8.24"></a>2018.8.24</h3><blockquote><p>如果三体星人侵略地球，世界上所有的人都被赶到了澳大利亚，作为一个逃难中的浙大学生，会做什么？</p></blockquote><p>？？？什么玩意，三体我都没看过！</p><h3 id="2018-8-25"><a href="#2018-8-25" class="headerlink" title="2018.8.25"></a>2018.8.25</h3><blockquote><p>Facebook已于7月18日在中国杭州成立独资公司，名为“脸书科技”，注册资本为3000万美元。随着活跃用户增速放缓，Facebook需要开拓新的市场，增加用户数量，便把目标瞄准了中国。你对此有什么看法ฅ( ̳• ε • ̳)ฅ</p></blockquote><p>欧洲难民问题，通过了德国各种心理测试的难民其实是恐怖组织。<br>脸书科技杭州分公司人去楼空，甚至为了临时的参观者配备了一名保安。3天后，已经悄然注销。但是在股票市场上（A股）还是有了较大的波动。</p><h3 id="2018-8-26"><a href="#2018-8-26" class="headerlink" title="2018.8.26"></a>2018.8.26</h3><blockquote><p>你觉得快手、抖音等APP上的一些视频，知乎等APP上一些“鸡汤”会毒害青少年的心智么？如果答案是肯定的，那么娱乐舆论应该如何加强监管。</p></blockquote><p>查理芒格与误判心理学。<br>犯罪心理学。李玫瑾老师——青少年教育。<br>UGC=<code>User Generated Content</code><br>PGC=<code>Professional Generated Content</code><br>OGC=<code>Occupationally Generated Content</code></p><h3 id="2018-8-27"><a href="#2018-8-27" class="headerlink" title="2018.8.27"></a>2018.8.27</h3><blockquote><p>大学生创业，是被时代逼上梁山么？你怎么看？</p></blockquote><p>中期借贷便利（MLF）</p><h3 id="2018-8-28"><a href="#2018-8-28" class="headerlink" title="2018.8.28"></a>2018.8.28</h3><blockquote><p>如何看待NGO？能否用创业组织的方法管理NGO</p></blockquote><p>NGO=<code>Non Governmental Organization</code> 参见 <a href="https://www.douban.com/note/122307800/" target="_blank" rel="noopener">我所了解的NGO系列</a><br>问题：</p><ol><li>问题有语病</li><li>创业组织和NGO的交并集关系</li><li>管理创业组织的方法？<br>营销第一大师菲利普科特勒、壹基金的执行主席周唯彦<br>大量的草根NGO都是政府买单性质。</li></ol><h3 id="2018-8-29"><a href="#2018-8-29" class="headerlink" title="2018.8.29"></a>2018.8.29</h3><blockquote><p>如何设计一种「高考」的替代方案？</p></blockquote><h3 id="2018-8-30"><a href="#2018-8-30" class="headerlink" title="2018.8.30"></a>2018.8.30</h3><blockquote><p>你对苹果公司的发布会或新品有什么期待？试从产品营销角度对比苹果、三星、华为、小米等品牌。</p></blockquote><p>苹果：下架上一代容量卖得最好的iphone<br>小米的社群经济<br>黄金圈法则：</p><h3 id="2018-9-1"><a href="#2018-9-1" class="headerlink" title="2018.9.1"></a>2018.9.1</h3><blockquote><p>全网skr的背后引发你对于商业、舆论、粉丝的什么思考吗？</p></blockquote><p>娱乐营销模式、</p><h3 id="2018-9-2"><a href="#2018-9-2" class="headerlink" title="2018.9.2"></a>2018.9.2</h3><blockquote><p>去年的情景模拟题</p></blockquote><p>逻辑、创新（脑洞）</p><p>积极和消极两种情况。<br>当事人是否清楚自己的处境。<br>主客利害关系是否颠倒etc</p><h3 id="2018-9-3"><a href="#2018-9-3" class="headerlink" title="2018.9.3"></a>2018.9.3</h3><blockquote><p>去年报名表问题：现在，你需要在某高档小区的电梯内投放某产品的广告，请选择一款产品，说明投放的广告形式及理由。</p></blockquote><p>产品、广告形式</p><img src="/2018/08/23/ITP/img/1.jpeg" title="[我在微信群里的答案流程图]"><h3 id="2018-9-4"><a href="#2018-9-4" class="headerlink" title="2018.9.4"></a>2018.9.4</h3><blockquote><p>目前，中国的移动支付领域又两大巨头：支付宝与微信支付，请问，你更看好谁的发展？</p></blockquote><p>关键词——提供今日讨论题的报名表设计组的小伙伴们。<br>哈哈哈估计是明天就要做一个小论文资料收集了。</p><h3 id="2018-9-5"><a href="#2018-9-5" class="headerlink" title="2018.9.5"></a>2018.9.5</h3><blockquote><p>近日，在资本市场低迷的背景下，区块链行业迎来了“至暗时刻”。请问，你认为引发这次寒冬期的根源有哪些？区块链技术真的是很多媒体人口中的“超越互联网的革命性技术”吗？它未来的应用场景可以是？今天的话题有一定的专业性，大家未必非常熟悉，但是网络上有很多关于blockchain的分析报告，也有很多自媒体文章可以进行学习，希望大家可以踊跃发言！</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我对区块链的了解程度是：1、明白它与比特币的关系：它起源于比特币并作为比特币的底层技术以其巨大的优势成为人们研究的对象 2、明白了它的产生与结构，它通过大量计算机计算出一个随机散列，在全网内比较算力，算力高速度快的，获得共识。取得了一个随机数。这个随机数和Hash值、时间戳组成了一个block，block用<span class="built_in">hash</span>值相连成为了chain 3、明白了它的优势，去中心化、共识等，增加了它的信用度，共识过程还保证了如需攻击，需要掌握至少51%的算力才行 4、明白了它的分类，现在chain大致可以分为公有链、联盟链、私有链、侧链、互联链等，应用正在迅速铺开。 5、明白它的应用前景之大，区块链其实就是很多block组成的chain，但是应用的一定意义上可以说是一个难以篡改的分布式账本数据库。所以它在物联网、金融业、˙智能合约等地方都有广大的应用前景。目前区块链寒冬期的根源可能是因为监管与开发不对称。在白皮书黄皮书发布以后，有很多的企业都以区块链技术发币，但多数区块链包装企业都有割韭菜的行为，国家重点批准的区块链研究中心我知道迅雷就有一个但是人家只做技术不发币以及一些灰色地带的行为。</span><br><span class="line">未来的应用场景有1、支付系统，听说支付宝等也要走一遍央行的流程，在这个支付系统中，有一个值得信赖的中央权威机构充当清算行，区块链技术则去除了对 中央权威机构的依赖。2、金融基础设施，区块链特别适合或者已经应用于股权众筹、P2P网络借贷、证券等。比如传统证券交易需要经过中央结算机构、银行、证券公司和交易所等中心机构的多重协调,而利用区块链自动化智能合约和可编程的特点,能够极大地降低成本和提高效率。3、对物联网的影响，物联网的发展受到了两方面的限制，受到终端设备的智能化程度的限制和对这些设备的管理运营水平的限制。后者，设备的管理运营水平上存在的问题则是连接成本高和信任度缺失，这就和之前说的智能合约曾经的窘境相似，区块链正好能够完美的解决这些问题。</span><br><span class="line">把比特币和区块链单一的划分成五“去中心是错的”或者“去中心是对的”我觉得不现实也不科学。以建设某种政体或者意识形态为类比，思想家的想法可能是解放全人类的生产力，上层者的目标可能是建设经济政治复合体，执行者目标可能是维护统治者的利益，下层可能在忙着贪污腐败，参与者在受惠过程中也被当韭菜割。其实区块链也一样的，最早的密码学创立者可能只是想避免交易被中心背书，后来生态的倡导者想的是算力即权力，早些年大家在利用其有值进场收割，还有一些技术人员在开发其他领域的应用，现在变成了群魔乱舞。我觉得是一个很复合的情况。</span><br></pre></td></tr></table></figure><h3 id="2018-9-6"><a href="#2018-9-6" class="headerlink" title="2018.9.6"></a>2018.9.6</h3><blockquote><p>请问，你觉得中国的“墙”，即“the great firewall”，有设置的必要吗？可进行一定的利弊分析，权衡之后再给出结论。</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">哈哈哈这可是我最好的方面了。</span><br><span class="line"></span><br><span class="line">对于GFW的想法。利：在我国网民基础巨大且素质参差不齐、网络监管不到位、相关法律不到位等情况下，能够有效防止中国网络舆论的泛滥。这并不是一种固步自封，说世界上和朝鲜一样的居然是中国，不能从国家层面定性的说，这个基础的量就不一样，足够质变了。可以说是北邮校长在被人诟病了那么多年以后，还是起到了一定的作用的。中国的体量可以让自己内部有一定成熟的互联网发展，国外瞄准的是中国的市场。另外由于法律的不同，视频的允许范围在枪械、暴力、淫秽方面国外是放开的，比如色情行业是合法的，google就可以搜索到，对中国青少年的心智起到了一定的保护作用...... 虽然很多资源限制了，但是正确使用互联网的人，可以自己搭建梯子或者想办法翻出去，这个过程本身也是个锻炼的过程/筛选，筛选掉了那些伸手党，这是一定程度的弊端。弊：限制了对于国外的了解。国内垄断行为严重，比如百度的搜索引擎极其不讲道理，魏则西事件等等，所以大家都说google可以科学上网。还有国内很多的学习网站感觉是国外的复刻，w3school，CSDN等......国外的学术研究更加透彻，所以google搜索出来的方法往往更加科学，除了论文引用等，日常用用也足够。比如我上次电脑坏了，百度的方法参差不齐都有些问题，翻出去google到的方法就解决了～。还有很多政治敏感性问题国内都不得而知，虽然雅虎等网站能看，但是国外的媒体就敢说敢言，可以更全面的参考一下自己的政治理解。比如在我几年前就听小区里的老奶奶（她的儿子在国外）说，国外纷纷议论习近平上台以后中南海办公室的归属问题等等...</span><br><span class="line">个人认为国外的资源是要的，但是要适合中国国情地用，要社会主义地用...所以现在还是墙了比较好。不墙感觉。</span><br></pre></td></tr></table></figure><ol><li>蓝灯VPN（lantern）</li></ol><blockquote><p>流瀑效应<br>三人成虎</p></blockquote><h3 id="2018-9-7"><a href="#2018-9-7" class="headerlink" title="2018.9.7"></a>2018.9.7</h3><blockquote><p>伴随着拼多多的上市，“消费降级”一词越来越多地出现在人们的视野中，请问，你认为这个时代是消费降级的时代吗？如果是的，其中又蕴含着什么商机呢？</p></blockquote><ol><li><a href="https://www.zhihu.com/question/30681215" target="_blank" rel="noopener">知乎体</a></li><li>快速消费品：<code>FMCG</code></li><li>“消费降级”是一个伪命题，因为消费升级包括两个层面，一是可支配收入的增加，二是消费主体的扩大。而拼多多的崛起，恰恰说明了消费在升级——很多原来不用电商的人开始用电商了。真正的消费升级，应该是跳出价格和品牌的束缚，转而追求购买产品的质价比，追随内心所想，体验更佳的流程服务体验。</li><li>市场下沉、70后始终都是一个需要消费降级的年龄阶层</li><li></li></ol><h3 id="2018-9-8"><a href="#2018-9-8" class="headerlink" title="2018.9.8"></a>2018.9.8</h3><blockquote><p>子弹短信自上线以来迅速冲到App store免费榜榜首，并且在七天之内获得1.5亿融资，请问你如何看待这款产品？你看好它未来的发展吗？（也可以谈一谈你对社交领域相关看法）</p></blockquote><h3 id="2018-9-9"><a href="#2018-9-9" class="headerlink" title="2018.9.9"></a>2018.9.9</h3><blockquote><p>答疑</p></blockquote><h3 id="2018-9-10"><a href="#2018-9-10" class="headerlink" title="2018.9.10"></a>2018.9.10</h3><p>风险收益横纵坐标，每个象限是不同的人群。<br>市场上最好的短期理财产品，朝朝赢。</p><h3 id="2018-9-11"><a href="#2018-9-11" class="headerlink" title="2018.9.11"></a>2018.9.11</h3><blockquote><p>如何看待中国的保险行业（可靠性、金融属性等，可以畅聊）</p></blockquote><ol><li>2018年1-7月，产险公司原保险保费收入6915.62亿元，同比增长13.45%，其中大部分来源于机动车保险。</li><li>在2015年取消代理人资格考试。代理人数的爆发式增长</li><li></li></ol><h3 id="2018-9-12"><a href="#2018-9-12" class="headerlink" title="2018.9.12"></a>2018.9.12</h3><blockquote><p>如何解决送外卖车的超速违章等安全问题？</p></blockquote><h3 id="2018-9-13"><a href="#2018-9-13" class="headerlink" title="2018.9.13"></a>2018.9.13</h3><blockquote><p>今日凌晨的苹果新品发布有什么亮点和槽点？</p></blockquote><h3 id="2018-9-14"><a href="#2018-9-14" class="headerlink" title="2018.9.14"></a>2018.9.14</h3><blockquote><p>设计一个两天的行程</p></blockquote><p>ingress：是一款将虚拟环境与现实地理位置信息结合在一起的手机游戏，即适地性游戏（Local based game）</p><h3 id="2018-9-15"><a href="#2018-9-15" class="headerlink" title="2018.9.15"></a>2018.9.15</h3><blockquote><p>如何看待滴滴晚间停止运营，用户打不到车的现象？你认为公共交通有哪些可以调整的地方？</p></blockquote><p>劣币驱逐良币：劣币驱逐良币(Bad money drives out good)是指当一个国家同时流通两种实际价值不同而法定比价不变的货币时，实际价值高的货币或银子（良币）必然要被熔化、收藏或输出而退出流通领域，而实际价值低的货币（劣币）反而充斥市场。16世纪英国伊丽莎白造铸局长提出，也称“格雷欣现象”（Gresham’s Law），他观察：消费者保留储存成色高的货币（undebase money）（贵金属含量高），使用成色低的货币（debased money）进行市场交易、流通。<br>帕累托改进；</p><h3 id="2018-9-16"><a href="#2018-9-16" class="headerlink" title="2018.9.16"></a>2018.9.16</h3><blockquote><p>怎么看待众筹项目以及总筹项目中越来越多的挂羊头卖狗肉行为？</p></blockquote><h3 id="2018-9-17"><a href="#2018-9-17" class="headerlink" title="2018.9.17"></a>2018.9.17</h3><blockquote><p>你如何看待浙大体育课新打卡制度，bug和debug<br>⊂( *･ω･ )⊃</p></blockquote><h3 id="2018-9-18"><a href="#2018-9-18" class="headerlink" title="2018.9.18"></a>2018.9.18</h3><blockquote><p>浙大最喜欢的哪一门课，请说明理由？</p></blockquote><h3 id="2018-9-19"><a href="#2018-9-19" class="headerlink" title="2018.9.19"></a>2018.9.19</h3><blockquote><p>紫金港的情侣们往往找不到可以经济且短暂二人独处的地方。请以此构想一个创业idea</p></blockquote><h3 id="2018-9-20"><a href="#2018-9-20" class="headerlink" title="2018.9.20"></a>2018.9.20</h3><blockquote><p> 菲尔兹和阿贝尔奖双料得主Michael Atiyah爵士宣称自己证明了黎曼猜想，要在9月24日海德堡获奖者论坛上宣讲,有什么想法？</p></blockquote><h3 id="2018-9-21"><a href="#2018-9-21" class="headerlink" title="2018.9.21"></a>2018.9.21</h3><blockquote><p>itp和preitp做过的最疯狂的事。</p></blockquote><p>哈哈哈歧义了。</p><h3 id="2018-9-22"><a href="#2018-9-22" class="headerlink" title="2018.9.22"></a>2018.9.22</h3><blockquote><p>分析国内游乐园的发展状态，例如对比迪士尼和方特。</p></blockquote><p>环球影城和欢乐谷比较优势。文化依托。<br>方特每地都有不同的风格。</p><h3 id="2018-9-23"><a href="#2018-9-23" class="headerlink" title="2018.9.23"></a>2018.9.23</h3><blockquote><p>中秋月饼如何创新、如何看待星巴克卖月饼？ 如何看待可口可乐公司收购costa，对星巴克有什么影响么？</p></blockquote><h3 id="2018-9-24"><a href="#2018-9-24" class="headerlink" title="2018.9.24"></a>2018.9.24</h3><blockquote><p>2018年9月22日，中国外交部副部长王超同梵蒂冈代表团团长、教廷与各国关系部副部长卡米莱利在北京举行会谈，并签署关于主教任命的临时性协议。中梵双方将继续保持沟通，推动双方关系改善进程继续向前发展。中国外交将会有什么新举措？</p></blockquote><p>###2018.9.25</p><blockquote><p>假如你目前有启动基金1000元，如何在一周内在紫金港校区中挣到尽可能多的钱？进货、销售渠道不限。</p></blockquote><ol><li>学霸餐</li><li>给学长介绍女朋友</li><li>交友party，门票费+场地费</li><li>留学中介、小白司机</li></ol><h3 id="2018-9-26"><a href="#2018-9-26" class="headerlink" title="2018.9.26"></a>2018.9.26</h3><blockquote><p>“真正健全城乡融合发展体制机制，清楚阻碍要素下乡各种障碍，进一步搭建实施乡村振兴战略地制度框架和制度体系，这其中有不少硬骨头要啃。”李伟认为。乡村振兴这盘大棋该如何下？</p></blockquote><ol><li>东南沿海乡村和其他乡村</li><li>短期生搬硬套、同质化严重</li><li>对口帮扶单位高价收购某项产品，然后2020年退出</li><li>新供应链、政府公益+民间公益、顶层设计</li><li>《大国大城》现在区域差距的扩大是平衡的一个过程</li></ol><h3 id="2018-9-27"><a href="#2018-9-27" class="headerlink" title="2018.9.27"></a>2018.9.27</h3><blockquote><p>1、张小平离职事件怎么看待。2、离职、跳槽是浮躁的表现吗？</p></blockquote><p><code>cold call</code>、<code>desk research</code></p><h3 id="2018-9-28"><a href="#2018-9-28" class="headerlink" title="2018.9.28"></a>2018.9.28</h3><blockquote><p>十一黄金周等法定假日队新零售行业有什么样的影响？</p></blockquote><p>高速路买东西？严重违法好吗</p><h3 id="2018-10-1"><a href="#2018-10-1" class="headerlink" title="2018.10.1"></a>2018.10.1</h3><blockquote><p>2018 年诺贝尔生理学或医学奖授予美国免疫学家詹姆斯·艾利森和日本免疫学家本庶佑，以表彰他们通过抑制免疫系统负调节发现的癌症免疫疗法。对于癌症的研究脚步前进，你对未来的医疗有什么期待？你预估十年之后智慧医疗实现将会是什么样的？</p></blockquote><ol><li>应急性</li><li>“医养结合”</li><li>精准医疗要求足够多的临床数据和个人基因组信息等</li></ol><h3 id="2018-10-2"><a href="#2018-10-2" class="headerlink" title="2018.10.2"></a>2018.10.2</h3><blockquote><p>10月1日马云放弃对于阿里巴巴的实际控制权，阿里股价一度下挫，截至北京时间2日0:46分较开盘已经下跌1.08％。此次行动，官方说法是“此举将保证阿里合伙人支付在公司治理中发挥作用，减少关键人员风险，提高VIE实体股权的稳定性”。那么马云这一次行动向市场释放了哪些信号呢？你们怎么看待这一次举措？怎么看待阿里巴巴的合伙人机制？</p></blockquote><p><code>VIE</code>：<a href="http://m.chuansong.me/n/2202960647031" target="_blank" rel="noopener">VIE</a></p><h3 id="2018-10-3"><a href="#2018-10-3" class="headerlink" title="2018.10.3"></a>2018.10.3</h3><blockquote><p>试想AR可视化应用于教育行业</p></blockquote><ol><li>Microsoft Hololens</li></ol><h3 id="2018-10-4"><a href="#2018-10-4" class="headerlink" title="2018.10.4"></a>2018.10.4</h3><blockquote><p>你认为科学家和企业家的区别是什么？如何看待科研成果商业化？</p></blockquote><p>科研必须与产业结合才能对人类进行推动，但是这个转化过程必须谨慎为之。</p><h3 id="2018-10-5"><a href="#2018-10-5" class="headerlink" title="2018.10.5"></a>2018.10.5</h3><blockquote><p> 青瓦舍线下座谈会</p></blockquote><ol><li>潮牌的讨论，潮牌是什么。</li><li>明星品牌、宣传飘逸。</li><li>标榜国牌</li><li>潮牌的收入</li><li>对个性的追求等等</li><li>潮牌的文化、跟风的现象</li><li>衣服品质不放心</li></ol><p>校园的潮牌服装是怎么样的？<br>宣传、营销、需求、认可度不高。<br>平时穿得衣服，水印放淡。<br>如何在归属感的情况下进一步的开发、运用隐形暗示。<br>款式可以更多样。<br>求是印象——生活态度、非校徽、独立的牌子（exclude 求是印象）</p><p>//：问卷不了解、潮牌定义、信仰、自我穿著、大学生潮牌自我认识。</p><blockquote><p>你最喜欢的三个APP是什么。</p></blockquote><ol><li>网易公开课、混沌大学、得到</li><li>小红书、日上、丝芙兰</li><li>知乎、好奇心日报、华尔街日报</li><li>水滴清单、滴答清单</li><li>to the moon</li></ol><h3 id="2018-10-6"><a href="#2018-10-6" class="headerlink" title="2018.10.6"></a>2018.10.6</h3><blockquote><p>如何看待娱乐产业暴利，就范冰冰逃税之事讨论娱乐产业合法与非法。</p></blockquote><p><code>半导体行业</code>：好吧，就是本意，我想多了。</p><h3 id="2018-10-7"><a href="#2018-10-7" class="headerlink" title="2018.10.7"></a>2018.10.7</h3><blockquote><p>从腾讯的发展历史看中国互联网巨头的历史与发展。</p></blockquote><h3 id="2018-10-8"><a href="#2018-10-8" class="headerlink" title="2018.10.8"></a>2018.10.8</h3><blockquote><p>ITP微信推文视频</p></blockquote><ol><li>为中国社会经济的健康发展培养创业型人才、技术创业与社会创业人才</li></ol><h3 id="2018-10-9"><a href="#2018-10-9" class="headerlink" title="2018.10.9"></a>2018.10.9</h3><blockquote><p>奶茶调研<br>因为没有怎么喝过奶茶，所以调研了一下小伙伴们</p></blockquote><h3 id="2018-10-14"><a href="#2018-10-14" class="headerlink" title="2018.10.14"></a>2018.10.14</h3><blockquote><p>ITP分享会<br>吴晓波老师致辞：</p><ol><li>创业精神就是超越你现有的资源和能力去做那些事情。</li><li>对汽车感兴趣。</li><li>去年中国城汽车增长量1.3%，而该企业增长为68.x%。</li><li>强化班出去的人创业20%以上——不走寻常路</li><li>强化班与长征类比。</li><li>浙江大学高技术创新创业强化版 IT-<code>DT</code> digtial technology <code>DT</code> data technology <code>ABC</code>=AI BIG DATA CLOUD</li><li><a href="https://zh.wikipedia.org/wiki/%E8%B7%AF%E5%BE%84%E4%BE%9D%E8%B5%96" target="_blank" rel="noopener">路径依赖</a></li><li>教育部十大班级奖，唯一一个班级里面的同学来自不同专业的班级。</li></ol></blockquote><p>应颂敏讲话<br>嘉宾分享环节：<br>叶雅露：</p><ol><li>考前一个月的时候要推掉所以事情</li><li>非典型学霸、不小心连续创业者、不靠谱导师</li><li>机缘巧合</li><li>核心问题：创业精神——敢想、敢做、敢苦</li></ol><p>余腾：</p><ol><li>毕业五年、连续创业四年</li><li>四个小故事<ol><li>五个学生，价值300万</li><li>一周70万粉丝，价值5000万</li><li>1个月营业额翻10倍，1个月一个亿</li><li>做好品牌，鼓励竞争——形象垄断</li></ol></li><li>小康无忧、大富无望</li><li>未来充满可能性</li><li>一群靠谱的伙伴、一条高速的赛道、一个伟大的目标 VAT/BAT</li><li>切到细分领域的第一名</li><li>永远都是低端追逐高端</li></ol><p>龚雪：</p><ol><li><code>ITP</code>= Who an I + To Where + Path</li><li>勇敢地站在话题中心</li></ol><p>方毅：</p><ol><li>仪式感</li><li>家人的恨铁不成钢</li><li>自我迭代和修复</li><li>神州大地第一班</li><li>班级kpi，开一家公司</li><li>不确定性+恐慌 抱着这样的一种心态上去</li><li>强化班班刊、7人委员会，类似一个成熟的公司</li></ol><h3 id="2018-10-16"><a href="#2018-10-16" class="headerlink" title="2018.10.16"></a>2018.10.16</h3><blockquote><p>魏江老师公开课</p></blockquote><p>非线性思维：生态战略布局</p><ol><li>中美贸易战以后，浙江的制造业</li><li>中国逢八的灾难,2018强起来——富起来的关键转折年</li><li>不移动的航空母舰——南海岛屿</li><li>要有底牌 </li><li>碎片与整片的要求</li><li>担当——2/860</li><li>THE、NEWS产业合作转换NO1</li><li>浙江的今天就是中国的明天，浙江人不吹人，是埋头干的</li><li>创业博士点管理学院、硕士点浙江大学</li><li>浙江决定中国、浙大决定浙江、ITP决定浙大</li><li>有两个资产capital不是你的——1、智商 2、外表</li><li>凡是创业者就是不计利害，只问是非；凡是创业者就是不顾倾家荡产也要往里冲。</li></ol><blockquote><p>为什么在新的时代，我们需要非线性思维？</p></blockquote><ol><li>工科与之ITP有什么用、靠模式翻一番</li><li>金融顾问咨询费+=放贷，10%</li><li>交易心理学和消费者心理学</li></ol><h2 id="ITP报名页附页："><a href="#ITP报名页附页：" class="headerlink" title="ITP报名页附页："></a>ITP报名页附页：</h2><p>欢迎学长学姐们来到这个地方，如果你们看到了这，那么一定要让我知道哦！说明你们很有耐心！</p><blockquote><p>说出你的故事吧！——我就是故事，我活得就是一部自己看的电影。</p></blockquote><img src="/2018/08/23/ITP/img/lyric.jpg" title="[刚开始写附页的时间，但是并不是附页完稿的时间]"><p>有很多话想和学长学姐们说，现在时间是10.21周日01:51，再过8h09min就是排球赛了。码下这些话的我在一个人的办公室里，对着屏幕不禁想起了班歌MV里的那个深夜打开mac的场景。我知道这里展示自我的空间如果放到报名表上肯定overflow了，但是我还是想说一下。这不能算是恶竞，毕竟平时没有人可以说呀，况且200字也不能把我的真实想法表述详尽呀。ITPer都是一群可以深夜食堂的人。哦对了，这个报名页附页说明的👆都是我平时做的笔记，自从搭了blog，发现记笔记很舒服～学长学姐们不要想多呀，这个BLOG是我大一暑假搭的，并不像其他同学在报名表提前一周内再搭一个网页这样👀</p><p>从哪开始呢？那就按照报名表的顺序开始好啦。</p><h3 id="基础信息"><a href="#基础信息" class="headerlink" title="基础信息"></a>基础信息</h3><p>在填写表格的时候出生地这里突然间电花火石了一下，然后把自己的医院也填进去了😂//学长学姐们可能看不懂，突然意识到这个附加信息页可能成为了答疑页面了。</p><ul><li>个人爱好与特长内<code>-</code>前面是技能爱好特长，后面是相应的水平，这佐证了我的读题还是很细心的，我的逻辑还是很严密的。</li><li>那个音乐的水平是刚学的正态分布的意思～</li><li>场控和MC还是有所区别的，MC是指Microphone Control，优先级比场控高～</li></ul><h3 id="电商"><a href="#电商" class="headerlink" title="电商"></a>电商</h3><p>因为字数限制，还有些想法没有发上来，其实早在4年前，我与杭州大厦耐克专柜的销售员加了微信以后，他是我遇到的第一个微商；然后后来的小丑鱼流量和品栋数码，都是。去年，阿里授意淘客拉拢微商为阿里导流卖货；线下消费品巨头纷纷开发独立产品进军微商；知名药厂用授权分红或占股形式招募微商代理……越来越多的人意识到微商渠道的重要性并发力挤到这辆快车上来。SES、星咖联盟等微商联盟早就应运而生了。</p><h3 id="奶茶"><a href="#奶茶" class="headerlink" title="奶茶"></a>奶茶</h3><blockquote><p>让一个不喝奶茶的人好为难啊！！</p></blockquote><p>楼上的确是第一想法了，但是仔细想想都到这一步了，怎么能放弃ITP呢？还是可以做一点东西的！</p><ul><li>第一判断：黑龙堂和Coco走的是品牌大型连锁顾客锁定率高；果汁吧和花哥走的是有特色没有竞争；益禾堂蜜雪冰城走的价格低；一点点广告响；明亨和小娟村各个都有一点吧……所以也不会倒闭但是也不会很火；野路子走的文艺路……浙大不需要啊；</li><li>第二判断：调研一下吧。由于事务较多（ITP、运动会、排球赛、各种学习）</li></ul><img src="/2018/08/23/ITP/img/2.jpg" title="[时间就像海绵里的水，挤一挤，就没了]"><p>所以采取了顺路去堕落街采集离散顾客这样子：<br><img src="/2018/08/23/ITP/img/3.png" title="[最下面是标语]"></p><ul><li>其实最后还是想看看工商营业执照，想看看店铺与总店的经营方法，根据贴出来的招工广告判断营业水平，根据与店员的对话…结果都是想了想而已，真的没时间TAT</li><li>思考了一下还是坚持了第一判断</li></ul><h3 id="项目策划书"><a href="#项目策划书" class="headerlink" title="项目策划书"></a>项目策划书</h3><p>感谢两位队友的配合！从来没有找过ITPer帮忙修改，可能是没空可能也是没有意识到，但是总感觉其他组找ITPer修改违反了一定规则，这包含了超出他们实力的部分。但是也不可否认方法和人脉也是实力的一部分…那就这样吧！</p><h3 id="战争游戏"><a href="#战争游戏" class="headerlink" title="战争游戏"></a>战争游戏</h3><p>是和两个小姐姐组队的，但是其中一个金融偏文科，另一个计科偏不羁…所以只能大部分协调与想法都由我承担了…<br>想法很多很多，怕学长学姐们表刷累了就不赘述了，用图表展示一下我当时的思维历程吧～<br><img src="/2018/08/23/ITP/img/yx.png" title="[概率法]"><br><img src="/2018/08/23/ITP/img/python1.png" title="[用python强行列举已经经过博弈的数组]"><br><img src="/2018/08/23/ITP/img/python2.png" title="[6分钟的结果...怕电脑坏，关掉了]"></p><h3 id="遇到的ITPer"><a href="#遇到的ITPer" class="headerlink" title="遇到的ITPer"></a>遇到的ITPer</h3><blockquote><p>就是我本来是个工科生嘛，然后大一的时候加了勤创，对创新创业开始感兴趣，也很希望能够接触一下这方面的知识，给自己一个不同的看问题的视角，这算是我加入itp一个最主要的原因吧～其次的话，就是周围人大家都很想加入itp，也带动了我吧～我感觉首先就是认识了一群很厉害很优秀的人，你在与他们接触的过程中，你会发现一些新的东西。其次，我感觉itp的课程也给了我很大的启发，这跟我之前学到的知识有点不太一样，给了我一种完全不同的思维方式。</p></blockquote><p>//猜猜看是谁</p><blockquote><p>我想在大学多去接触一些行业又或是说其他专业的同学，而我当时了解到ITPer每一个里面的人，都会有自己独特的想法和有趣的灵魂。我觉得去和这些人一起度过两年，对我来说是很有意义而且可以在他们身上学到很多。这是我第一个想法。<br>第二个想法是，我自己本身是有想去学管理类的课程，偏企业的，那我觉得浙大这么多班级，强化班是一个很强很特例的存在。里面的不管是师资还是课程都是很顶尖的，我想去学系统的一套管理的方法。<br>第三个想法是我进入到强化班里面，更加深刻加深的，就是我觉得我们这一代人，能考进浙大已经是前百分之一百分之二的人的，那我们这些人都不想着去改变世界，这个时代该怎么前进呢。</p></blockquote><p>//猜猜看是谁</p><blockquote><p>加入itp的原因：本身对商业感兴趣，有使命感，希望可以用商业的方法改变这个世界，或者说，让世界变得更好。希望成为一个复合型的人才，不喜欢单调的生活，这都是原因。<br>现实：确实学到了很多商业知识，锻炼了创新创业领域的一些能力，比如行业分析，商业模式等等，但是并没有做到主修与辅修最佳的平衡，所以还是有点遗憾的。<br>思考：ITP的成员都很优秀，保持交流，持续学习，但是也要明确自己的目标，不随波逐流，做好自己，耐心学习，敢于实践。</p></blockquote><p>//猜猜看是谁</p><h3 id="自荐书"><a href="#自荐书" class="headerlink" title="自荐书"></a>自荐书</h3><p>有点意识流写法，但是还是经过构思的——</p><ul><li>开头的两个事例在结尾得到了呼应</li><li>这两个事例是我的动机想法一部分</li><li>都是真人真事</li><li>奶奶真的很辛苦，就算对不起自己，也要让奶奶骄傲！</li><li>中间还有加粗的地方是呼应</li></ul><h2 id="请务必比我们做得更好"><a href="#请务必比我们做得更好" class="headerlink" title="请务必比我们做得更好"></a>请务必比我们做得更好</h2><p>无论初衷与现实，尽人事听天命，学长学姐们看到这里辛苦啦！希望在ITP里面再见～</p><h2 id="一面"><a href="#一面" class="headerlink" title="一面"></a>一面</h2><blockquote><p>被锅老师说了，突然有一点点小紧张，准备来这里看看。</p><ol><li>独角兽企业：初创估值在10亿美元以上的公司。 ITP作为标志应该是对独角兽潜力和能力的信任。</li><li>ITP intensice training program of innovation and entrepreneurship</li><li>班刊《创想》原名《教务评论》</li><li>浙江大学校内论坛飘渺水云间BrainStorm版块</li><li>我们总共进行了上海、杭州、北京3地，累计43小时录音</li><li>班训：沟通，内省，实践</li><li>自我介绍：<br> 各位学长学姐们好，我叫胡家翌，古月胡，家庭的家，翌日的翌，意思为家庭的明天。目前本科二年级自动化控制在读。像电影bucket list那样，我一直都想surround to the void，拥抱边际，有着向未知探索的冲动，我觉得ITP是一个引起我内心躁动的地方，最后谢谢给我的这次面试机会，我希望能走得更远。</li><li>1、国家首肯，市场规范，有法可依消解电子商务痛点；2、自然人网商正式进入行政监管视野；3、明确电商平台数据提供和报送义务</li><li>动机：就像我自荐书里写到的，小时候是奶奶带的我，然后看到奶奶生活节俭就像赚大钱，后来开始反思自己和“那些”有杰出成果的人之间的差距，有想法一定要去做。千篇一律的模式化生活束缚了我。虽然说创业十创九死，但是只要我还活着，就可以再来。在九年制义务教育之前都被压抑着，到了大学这边就应该放开了，大学生都和以前一样的话，那社会还有什么改变呢？想做一些对这个世界有点改变的事情，然后看到ITP就点燃了我内心的躁动。我就来了</li><li>大数据、区块链、人工智能</li><li>未来酒店</li><li>人类本质的-—健康，3D打印身体、未开发的——太空海洋、管理现有秩序的——区块链。</li></ol></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Exploring Life </tag>
+            
+            <tag> ITP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Enterprises</title>
+      <link href="2018/08/21/Enterprises/"/>
+      <url>2018/08/21/Enterprises/</url>
+      
+        <content type="html"><![CDATA[<h2 id="2018年8-11-8-17log"><a href="#2018年8-11-8-17log" class="headerlink" title="2018年8.11-8.17log"></a>2018年8.11-8.17log</h2><p>又是一个为了刚刚满满七天的社会实践开始了，比起上次在银装素裹的井冈山踏雪而行，两袖清风地前往东南一禺体味科技更让人心驰神往。</p><h3 id="2018-8-11"><a href="#2018-8-11" class="headerlink" title="2018.8.11"></a>2018.8.11</h3><p>在东站集合以后是12个小时的漫长旅程，一路丘陵平原，信号断了又续，藕断丝连。黑暗窗屏折射不出该有的闪烁。<br><a id="more"></a></p><h3 id="2018-8-12"><a href="#2018-8-12" class="headerlink" title="2018.8.12"></a>2018.8.12</h3><p>南山园区安顿下来，在快节奏中停了下来细细品味生活，才知道如家与如家精选并非等同，这就解释了215/人/夜的价格，而不经思考——人在旅途总是很容易用思考代替放空——如家之名及其响亮，试问如果人们在尚未好好了解的情况下，断然搜索“如家一次”，那么基于网页抓取提供的信息，消费者必然不会分辨“如家”与“如家精选”，那么就会被装潢更好的如家精选所吸引而购票，那么作为反馈会给予一定的好评提高抓取程度，增加如家精选的排名，形成一个循环，这样一来如家精选就会完全胜过如家。但是在如家精选仅仅适用与中高档消费者的便捷行为，对于更多的中低层收入的劳动者，如家无疑是被人口红利所服务的一个选择。</p><h3 id="2018-8-13"><a href="#2018-8-13" class="headerlink" title="2018.8.13"></a>2018.8.13</h3><p>浙江大学马克思主义原理与概论上，老师在黑板上写了两大手机品牌，然后开始了不记名的投票。两边的票数不断地上涨，结束之际，两大结果即将产生，没错，这就是华为和苹果。华为已经以肉眼可见的优势压过了苹果。怀着憧憬与好奇的学习求经心态我们来到了华为总部——深圳坂田基地。那么华为是一家什么样的企业呢？在来之前我的初印象是一家手机运营商，后来听说了在欧洲华为是远远压过苹果的销售商，再后来听说了华为拿下了5G的核心技术，好像也没怎么听说华为的其他周边，但是好像华为不做周边反而在做技术？在深圳坂田基地我们得到了解答：华为是一家生产销售通信设备的民营通信科技公司，是全球领先的信息与通信技术（ICT）解决方案供应商，专注于ICT领域，在电信运营商、企业、终端和云计算等领域构筑了端到端的解决方案优势，为运营商客户、企业客户和消费者提供有竞争力的ICT解决方案、产品和服务，并致力于使能未来信息社会、构建更美好的全联接世界。截止目前，华为有18万多名员工，华为的产品和解决方案已经应用于全球170多个国家，服务全球运营商50强中的45家及全球1/3的人口。<br>世界500强公司都是顶级的，但是在人们对华为仍停留在卖手机的认识阶段的时候，华为并不是一个世界500强。从风云变幻的近几年看来，2016年，华为是世界500强的129位次。2017年是世界500强的83位次，2018年是世界500强的72位次。如此稳步地增长不得不让人学习。华为充分发展了人才吸收利用重循环的消化模式，除了深圳的总部，还有14个研发中心，其中有8个在国内如北京、上海、杭州、成都，依靠的是国内高校人才。而在海外的研究所则充分发挥和利用当地的人才优势，如俄罗斯人擅长数学，故在那里设立算法中心；印度人的软件编程能力更高，故设立软件中心；而如法国巴黎、意大利米兰，则设立设计中心，如华为的终端、手机等外观就是在那里设计的。<br>华为公司提供的是“黑土地”，把“地”造好并卖给客户，而土地上造什么，是客户的自由。这里的“地”是指互联、存储、处理的基础方案，依靠华为公司雄厚的通讯技术能力，为客户提供高效可靠的设备和方案，而具体的应用定制和数据，交给客户和合作商来做。华为不提供端到端的所有方案，而是只聚焦于自己所擅长的领域，专业的人做专业的事情，不擅长的交给别人来做。华为所遵循的是“上不碰应用，下不碰数据”的原则。这种让人甚至能够联想到QQ农场里面的黑土地，通俗易懂又大道至简地讲述了完美的发展方向。目前在世界五百强中，已经有211家采用华为的数据定制方案，如国内的五大银行、微软、GE等。</p><h3 id="2018-8-14"><a href="#2018-8-14" class="headerlink" title="2018.8.14"></a>2018.8.14</h3><p>DJI这个名字念起来很顺口，但是不眼熟，那么大疆呢？大疆，眼界高远、没有疆域。DJI以自己的域，开辟了一篇新的天地。在DJI并没有什么公司战略和发展意图逆向训导，只有产品展示和一定的技术指导。那么这些技术思想就显得弥足珍贵了。例如二次开发平台和自动返航点。然后到了有限空间存储大的数据和处理的时候，我们就涉及到了——因为它的计算量比较大，首先那个测距这一块，它内部都有一些硬件加速，这个就是其实只要你好好优化，基本上就是直接把它那个硬件平台上进行加速方面。但是有些比如说智能算法，你的改动非常大，是吧？所以不可能一上来就做一些硬件的一些硬化加速.<br>所以这一部分会有一些点来加速。但是像这种固定的，比如说测深度的这么一套算法，硬件就行，他一直在整个电路板上。硬件的话，首先肯定先还是拿加速卡，然后如果有一套记录的想法，先用Matlab写，用python写，这个其实本质上就是cpu的一些指令。比如说用一些gp又写一些库大代码加速了，但这个时候实际上你的代码还是在PC上的。<br>那么关于储存方面的话，就要看你的内存策略了，就是你写代码的策略，内存需要一种数据结构来表达，这个表达好不好都是一些优化的一些细节东西，而且你这个图你要怎么建，就比如说你走了这么条路径是吧？你可以见到那根柱子时候，你也可以见到窗外的那个建筑物，因为都在你视觉上的。<br>柔性屏幕大家都很陌生，但是柔宇给了我们大饱眼福的机会，因为没有涉及技术层面的知识，所以我们只是简单和HR谈了谈产品使用方面可以改进的问题和相关问题，让我们出乎意料之外的是HR居然要了我们的联系方式，这也算是我们在深圳留下的第一份人力资源。</p><h3 id="2018-8-15"><a href="#2018-8-15" class="headerlink" title="2018.8.15"></a>2018.8.15</h3><p>Tencent，一个一切以钱为目的的企业，在我去之前我并没有抱有相应的好感，大体是出于公司的决策。意料之中，腾讯并没有给出相应的技术只是和介绍类型，只是带我们逛了逛全球总部有多么多么的豪华，在其他人哇塞的惊叹声中，我感受到悲伤，这是对福利和诱惑的妥协，这让我感到一丝的不适。为人民服务的同时还想着不停地剥削，这和我产生这种想法的时间有关，因为任何事物都有的利弊是要根据时间来调控的，如果说我觉得现在接受这种是可以做到的话，那么这种偏见在我内心已经根植很久了，我还是要给自己一定的时间去调整。<br>在Tencent的下午，我们来到了迅雷，在这里，又有技术和福利，一切都那么的乌托邦。还是要提醒自己不要沉浸在楚门的世界里，因为我注意到了接待的热情和办公区人员冷漠的表情，我们是不恣意以理想化去揣测别人的想法的，所以还是要有所保留。</p><h3 id="2018-8-16"><a href="#2018-8-16" class="headerlink" title="2018.8.16"></a>2018.8.16</h3><p>最后一天来到了一家比较重视我们的企业，迪蒙智能化无人停车。蚂蚁虽小，五脏俱全。既有接待和技术，也有产业的起源和未来。我们收到了热情的接待。迪蒙解决方案目前分三大板块，我们前期主要是以智慧停车应用的基础设施建设，然后是一个针对用户使用的平台的建设，再到后期的一个产业延伸。最后让前端的硬件到导入平台，后续我们实现数据共享，最后可以对接到整个产业的针对政府的汽车服务。<br>我们在这个领域的技术是相当领先的。在前端，一套设备可以同时监管八个车位，通过动态采集信息，确保识别出车辆信息，并识别出车辆进出停车位的行为，最大程度的实现无人化。以深圳为例，传统的方法需要近2万人管理，一个月的费用就达到一千多万。如果通过我们这个系统，需要的巡检的人员能降到很少，主要就是针对一些特殊情况需要巡检人员帮忙操作一下，基本上都是通过后台来进行管理。我们很想把此项技术在全国进行推广，满足人们区域切换的要求。<br>广州今年3月份出了一个规划条例，它明确表示使用我们高度视频方法来进行交通管理。所以现在市场非常大，也基本上是空白市场。前期主要跟政府合作，然后由政府牵头，把整个城市停车场数据打通，放到一张网上进行管理。政府开设一个接口，下面的企业都和他们去对接，相当于我们是给整个政府搭建了整个城市的停车管理体系，应该说，它不单单是停车管理，还可以和交警大队、公安项目，4S店，加油站等一系列与车有关的资源对接，形成一整套体系。</p><h2 id="迅雷采访稿（语音转录）"><a href="#迅雷采访稿（语音转录）" class="headerlink" title="迅雷采访稿（语音转录）"></a>迅雷采访稿（语音转录）</h2><p>职能支持中心：林昆槟 L<br>产品总监：管灿 G<br>我方：H<br>H：迅雷公司运维方面的硬件软件方面如何？<br>L：公司拥有茶水间：给员工提供早餐、晚餐，还是面试的地方。内部订餐系统：每天下午都可以把想吃的东西，尤其附近的饭店订好点好送上来。健身房：拥有投篮机、乒乓球、桌上足球、健身器械。技术男很喜欢玩这些。他们平常没什么时间去运动，所以只能通过这种方式运动。桌上足球历史悠久，在15年以来都是员工热爱的运动，公司搬过几次场地都会带上。而且迅雷的CEO也很喜欢打这种运动，他基本上每周五下午，都会跟员工一起去打桌上足球然后交流，运动其实也是一种好的交流方式。加之因为附近有南山文体中心，所以基本上周三或者周五公司都会组个团，一起去，行政部统一去购买门票。母爱空间：迅雷为孕妇提供六个月的产假，然后可以带小孩上班，有一个母爱空间是为孕妇妈妈们准备的，可以在里面带小孩并且交流育儿心经。公司还会为单身的同事举行Party：会租附近那些场合，一起去玩，在今天（8.16）的下午还请了七夕节专门的心理老师，来给技术人员上脱单的课程，就是在洗手间也能看到贴满心理咨询师的相应问题和治理脱单的方式。P.S. 其实技术人员的脱单几率还是很高的，因为他们技术好，然后年薪也高又不会出去走，所以出轨的几率很低。他们其实都是懒得出去走，因为觉得这样会浪费时间。技术人员认为他的时间不应该浪费在一些对象逛街这种事情上面。比如我们上次研发部这边公司组织去吃饭，他们全部拒绝了，给了统一的理由是吃饭浪费时间。<br>H：方才有些员工的位置有些空啊，是公司的休假制度嘛？<br>L：哦是这行的，公司施行每天7小时弹性工作制。由于晚上9点以后打车免费，所以很多同事都选择下午才来上班，这样到晚上就可以免费打车回家了。上班可以穿短裤、拖鞋、拎零食。<br>H：迅雷贵司最近在做一些什么呢？<br>G：最近的话，迅雷近期在做的一些事情是做区块链，7月底刚刚结束了迅雷全球区块链大赛，获胜的好像就是浙大的团队？<br>H：嗯，对。<br>G：然后北京的分公司是一个人工智能实验室，在讯飞链方面已经拿到国家的一个区块链证书，全国只有三家公司拿到这个区块链的证书。<br>H：我们看到迅雷的办公室门口贴着一些电影的名字比如变形金刚是怎么回事？</p><p>G：迅雷影评也是公司的一个发展方面，包括了推送电影、写影评并进军电影方面——纸牌屋 变形金刚 黑客帝国 魔兽 霍比特人 哈利波特 阿凡达 火星救援 摩登家庭 星球大战，对应的房间名都是迅雷有参与的电影所以成为了办公区的房间门的名字。<br>L：2018年的上海的国际电影电视节上迅雷成为了就是一个正式的官方的合作伙伴。大家可以在这上海国际电影节的海报可以看到迅雷在上面。电影节上还有一些参加明星帮我们做了一些宣传短片。包括你可以看到几件透明的办公室，那就是CEO CTO办公室，他们的办公室全部都是透明的，如果要商量什么事情的话，可以直接敲门进去。你也可以看到他们在干嘛。<br>L：对了，关于公司的软件方面，公司还在在15周年的时候将1000+员工的头像做成了一个标志、然后还发了我们迅雷文化衫和星座雷鸟玩偶。我们也为你们每个人准备了一个哦。然后之前路过的自助贩卖机里面泡面凤爪偏多、公司很多女生喜欢吃泡面凤爪，所以凤爪基本上都被女生拿光了，经常可见的情形就是公司员工下午起床之后拿一包山药和凤爪，再拿瓶酸奶就回工作岗位了。然后去年公司主打了迅雷X。同时引进了X能量站：公司给员工提供的全匿名心理健康服务，保证员工的隐私，每个月不会有数据系统。如果心理压力大，你想打电话，会安排心理公司24小时等候，它会根据你的性别，然后安排异性来跟你交流。<br>H：听说迅雷有做直播，那怎么和那些熊猫、虎牙竞争呢？<br>G：是这样的，迅雷的直播团队一般都是做海外的直播，当然国内也会争抢一些网红，我们直播的团队基本上都是从yy的团队过来的。我们每周一次的技术交流会也用到了直播，每个技术部事业群的总监要组织每周五下午的技术交流分享会，在咖啡吧，会通过迅雷直播的方式在公司内部全部直播。同样的应用还有在Open Day的时候。Open day呢是一个季度一次，员工直接通过邮件，写一封信，把想问的问题问进去，包括工资，技术，公司发展，个人的问题等。你有什么问题你都可以说，然后CEO会直接在直播上面解答你，如果他解答的不好，你可以用让他再说一遍。解答地好，可以让打赏他。（哈哈哈，也可以扔拖鞋）。直播部门预计将会在2020 搬进预计2020年竣工的迅雷大厦，七层楼，然后其实员工会陆续搬进。（你懂的嘛，部分员工吸甲醛哈哈哈）<br>H：迅雷的产品体系除了下载以外还有什么么？<br>G：迅雷产品体系介绍：迅雷是一个15年的资深互联网企业。一开始是迅雷下载工具，后来移动端，CDN、VR、AI，现在在做迅雷链。迅雷app“不仅仅是下载”多媒体、娱乐、资讯、大数据。以“黑科技”为名的去互联网科技企业，有很多的技术创新。精准的大数据分析预测、独有的技术，用户的依赖度很高、增速很快。用户多元、多为青年。在用户方面：支付用户的转化前，800万以上的支付服务是在境内迅雷的会员，用户主要分布在一二线城市，我们65%的活跃度是在一二线城市，50%以上的用户分布在华东和华南，85%的用户是19岁到45岁，用户群体里面，大家可以看到学生和一些企业工作者是占比最高的，由于用户群比较庞大，所以公司会选择兴趣的分布是特别长远，特别离散的作为长期粘性的客户。然后产品和业务：迅雷公司主要分成了三大事业群，一个是品牌产品，这一块主要承载公司的各种P2C端产品，随后还有商业产品部，他们主要专注于会员的服务，增值服务以及商业化的变现。然后除此之外，我们还有今年成立的海外业务中心。海外业务中心是一个独立的事业部，他们专注于公司业务以外的发展。产品方面是非常非常丰富的。比如说迅雷9是现在线上流量最大的一款，主要这款产品和讯雷七它相比，主要的一个进化点是在于我们把下载列表右侧的这个空间拓展成网页。这样用户就可以在进行下载的同时进行网页浏览以及探索。同时我们在右侧这个空间也会去给用户去推荐一些内容和一些产品，包括我们平时播的内容。Mac上有一个独立的版本叫做Mac迅雷，这个产品是一款就是用户评价非常高的一个产品，因为它相对于我们PC端上的产品，它会更加的简洁。虽然Mac用户的群体的体量比PC上的群体的体量会小一些，但是这个群体他们有更高的性质以及更高忠诚度。接下来要发布的就是迅雷X，这代产品它主要进化在于它对界面的设计进行了重构，那么整个的界面上会把下载的这个部分会更加的突出，会重新回归用户的核心体验和下载，这件事情会让界面的设计上会变得更加的简洁灵活，把更多的控制权交给用户。同时这一代产品还有一个边下边播的黑科技，也就是用户在下载一个内容，如果这个内容是视频的，那么他可以等待这个视频下载完成之前观看。迅雷还会做一些手机端的产品。比如IOS端的一个产品叫LiveU： 这款产品是一个主导来操作拍摄的。它提供的是九秒以上的超强的FO拍摄，这款产品到上线至今，大概五个月已经在APP所有的首页上获得四次以上的苹果专项推荐。<br>H：我们刚刚下载了一个LiveU，滤镜的确不错，但是同时还有一些直播插入，那这样的话就迅雷到手机客户端和这个直播或者和那个短视频的客户端是不是有点重复了？<br>G：直播的客户端它会提供一个更加纯粹的一个体验，我们的用户，特别是直播的核心用户，也就是说白了就是花很长的时间或者花更多钱去看直播的群，他会选择很多APP。因为直播的APP里面，一是他会有更加纯粹和更加高兴的一个体验，因为他的包以及它的PK会针对直播去打造，那么整个APP里面也会提供一些应用抓手。那么在手游的客户端上去提供这样的一个内容，其实是给用户优选他可。以去并且如果他发现了他的直播，并且愿意花长时间去看的话，我们有很多用户都会是通过什么需要交给人，那个市场就是这样。<br>H：我们这里有一些大家这么多年来使用迅雷的疑问，关于产品的可以提问吗？<br>G：当然可以啊，欢迎。<br>H：在直播和短视频领域，市面上已经有了做的特别好的企业，公司以后在这个领域打算如何利用优势进行竞争？<br>G：中国的互联网市场无比复杂，使得网络需要大量形态各异的产品。而我们的经营方式呢，首先是先前的用户使得我们积累大量的数据，其次我们具有自己的品牌力量，会有很大一批忠实的用户。再者，直播业务的宽带成本是很高的，而迅雷利用前期的努力，比同行大大降低了宽带成本，同时也可以利用此项技术与其他直播平台进行合作。通过当下拥抱这些新的业务体制，能够吸引更多的用户。还有一个是我们的讯飞快行：通过和各个地方的运营商和商务合作，来实现用户家庭的一个物理代价的提升。大家经常就是家里那个看待百五十兆一百兆，那么实际上家里的这个带宽的这个连接在连接能力上是超过大家实际在用的这个兆数，比如说你家里是50兆的话，你家里的带宽可能实际是200兆。解放你家里的这个带宽，那么用户可以花更少的钱，享受更高的带宽。直播是非常需要流量和带宽的，我们的可以很好地做到这一点，所以我们有我们自己的优势。<br>H：有的网站内嵌的迅雷链接点击以后跳出来显示说我没有安装最新的迅雷9，但是我明明安装了Mac迅雷？<br>G：网站你点击那个链接跳出来的是什么？你看到那个弹出的那个窗是灰色还是蓝色的？<br>H：就是那个浏览器上，就是没有直接给出那个磁链接，他可能给了你一个图片。在我没有我查看网页源代码的情况下，我只是在那个图形界面上点了一点以后，它会显示，请使用最新版本的迅雷九，没有太大印象是什么颜色的了。<br>G：加速问题：还有一个问题就是我家的网的宽带类型不是那种很好的类型，但是我自己下的话，因为我有迅雷会员，但是没有自动登录，所以在使用原本的网速下载的时候，速度大概是稳定的 700K每秒，是灰色的显示速度。但是当我点了会员加速以后，灰色的部分就突然间就减小了，就直接变成比如说300k/s，然后他就给我加了400K每秒的蓝色部分，意思就是说总速度还是700K每秒，给人的感觉是这个提速只是一个形式，并没有实质的提速。好像是把原来那个家里的宽带都分成了两部分，原来原来我用的和你们迅雷好像就没有加速，他就强行显示出来那个加速了400K/s。对于我来说我的第一反应就是他当时没有那个提速成功，然后把我家那个网速切成两半。对于其他的不太了解互联网的用户可能就会认为迅雷和百度云一样限速了，但是没有限制地那么厉害。要明确的是，我们肯定不会限速的。会员是付了钱的，我们就会将原来的P2P的资源加速移到P2S部分，你这个问题的影响因素有很多，我们等会可以再交流一下。<br>H：迅雷现在开放好像还不够，都是一个默默无闻的企业形象，然后有很多锅本来不应该是迅雷背的，现在都要迅雷背了？<br>L：嗯因为现在老板已经有想法把整个雇主的文化，把迅雷的文化，把迅雷的技术把事情在做的事情，然后再做一个对外发声的转变。包括我们的区块链大赛，包括我们去外面现在市面上做然后取得的一些成就等，还有比如分布式账本这些事情，我们现在做的对外的事情已经在慢慢的逐渐一步步的开始做，成效的话慢慢来嘛一点点做，吧然后毕竟求稳嘛。<br>H：好的十分感谢二位！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> work </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>STM32</title>
+      <link href="2018/08/19/STM32/"/>
+      <url>2018/08/19/STM32/</url>
+      
+        <content type="html"><![CDATA[<h2 id="STM32-Learning"><a href="#STM32-Learning" class="headerlink" title="STM32 Learning"></a>STM32 Learning</h2><p>经历了深圳的颓废以后，看清楚了人世险恶，也认清楚了一些所谓朋友，FPO于2018.8.19开启了STM32的学习。痛心忍性，增益其所不能。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Learn Log </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Volunteer Teaching</title>
+      <link href="2018/07/22/Volunteer-Teaching/"/>
+      <url>2018/07/22/Volunteer-Teaching/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Volunteer-Teaching"><a href="#Volunteer-Teaching" class="headerlink" title="Volunteer Teaching"></a>Volunteer Teaching</h2><p>坐标：云南省临沧市云县大寨镇<br>FPO为了逃脱杭州的酷暑，经历了37h的绿皮火车和11h的巴士颠簸，来到了大寨中学进行支教。</p><h3 id="2018-7-21-Day0"><a href="#2018-7-21-Day0" class="headerlink" title="2018.7.21 Day0"></a>2018.7.21 Day0</h3><p>九曲十八弯，随着陀螺仪上的海拔攀升，半规管对内耳的敏感周期式的堵塞，当天空离我变得最近，大把大把的☁️在山头上，大寨镇离我们很近了。<br>下午15时，见到了孩子们，凉拖、黝黑、眼睛、牙齿。晚上21时，星星、沙土、浑浊、呼吸。<br>晚上22时45分，包含了所有幻想的昏花的灯光闪烁在Judy的瞳孔周遭，回响在大家的胸腔</p><a id="more"></a><h3 id="2018-7-22-Day1"><a href="#2018-7-22-Day1" class="headerlink" title="2018.7.22 Day1"></a>2018.7.22 Day1</h3><p>凌晨03点25分，昏暗的灯光映衬着晃动的人影，忽长忽短，趿拉着三三两两的人影。孩子们醒了，在没有手机甚至手表的情况下，楼道内中充满着快活的空气。坐标大寨中学学生寝室一楼。<br>“你们几点钟醒来的啊？” “我们5点钟就醒了。”<br>早上10点10分，四年级和六年级的孩子步入了英语的殿堂。尼古拉斯和莉兹纷纷攻陷了。<br>下午2时30分，排球和篮球在李峰和张新伟的带领下，掀起了一波热血如潮的竞技。<br>左右手运球、变相、突破、上篮。一传、二传、反向、暴扣。扳脚、放平、起脚、连续。<br>下午4时56分，翻飞的皮筋划碎了蔚蓝的天空，牛仔裤的摩擦缠绕着红白绳索。<br>“老师老师，我告诉你一个小秘密”<br>傍晚8时8分，聆听大山。</p><h3 id="2018-7-23-Day2"><a href="#2018-7-23-Day2" class="headerlink" title="2018.7.23 Day2"></a>2018.7.23 Day2</h3><p>早上7时21分，义勇军进行曲高歌满怀永续文明。<br>今天是尼古拉斯离开的第一天，想他。<br>“同学你平时不上学的周末干嘛啊？”“帮爷爷放牛。”<br>上午9时07分，在面对大山的办公室里响彻了《通天大道宽又阔》似的耳熟能详：刚翻过了几座山、又跨过了几条河。<br>云雾缭绕，天与云与山与水，上下一白。<br>尼古拉斯又出现了。<br>乒乓球这帮小孩还想教育我，结果被我反教育一番。<br>有两个小朋友有天赋。</p><h3 id="2018-7-24-Day3"><a href="#2018-7-24-Day3" class="headerlink" title="2018.7.24 Day3"></a>2018.7.24 Day3</h3><p>时21点45分，拉孩子去操场跑步。</p><h3 id="2018-7-27-Day6"><a href="#2018-7-27-Day6" class="headerlink" title="2018.7.27 Day6"></a>2018.7.27 Day6</h3><p>时21:03，折好了很久没折的纸玫瑰。</p><h3 id="2018-7-28-Day7"><a href="#2018-7-28-Day7" class="headerlink" title="2018.7.28 Day7"></a>2018.7.28 Day7</h3><p>今天支教已经过半了。高空的卷积云、漫山的梯田、奔腾的黄沙。</p><h3 id="2018-7-29-Day8"><a href="#2018-7-29-Day8" class="headerlink" title="2018.7.29 Day8"></a>2018.7.29 Day8</h3><p>今天作为PG的一场球赛，应该是以比分领衔的。但是小冯老师受了冲撞变得脆弱了，在眼皮这里缝了7针。</p><h3 id="2018-7-31-Day9"><a href="#2018-7-31-Day9" class="headerlink" title="2018.7.31 Day9"></a>2018.7.31 Day9</h3><p>今天老师大杀四方。如果我还是小学的话，或许会参与到小女生中间的一系列竞争吧。可惜现在已经物是人非了。MD，嗓子刚刚好，剩下年级的人又让我把喉咙喊哑了，我真是日了狗了。唉，小学老师真的是难当啊，看来以后还是去当初中老师比较好，这样能在自己的掌控范围内。或者说，高中也行，能够保持与时俱进的高考能力。诶，但是这么想来，好像学过大学数学以后，还是大学老师比较好，还可以认识一些新的大学生～</p><h3 id="2018-8-5-The-Last-Day"><a href="#2018-8-5-The-Last-Day" class="headerlink" title="2018.8.5 The Last Day"></a>2018.8.5 The Last Day</h3><p>On my way back to KunMing, feeling empty and hungry.</p><h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>要写活动总结呀！活动总结分教学科目、兴趣班和活动策划。各个负责人负责<br>内容包括：<br>1.工作内容<br>2.自己的收获和进步<br>3.孩子们的收获和进步<br>4.发现的问题以及解决方法</p><h3 id="工作内容"><a href="#工作内容" class="headerlink" title="工作内容"></a>工作内容</h3><p>1、教学科目：教学工作内容分为两块，首先作为英语组的组长，基于三个年级教学班的英语基础很薄弱，与预计差距较大，以及课程设计方面与主办方有所冲突所以临时改变了教学方案和课时，以字母教学为主，每个年级有8节课时。而作为灵活机动补充课程，每个年级开设两节课，总共6节课。课名取自英语著名动画片《TOM &amp; JERRY》，本意是根据基础英语课的老师的上课内容然后补充相应的英语环境的口试和生活内容，并作出相应的拓展。但是囿于时间和地点的限制，于是将2*3的拓展课内容改为中英文化与思维的概论。特点是凭借我的放牛技巧达到的生动有趣。教学内容（三个年级班统一教学内容）大致包括第一课时：劝说英语的学习、英语的组成、英语的缩写。第二课时：英语的缩写补充、颜色的意义、中英思维差距。吊死鬼游戏的玩法：<br>    现在附上教案：<br>    <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br></pre></td><td class="code"><pre><span class="line">配不配合我。配合还可以有游戏可以玩。</span><br><span class="line">自我介绍</span><br><span class="line">你们觉得英语难学吗？</span><br><span class="line">中国 法语 俄语 泰语：你好  Bonjour дравствыйте สวัสดี</span><br><span class="line">中文14亿 使用人数最多 </span><br><span class="line">英语的地位73个国家 使用国家最广 英语10亿 在欧洲的地位</span><br><span class="line">英文的语言是混杂的，印欧语系中日耳曼语族下的西日耳曼语支。</span><br><span class="line">Long Time No See</span><br><span class="line">fengshui  wuxia</span><br><span class="line">你应该知道的 PRC CHN the People‘s Republic of China 和 CHINA的区别 US与USA 合众国 墨西哥和美国 Trump 川普</span><br><span class="line">K.O.  Knock Out、Kick Out、Keep Off  </span><br><span class="line">VS versus</span><br><span class="line">VIP very important person</span><br><span class="line">W.C. water cloest</span><br><span class="line">RMB renminbi</span><br><span class="line"></span><br><span class="line">英国美国的不一样 Color</span><br><span class="line">颜色表达心情：举例</span><br><span class="line">green 嫉妒，很奇怪的 人们说He’s green with envy. </span><br><span class="line">blue  情绪低落 心情沮丧 忧愁苦闷 ， 不用讲了吧 </span><br><span class="line">pink 可以是尴尬（紧张） </span><br><span class="line">yellow可以表示胆小、卑怯、卑鄙的意思</span><br><span class="line">purple 可以象征贵族 也有贵族blueblood之说 </span><br><span class="line">（white）在汉语和英语的联想意义中都有纯洁和清白的意思,但也有一些含义上的不同.例如,汉民族文化中,白色与死亡、丧事相联系,如“红白喜事”中的“白”指丧事（funeral）,表示哀悼.但在英语文化中,</span><br><span class="line">white表示幸福和纯洁,如新娘在婚礼上穿白色礼服,代表爱情的纯洁和婚姻的贞洁.</span><br><span class="line">（black）在英语和汉语两种语言文化中的联系意义大致相同.例如,黑色是悲哀的颜色,英美人在葬礼上穿黑色服装,中国人在葬礼上戴黑纱.英语中的</span><br><span class="line">Black Friday</span><br><span class="line"></span><br><span class="line">中英的思维差距：</span><br><span class="line"></span><br><span class="line">例如，我们可以试着翻译下面两个句子：</span><br><span class="line">（1）你舞跳得很好。</span><br><span class="line">（2）那首歌是怎么唱的？</span><br><span class="line">参考译文分别是：</span><br><span class="line">（1）You are a good dancer.</span><br><span class="line">（2）How does that song go?</span><br><span class="line">怎么样，是不是和你想的一样呢？我想大多数人会翻译成：</span><br><span class="line">（1）You dance very well.</span><br><span class="line">（2）How <span class="keyword">do</span> you sing that song?</span><br><span class="line">而后者的翻译恰恰说明了你的英语在很大程度上受到了汉语的影响，还未形成自己的英语思维。</span><br><span class="line">这两种不同的翻译方法，其实是反映了汉英两种语言在描述同一种事物时的思维角度不一样，只有先了解中英文思维的差别，我们才能更好的培养英文思维。</span><br><span class="line">总结来说，两者的思维差别主要有以下四个方面：</span><br><span class="line">一、汉语很直观，在描述一件事物的时候，倾向于用身体可以感受到的动作或表象来直接描述，而英语则倾向于透过现象描述本质的东西。</span><br><span class="line">例如：</span><br><span class="line">Help me up! Let me see <span class="keyword">if</span> I can bear weight.</span><br><span class="line">这句话发生的情境是说话的人脚摔伤了，需要别人帮忙把她搀起来。汉语用的是“站”这个最直观的词，不管你是不是因为受伤了想站起来还是坐久了想站起来，反正都是站。</span><br><span class="line">但在英语中，则明确表明了她是想验证自己伤得重不重，自己的脚是不是还能支撑身体的重量，和一般的“站起来”是不同的，所以用了“bear weight”，意思更加明确。</span><br><span class="line">二、汉语主观性强，英语客观性强。</span><br><span class="line">汉语的主观性体现在人与人之间的交流上，在英语对话中一般只会谈个人的感受，而汉语则会加入一些个人的判断。</span><br><span class="line">例如，我们对别人表示感谢的回应是“不客气”，潜台词就是这是我应该做的，你的感谢是一种客套，而英语则说“You‘re welcome.”或“My pleasure.”</span><br><span class="line">只谈自己的感受或意思。</span><br><span class="line">三、在句子的表达顺序上。</span><br><span class="line">汉语倾向于从整体出发叙述问题，先整体，后局部，先次要后主要；英语则倾向于从局部出发叙述问题，先局部后整体，先主要，后次要。最常见的例子就是姓名以及地址的排序问题。</span><br><span class="line">地球亚洲中国云南省临沧市云县大寨镇大寨中学</span><br><span class="line">Michael Jordan 姚明 </span><br><span class="line">Donald John Trump 唐纳德 约翰 特朗普 美国总统</span><br><span class="line">中国古代3月取名、20岁赐字 </span><br><span class="line">字者，人年二十，有为人父之道，朋友等类不可直呼其名，故冠而加字。 刘备 玄德 张飞 益德（翼德）关羽 云长   </span><br><span class="line">《三国志》是西晋265史学家陈寿撰写的史书 《三国演义》是中国古代元末明初1368第一部长篇章回小说。</span><br><span class="line">号、谥号。 欧阳修 字永叔，号醉翁，晚号六一居士 谥号文忠</span><br><span class="line">四、英语句子结构严谨，汉语则相对松散。</span><br><span class="line">对英语来说，除了祈使句，一般情况下句子中的主语、谓语等主干成分是不可缺少的，而且各个句子成分之间的逻辑关系必须通过一些连接词交代清楚。</span><br><span class="line">而汉语则没有这么严谨，经常会出现成分缺失的情况，成分之间的逻辑关系也不一定非得做出交代，只要意思上能被理解就可以了。</span><br><span class="line">当然，英语思维是要逐渐培养的，并不能一蹴而就，这就要求我们平时在说写英语时要积极注意和中文之间的转换，两者之间的区别，只有多读，多写，多听，才能事半功倍。</span><br></pre></td></tr></table></figure></p><p>承担了英语教学任务的同时，因为看图这玫瑰的技巧得到了美术老师的赏识，所以担任了纸玫瑰的教学。分为有花瓣教学和无花瓣教学。作为体育兴趣班的老师，还承担了体育理论课的教学。</p><p>2、兴趣班 作为体育兴趣班的老师，在一开始招生不利的情况下后来居上，成为了一匹黑马，独占80+学生里面的40+。工作量巨大，没有休息可言。兴趣班开设了诸多体育活动，本人负责的有乒乓球、篮球、毽子、大绳、五子棋、军棋、象棋、拔河、啦啦操的教学。分别在教学内容上完胜学生，又恰到好处地输给了学生以便挽尊。</p><p>3、园运会 在开心老师准备教案的时候和🐷老师讨论了一下，确立了评分的方案并且否定了一些有游戏。在园运会实行的过程中，主持了绕柱计时跑的部分。</p><h3 id="自己的收获和进步"><a href="#自己的收获和进步" class="headerlink" title="自己的收获和进步"></a>自己的收获和进步</h3><p>总：作为一个自我认识比较完全的人，我对于自己的收获就是，穷则独善其身，达则兼济天下。世界上的不平衡始终存在，我们一直在路上，可能有时候没有太多的时间停留。要边走边收获了。这个过程的收获就是穷和无知是循环交替的闭环控制，必须需要一个触发条件来打破平衡，那就是读书。能做的就是尽力和学生保持联系，让支教不流于形式，然后让他们积极读书，解答他们的问题。反哺过来就是我们自己也要积极地读书。所以千马现在在深圳的时候也在积极地码字呢。<br>1、 教学科目：作为一个自认为口才挺好并且教学经验丰富的老师，收获到了当有的学生在放牛的时候，你需要把她的牛鼻子牵着走，自顾自地讲，然后沉默来控场。如果后期有精力的话可以考虑以嗓门来控场。作为一个控院学子我自认为嗓门还是可以的：）主要是教学技巧方面的问题，老师要投其所好比如说啦啦操教学时对于比较开放的动作要大胆地做。<br>2、 兴趣班：作为一个担任了9年体委的人，在大学并没有竞选体育职位但是还是保留了一身技巧，让孩子们开了眼界见了世面。一个人稍微经过努力就可以变得阳光的全面。爱运动的孩子是一眼就能看出来的，是一眼就会被相中的。爱学技巧的并不多，这很正常，能有一两个致力于学技巧的已经很不错了。like me在高中才开始致力于技巧的学习。技多不压身，口径要宽，基础要厚，精度要高～<br>3、 园运会：又累又嗓子哑的一天，好像没什么收获。过。</p><h3 id="孩子们的收获和进步"><a href="#孩子们的收获和进步" class="headerlink" title="孩子们的收获和进步"></a>孩子们的收获和进步</h3><p>总：我无法从老师的角度得出孩子们具体的想法，我采访了我的大宝贝，记录将会稍后上传，我只能从自己的角度进行相应的解读。<br>1、教学科目：明白了缩写以及点所对应的形式，明白了从大到小和从小到大的辩证思维，明白了吊死鬼的游戏，明白了特朗普、美国、合众国、中华人民共和国、香港、台湾、西藏等一些简单的东西！注意！是简单的东西！因为难的他们完全没记住。<br>2、 兴趣班：明白了篮球运球的动作和规则，简单介绍了二三联防和挡拆空切的战术。有两个同学掌握较好。还明白了乒乓球的规则和11分比赛制的赛点问题，在11分比赛制中，石兆俊7:11千马老师无数局，场面一度十分尴尬。<br>3、 活动策划：8.1日建军节，大部分晴。在绕柱时间赛这里，有逞能装逼的男孩子们，还有温柔似水的女孩子们，那些拍球也拍不好的女孩子，在慢慢地拍完全程舒了一口气以后，得知是靠时间取胜的，倒吸一口冷气，于是千马老师心软得又给了她们一次机会。在最后，小蓝觉得自己还差3分换取一个东西，然后想让我直接要，我说你都有过了一次怎么能有第二次呢。然后我就说，如果你能赢过开心老师，那么我就直接给你5分。结果开心老师自己把球运丢了，啊啊哈哈哈。在最后的最后，开心老师为了挽尊和小蓝进行了30个俯卧撑的赌注，时间是2秒以内，结果着急又1.6秒，啊哈哈哈哈哈又输了。这里又告诉了我们只要靠自己的努力争取一下，就能获得意想不到的惊喜。小蓝就是一个成功的例子。还告诉了我们只要长得好看就有可能获得更多的机会，如果长相平平，就要增加自己其他方面的得分来拉动氛围，比如千马老师就学了很多很多东西。</p><h3 id="发现的问题以及解决方法"><a href="#发现的问题以及解决方法" class="headerlink" title="发现的问题以及解决方法"></a>发现的问题以及解决方法</h3><p>政府层面：流于形式，感觉权力有被架空的感觉。李主任明白自己有办好的这个心，但是他同时也承认了自己对于细节活着的落实到基层的东西是一窍不通的。这两个是矛盾的共同体，是不可分割的，人为并且主观承认并且割裂的话是做不好事情的，也就慢慢地流于形式。虽然说李主任飞来浙大的那次我没有看到，但是不排除是顺道过来看看的，主要矛盾不在我们的这里的可能。再说李主任的百年武术的梦想，中共也就5年计划，您居然想到了100年？不说您下任会不会接替这个想法，学生们都没有学习的兴趣，只靠一两个老师然后做到这种程度，教的不好，孩子们也不愿意学，这就是impossible，没有一撇的impossible.kinda ridiculous.解决方案：等待新的有识之士出现。<br>学校层面：图书室有的，但是没有电子图书出纳管理系统，图书会破损并且丢失比较严重，图书室没有桌子可以读书，必然导致学生会将书本带回教室，但是课业压力大是基本应该没有时间读书的的。教室设备良好，虽然教学时间内出现多起事故，但多数由于老师操作不当造成，别无二事，都在掌控范围内，设备精度尚可。楼梯有上下楼梯分割线，三间并行，考虑了正常上学时候的空间问题。楼道里有从中共一大到十九大的简介，很不错！！！历史肯定没问题了，虽然我知道小朋友们是肯定不会看的。一楼还有个道德讲堂，看样子是讲国学的，桌子还像模像样地装帧成了国学的样子，但是灰尘极多，不排除是暑假期间滞留的结果。旱厕的冲水系统频率闭环，但是效果不行也没有排风系统。水质不提。住宿供电有限，大伯直播扰民。浴室尚可。解决方案：暂无。<br>老师层面：不知道丰乳老师在哪里高就暂时不提。经调查，多数学校平时上课时只有2节课pre学期。这和李主任百年武术背道而驰真是啼笑皆非。还有些老师缺少一些严厉，有些是老师应该做的，但是绝对不能将界限模糊化。<br>学生层面：不爱学习，放任满山标语而不顾，表示担忧，没有太多的话可以说。加油！ May the force be with you.</p><h2 id="贺官洁采访录"><a href="#贺官洁采访录" class="headerlink" title="贺官洁采访录"></a>贺官洁采访录</h2><p>千：这个夏令营过得怎么样？<br>洁：挺好玩的，但是以后…下次就不要上晚自习了，也不要有阅读课了。<br>千：有什么印象深刻的事情？<br>洁：和小黄老师和神奇老师一起玩耍的那天。<br>千：来夏令营的时候是怎么想的？<br>洁：我们要学什么在学校住几天？<br>千：还有别的想说的嘛？<br>洁：练军体拳时候有这样的想法：我不想去！我还收获了快乐。</p><img src="/2018/07/22/Volunteer-Teaching/img/1.JPG" title="[大宝贝贺官洁]"><img src="/2018/07/22/Volunteer-Teaching/img/2.JPG" title="[大宝贝贺官洁]"><h2 id="体育兴趣班备课"><a href="#体育兴趣班备课" class="headerlink" title="体育兴趣班备课"></a>体育兴趣班备课</h2><p>未出发前体育兴趣班备课准备了两大球和一小球，分别是篮球、排球和乒乓球。每天三节的体育兴趣课，前两节课用来分班上课，最后一节课用来集中进行体育理论课。但是由于当地学校的组织工作不当，所以导致我们的器材难以到位场地也年久失修，我们通过我们的聪明才智，将课程内容因地制宜，拓展到了乒乓球、篮球、排球、毽子、大绳、五子棋、军棋、象棋、拔河、啦啦操当中。第一天的开课情况与我们想的大相径庭，猜测是当地学生不了解体育兴趣班的课程以及家长老师的多方因素，所以花了半天的时间进行了劝说和伶牙俐齿地攻击，辩正了他们对体育兴趣班的看法，招到了50%以上的人数。因此我们的多样化课程相应地得以落实。体育兴趣班的预计是他们的体育基础没有形成，只是凭借本能在那里奔跑玩耍形成了所谓的体育活动。经过第一天的半天的游说过程中，我们了解到当地学生在各自的完全小学里面的体育课相当于没有一样，一个学期只有两节课。注意！是两节课！这就导致了他们对于体育的基本知识都没有。<br>体育的室内课，也就是理论课。我们根据每个老师的专长和体育课程的相应内容，准备了以下几个大模块：1、热身以及其重要性 2、奥运会相关 3、世界杯相关 4、篮球相关 5、 乒乓球相关 6、排球相关 7、啦啦操相关。这些理论课能够增长孩子们的理论知识，尽量用趣味化、视频化的内容吸引他们。因为体育最重要的就是活动，但是理论课是为活动课打基础的，也是十分重要的。孩子们暂时很难意识到这点，但是在活动期间，二胖脚伤了，而其他孩子没有受伤，这就是热身的重要性所在了吧。<br>体育的室外课，也就是实践课程。我们安排的是每节课都讲一下技术手段，然后留出35%的时间进行单独辅导，形成了多加一的融合化模式教学。为了保证孩子们的兴趣，设置了单挑和比赛的环节用以打败他们的自傲，增加对老师的信任和向往。又设置了适当的防水，保证了孩子们的输赢平衡性。内容上循序渐进，乒乓球从最开始的垫球、到运球、到姿势、到挥拍形成了递进式的教学内容。方便消化，螺旋上升。（这里你们补充）</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Exploring Life </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML Study</title>
+      <link href="2018/07/17/HTML-Study/"/>
+      <url>2018/07/17/HTML-Study/</url>
+      
+        <content type="html"><![CDATA[<h2 id="HTML-Learning"><a href="#HTML-Learning" class="headerlink" title="HTML Learning"></a>HTML Learning</h2><p>经历了暑假4天5夜的颓废（包括每天睡过早饭）以后，FPO终于开始学习了，首先先捞一捞HTML。<br>这里汇总一下HTML的标签abbreviation和full name。<br><code>href=hyper reference</code>   <code>src=source</code>  <code>br=break</code>  <code>hr=horizontal rule</code>  <code>sub=subscript</code>  <code>sup=superscript</code>  <code>kbd=keyboard</code>  <code>teletype</code>  <code>bdo=bidirectional algorithm</code>  <code>a=anchor</code>  </p><h3 id="2018-7-17"><a href="#2018-7-17" class="headerlink" title="2018.7.17"></a>2018.7.17</h3><p>1、  首先质疑了一下<code>&lt;!DOCTYPE HTML&gt;</code> 作为头文件的想法，后来发现不太对，好像是标记Balabala…<br>2、  然后质疑了一下a href和img src里的href和src谁什么意思，FPO的英文拼写水平和别人判若云泥。<br>3、  中途去捣鼓了一下MD文档，已经7.18了……睡了睡了，毕竟还要云南支教～<br><a id="more"></a></p><h3 id="2018-7-18"><a href="#2018-7-18" class="headerlink" title="2018.7.18"></a>2018.7.18</h3><p>1、  由于编辑HTML语言的时候都是闭合的标签，标签之间的空格<code>\0</code>和换行<code>\n</code>都是被当作无效处理的。学习到了<code>&lt;br&gt;</code>是相关命令，一个标签头就做到了换行，一个闭合的标签是空行，好像debug的时候还遇到了一个标签头加标签尾的&lt;换行，而遇到完整的标签尾&lt;&gt;是换两行，又是一门玄学。<br>2、  看到标签的属性设置，又让我想起了古老的Visual Basic。C语言没有写过相关的属性…可能是我还没有学C大程吧。HTML的属性是写在开始标签里的。<br>3、  img标签在HTML里好像不用闭合。这tm可太方便了。不过细细想象，其他标签闭合的中间就是要在page上显示出来的东西，但是img标签要显示的东西就是属性的一部分，URL or path…哈哈哈所以不用闭合也是理所当然的？笑 :)<br>4、  没有内容的 HTML 元素被称为空元素。空元素是在开始标签中关闭的。<code>&lt;br&gt;</code> 就是没有关闭标签的空元素（<code>&lt;br&gt;</code> 标签定义换行）。在 XHTML、XML 以及未来版本的 HTML 中，所有元素都必须被关闭。在开始标签中添加斜杠，比如 <code>&lt;br /&gt;</code>，是关闭空元素的正确方法，HTML、XHTML 和 XML 都接受这种方式。即使 <code>&lt;br&gt;</code> 在所有浏览器中都是有效的，但使用<code>&lt;br /&gt;</code> 其实是更长远的保障。<br>5、  <code>&lt;h1 align=&quot;center&quot;&gt;</code> 拥有关于对齐方式的附加信息，此处为居中。后来发现<code>&lt;h1 align=&quot;middle&quot;&gt; 拥有关于对齐方式的附加信息。</code>也可以居中。<br>6、  属性值应该始终被包括在引号内。双引号是最常用的，不过使用单引号也没有问题。在某些个别的情况下，比如属性值本身就含有双引号，那么您必须使用单引号<code>name=&#39;Bill &quot;HelloWorld&quot; Gates&#39;</code><br>7、  对于上面的<code>&lt;br/&gt;</code>相关的代码段落写作好像有点问题，现在回想起来脑子里面已经有点乱了，这样说吧<code>&lt;br/&gt;</code>是换一行，如果要空行的话，就要连续用两个<code>&lt;br/&gt;&lt;br/&gt;</code>才行，好了就这行吧，FPO懒得改动了。两个<code>&lt;p&gt;</code>标签内会自动空一行，注意，是空一行不是折行。</p><h3 id="2018-7-23"><a href="#2018-7-23" class="headerlink" title="2018.7.23"></a>2018.7.23</h3><p>1、  今天是尼古拉斯不在的第一天，我很想他，但是当FPO今天重新pick了HTML，知道了FPO之前学的标签和属性都是在HTML4里的，在未来的HTML和XHTML是要被废除的（Deprecated）。它们包括：<code>&lt;center&gt;</code>  <code>&lt;font&gt;</code>  <code>&lt;basefont&gt;</code>  <code>&lt;s&gt;</code>  <code>&lt;strike&gt;</code>  <code>&lt;u&gt;</code>  <code>align</code>  <code>bgcolor</code>  <code>color</code>。这些最好用style属性代替。style属性用于改变样式。</p><h3 id="2018-7-31"><a href="#2018-7-31" class="headerlink" title="2018.7.31"></a>2018.7.31</h3><p>1、  今天是七月的尾巴，七月流火，笑）</p><h3 id="2018-8-2"><a href="#2018-8-2" class="headerlink" title="2018.8.2"></a>2018.8.2</h3><p>好的，现在我们都把这些东西放在style下面，那么是怎么实现的呢？<code>style=&quot;background-color:yellow&quot;</code>  <code>style=&quot;font-family:arial;color:red;font-size:20px;&quot;</code>  <code>style=&quot;text-align:center&quot;</code>  </p><h3 id="2018-8-3"><a href="#2018-8-3" class="headerlink" title="2018.8.3"></a>2018.8.3</h3><p>1、  哇，发现文本的格式化好多代码要记啊，这个我觉得应该是不能靠强记的，应该是边用边记的，那么就发一下网址吧<a href="http://www.w3school.com.cn/html/html_formatting.asp" target="_blank" rel="noopener">http://www.w3school.com.cn/html/html_formatting.asp</a><br>2、  在这里看到了上标和下标的方法，想到了排列组合里面的上面数字要怎么办呢？一个上标和一个下标总是会有先后的，那么只能调整在后面的那个的<code>style=&quot;margin-left&quot;=-xpx</code>经过试验发现 x=8 时对得最齐，但是我感觉应该有其他的办法，先挖个坑。<br>3、  blockquote的cite属性好像没什么用，但是可以被搜索引擎抓取。<br>4、  define的三种属性值的区别是…？？？</p><h3 id="2018-8-4"><a href="#2018-8-4" class="headerlink" title="2018.8.4"></a>2018.8.4</h3><p>1、  注释里面还有条件注释<code>&lt;!--[if IE 8]&gt;.... some HTML here ....&lt;![endif]--&gt;</code>看起来很粗暴，但是是怎么判断IE8呢，这是个玄学吧。条件注释定义只有 Internet Explorer 执行的 HTML 标签。<br>2、  没有下划线的链接<code>style=&quot;text-decoration:none&quot;</code>。<br>3、  Meta标签感觉全程好像很魔性，自我第一感觉是media和data但是显然不对。这里可以参考<a href="https://www.cnblogs.com/wangyang108/p/5995379.html" target="_blank" rel="noopener">傻瓜不傻的博客</a><br>4、  重定向很酷，大概很多XX网页的重定向就是1ms吧，所以会弹出很多广告。</p><h3 id="2018-8-5"><a href="#2018-8-5" class="headerlink" title="2018.8.5"></a>2018.8.5</h3><p>1、  今天还是在昨天的章节，是link标签。<br>2、  a标签的里的target如果设置成_blank，就可以打开新的一页了～<br>3、  anchor可以没有href，然后a标签的id属性就相当于一个tag，舒服～</p><h3 id="2020-11-9"><a href="#2020-11-9" class="headerlink" title="2020.11.9"></a>2020.11.9</h3><blockquote><p>为什么两年没动？</p></blockquote><p>因为在研究生阶段，发现要给别人看自己的blog，实在是太粗糙了，然后最近又想把足迹加进来，然后发现自己的前端实在是太烂了，所以开始重新学习。</p><p>1、替换文本属性 Alt</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"xxx.xx"</span> <span class="attr">alt</span>=<span class="string">"illustraion"</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Learn Log </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Stumbling Blocks In Update Log &amp; Initial Guide</title>
+      <link href="2018/07/15/Stumbling%20Blocks%20In%20Update%20Log%20&amp;%20Initial%20Guide/"/>
+      <url>2018/07/15/Stumbling%20Blocks%20In%20Update%20Log%20&amp;%20Initial%20Guide/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Stumbling-Blocks-In-Update-Log"><a href="#Stumbling-Blocks-In-Update-Log" class="headerlink" title="Stumbling Blocks In Update Log"></a>Stumbling Blocks In Update Log</h2><p>大家好！<br>欢迎来到FPO的博客。FPO会在这里更新一些自己想说的话（不在主流媒体包括但不仅限于QQ、微信、微博等），也会写一些自己关于代码的东西。有兴趣的可以进来逛逛呀！</p><h3 id="2018-7-14"><a href="#2018-7-14" class="headerlink" title="2018.7.14"></a>2018.7.14</h3><p>1、  今天换了themes以后，根据一系列的初级设置(参照<a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">Next</a>)设置完了themes，结果cd到blog目录hexo s的时候，出现了一连串黄色的东西，隐约看着好像是新主题下被我选中的scheme出了问题，果断vim _config.yml看到了同时使用了两个scheme ；）</p><a id="more"></a><p><img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/1.jpeg" alt="这是我选中了两个scheme的图片"></p><p><img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/1.jpeg" alt="这是我选中了两个scheme的图片"></p><img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/1.jpeg" title="[这是我选中了两个scheme的图片]"><p>重要的事情放三遍…：//其实是我用了三种代码</p><p>2、  成功hexo s以后，发现标题每次都对不上号，下面的代码段好像也有点问题，我明明是从内置的md文件复制过来的啊？？？</p><img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/2.png" title="[应该出现的标题]"><img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/3.jpg" title="[我的神奇界面？]"><p>Debug到一半，后知后觉以后觉得terminal修改vim实在是太卡了，我只好转战VScode，然后就蹦出来了markdownlint，很好心地帮我纠错高亮了！原来是前后呼应的地方多了个空格！Space！<br><img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/4.png" title="[空格预警提示]"><br>没错，就是TM的空格！害我Debug了1.45h ：）</p><p>3、  为了把这些坑都填得有模有样，我还准备了图片，但是都放不上来！：//上面这些图片都是debug好久的图片了。既然你看过1、2的坑了，说明我的代码已经成功把图片放上去了。图片这里我不想说什么，本来放在source里的images完全没有，不得不google一下开启了post_asset_folder放到了同步文件夹里才成功。后来Chrome、Firefox、Safari只有Safari能显示出来，我却在Chrome利用控制变量Debug了2.1h，很好，现在是7.14 23:38，FPO又没有学物理和微观经济学。生气😠</p><h3 id="2018-7-17"><a href="#2018-7-17" class="headerlink" title="2018.7.17"></a>2018.7.17</h3><p>1、  其实是在学HTML的时候想更新HTML博客时候发现自己Markdown语法一窍不通。本来是想像划重点笔那样划出效果来的，先是xjb捣鼓了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">```bash</span><br><span class="line">    what u want to say</span><br><span class="line">```</span><br></pre></td></tr></table></figure></p><p>考虑成不换行的代码，后来发现，诶？显示了<code>bash what u want to say</code>， 差个bash就完事了！然后自然而然把bash去掉。后来发现三个反引号在单行代码里会出问题，然后改成了两个，谢天谢地显示正确了。——原来这种叫做行内代码。网上的代码段好像也没有bash的，我就把代码段的bash去掉试了试。——发现根本没鸟的影响，哦我的天，既没显示也没有用。</p><p>2、  在发现行内代码和段落代码的区别以后，我才知道这个叫做Markdown语法，唉，年轻了。以后还是Google Markdown语法好了，不然可太傻了。诶？又发现行内代码还有不同颜色，google去咯…… ；）</p><p>3、  FPO好像找到了行内代码颜色的设置，MD并没有内嵌的代码，只有通过HTML来实现。比如<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;font color=#0099ff size=3 face=&quot;黑体&quot;&gt;FPO&lt;/font&gt;</span><br></pre></td></tr></table></figure></p><p>会显示什么呢？让我们拭目以待——</p><font color="#0099ff" size="3" face="黑体">FPO</font><p>哈哈哈，成功了，还间接证明了hexo的文本是size3。但是好像还是没有在行中代码实现颜色的变化。让我再来试一试<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">```html</span><br><span class="line">&lt;font color=#0099ff size=3 face=&quot;黑体&quot;&gt;FPO&lt;/font&gt;</span><br><span class="line">```</span><br></pre></td></tr></table></figure></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">#0099ff</span> <span class="attr">size</span>=<span class="string">3</span> <span class="attr">face</span>=<span class="string">"黑体"</span>&gt;</span>FPO<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure><p>哈哈哈😂又成功了，怎么这么顺利，这时候我就要驳斥1中的观点了，三个反引号后面是高亮代码段的代码种类。哈哈哈虽然不知道bash是什么代码类型。给大家科普一下好了：<a href="https://zh.wikipedia.org/wiki/Bash" target="_blank" rel="noopener">bash</a> ;)</p><h3 id="2018-10-26"><a href="#2018-10-26" class="headerlink" title="2018.10.26"></a>2018.10.26</h3><p>1、在为ITP附加页维护的时候发现我的浏览量不见了？</p><img src="/2018/07/15/Stumbling Blocks In Update Log & Initial Guide/img/5.png" title="[Powered-off]"><p>看了一下<code>_config</code>文件里面并没有什么问题，嗯，有事找google daddy。然后发现busuanzi（不蒜子）的域名挂掉了。😂，果断改了script里的js链接，然后成功啦～</p><h2 id="Initial-Guide"><a href="#Initial-Guide" class="headerlink" title="Initial Guide"></a>Initial Guide</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;My New Post&quot;</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Learn Log </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
